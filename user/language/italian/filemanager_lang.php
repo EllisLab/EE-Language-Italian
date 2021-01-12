@@ -6,10 +6,13 @@ $lang = array(
 'Tutti i files',
 
 'append' => 
-'Aggiungi numerale al file <strong>più recente</strong> <em>&mdash; esempio: %s</em>',
+'Aggiungi numerale al file <b>più recente</b> <i>&mdash; esempio: %s</i>',
 
 'btn_cancel_upload' => 
 'Annulla caricamento',
+
+'delete_file' => 
+'Elimina file',
 
 'btn_edit_file_meta' => 
 'Salva i metadata del file',
@@ -48,7 +51,7 @@ $lang = array(
 'Metadati del file aggiornati',
 
 'edit_file_metadata_success_desc' => 
-'I metadati per il file <strong>%s</strong> sono stati aggiornati.',
+'I metadati per il file <b>%s</b> sono stati aggiornati.',
 
 'exceeds_max_dimensions' => 
 'Il file supera le dimensioni massime e non è ridimensionabile.',
@@ -60,7 +63,7 @@ $lang = array(
 'Trovato conflitto tra file',
 
 'file_conflict_desc' => 
-'In questa cartella esiste già un file denominato <strong>%s</strong>.',
+'In questa cartella esiste già un file denominato <b>%s</b>.',
 
 'file_data' => 
 'Dati del file',
@@ -129,10 +132,10 @@ $lang = array(
 'Si è verificato un errore durante il tentativo di scaricare i file selezionati. Per favore verificare che i file esistano sul server.',
 
 'rename' => 
-'Rinomina il file <strong>più recente</strong>',
+'Rinomina il file <b>più recente</b>',
 
 'replace' => 
-'Sostituire soltanto il file <strong>meno recente</strong> <em>&mdash; azione distruttiva</em>',
+'Sostituire soltanto il file <b>meno recente</b> <i>&mdash; azione distruttiva</i>',
 
 'replace_no_metadata' => 
 'È stato sostituito soltanto il file. Titolo, descrizione, crediti, posizione e categorie non sono stati aggiornati.',
@@ -168,7 +171,7 @@ $lang = array(
 'Opzioni di caricamento',
 
 'zero_directories_found' => 
-'Nessuna <strong>cartella</strong> trovata',
+'Nessuna <b>cartella</b> trovata',
 
 '90_degrees_left' => 
 '90 gradi a sinistra',
@@ -207,7 +210,7 @@ $lang = array(
 'Coordinate',
 
 'crop_constraints_desc' => 
-'Larghezza e altezza massime per ritagliare l\'immagine fino a.',
+'Larghezza e altezza massime per ritagliare l\'immagine.',
 
 'crop_file' => 
 'Ritaglia, ruota e ridimensiona "%s"',
@@ -219,10 +222,10 @@ $lang = array(
 'Non è stato possibile %s il file, si prega di rivedere e correggere gli errori qui sotto.',
 
 'crop_file_success' => 
-'File %s riuscito',
+'%s riuscito',
 
 'crop_file_success_desc' => 
-'Il file <strong>%s</strong> è stato correttamente %s.',
+'Il file <b>%s</b> è stato correttamente %s.',
 
 'cropped' => 
 'ritagliato',
@@ -231,16 +234,16 @@ $lang = array(
 'Cartella non scrivibile',
 
 'dir_not_writable_desc' => 
-'Impossibile scrivere nella cartella <strong>%s</srong>.<br />Controllare i permessi dei file sul server.',
+'Impossibile scrivere nella cartella <b>%s</srong>.<br />Controllare i permessi dei file sul server.',
 
 'directory_not_found' => 
-'Impossibile trovare la cartella <strong>%s</strong>.',
+'Impossibile trovare la cartella <b>%s</b>.',
 
 'edit_file_name' => 
 'Modifica "%s"',
 
 'error_cannot_add_file_to_zip' => 
-'Impossibile aggiungere <strong>%s</strong> all\'archivio zip.',
+'Impossibile aggiungere <b>%s</b> all\'archivio zip.',
 
 'error_cannot_create_zip' => 
 'Impossibile creare un file .zip',
@@ -261,16 +264,16 @@ $lang = array(
 'File non trovato',
 
 'file_not_found_desc' => 
-'Impossibile trovare il file <strong>%s</strong>.',
+'Impossibile trovare il file <b>%s</b>.',
 
 'file_not_writable' => 
 'File non scrivibile',
 
 'file_not_writable_desc' => 
-'Impossibile scrivere nel file <strong>%s</strong>.<br />Controllare le autorizzazioni dei file sul server.',
+'Impossibile scrivere nel file <b>%s</b>.<br />Controllare le autorizzazioni dei file sul server.',
 
 'files_in_directory' => 
-'File in <strong>%s</strong>',
+'File in <b>%s</b>',
 
 'files_not_found' => 
 'File non trovati',
@@ -278,8 +281,8 @@ $lang = array(
 'files_not_found_desc' => 
 'I file evidenziati non possono essere trovati sul server.',
 
-'files_removed_desc' => 
-'I seguenti file sono stati rimossi',
+'files_deleted_desc' => 
+'I file seguenti sono stati eliminati',
 
 'flip_horizontally' => 
 'Capovolgi in orizzontale',
@@ -300,16 +303,16 @@ $lang = array(
 'Larghezza e altezza massime per il ridimensionamento di questa immagine.',
 
 'resized' => 
-'ridimensionata',
+'ridimensionato',
 
 'rotated' => 
-'ruotata',
+'ruotato',
 
 'rotation' => 
 'Rotazione',
 
 'rotation_desc' => 
-'L\'immagine verrà ruotata in base alla scelta',
+'L\'immagine verrà ruotata in base alla scelta.',
 
 'size_b' => 
 'byte',
@@ -329,11 +332,11 @@ $lang = array(
 'success' => 
 'Successo',
 
-'upload_directory_removed' => 
-'Cartella di caricamento rimossa',
+'upload_directory_deleted' => 
+'Cartella di upload eliminata',
 
-'upload_directory_removed_desc' => 
-'La cartella di caricamento <strong>%s</strong> è stata rimossa.',
+'upload_directory_deleted_desc' => 
+'La cartella di upload <b>%s</b> è stata eliminata.',
 
 'upload_filedata_error' => 
 'Impossibile caricare il file',
@@ -342,19 +345,19 @@ $lang = array(
 'Caricamento file riuscito',
 
 'upload_filedata_success_desc' => 
-'Il file <strong>%s</strong> è stato caricato correttamente.',
+'Il file <b>%s</b> è stato caricato correttamente.',
 
 'width' => 
 'larghezza',
 
 'x_axis' => 
-'asse x',
+'Asse x',
 
 'y_axis' => 
-'asse y',
+'Asse y',
 
 'zero_upload_directories_found' => 
-'Nessuna <strong>cartella di caricamento</strong> trovata.',
+'Nessuna <b>cartella di caricamento</b> trovata.',
 
 'add_manipulation' => 
 'Aggiungi nuova manipolazione',
@@ -390,7 +393,7 @@ $lang = array(
 'da',
 
 'center' => 
-'Centro',
+'Centra',
 
 'constrain_or_crop' => 
 'Vincola o ritaglia',
@@ -400,6 +403,9 @@ $lang = array(
 
 'create_upload_directory' => 
 'Crea cartella di upload',
+
+'new_directory' => 
+'Nuova cartella',
 
 'create_watermark' => 
 'Crea filigrana',
@@ -456,10 +462,10 @@ $lang = array(
 'Sincronizzazione file',
 
 'file_sync_desc' => 
-'file <strong>%d</strong>',
+'file <b>%d</b>',
 
 'file_sync_desc_images' => 
-'file <mark>immagine</mark> <strong>%d</strong> ',
+'file <mark>immagine</mark> <b>%d</b> ',
 
 'horizontal' => 
 'orizzontale',
@@ -555,13 +561,13 @@ $lang = array(
 'Soltanto immagini',
 
 'upload_btn_edit' => 
-'modifica',
+'Modifica',
 
 'upload_btn_sync' => 
-'sincronizza',
+'Sincronizza',
 
 'upload_btn_view' => 
-'visualizza',
+'Visualizza',
 
 'upload_category_groups' => 
 'Gruppi categorie',
@@ -600,7 +606,13 @@ $lang = array(
 'Gruppi utente consentiti',
 
 'upload_member_groups_desc' => 
-'I seguenti gruppi di utenti possono caricare i file in questa cartella.</em><br /><em>I Super amministratori sono <strong>sempre</strong> autorizzati.',
+'I seguenti gruppi di utenti possono caricare i file in questa cartella.</i><br /><i>I Super amministratori sono <b>sempre</b> autorizzati.',
+
+'upload_roles' => 
+'Ruoli utente consentiti',
+
+'upload_roles_desc' => 
+'I seguenti ruoli utente possono effettuare degli upload in questa cartella.<br />I super amministratori sono <b>sempre</b> consentiti.',
 
 'upload_path' => 
 'Percorso di upload',
@@ -639,7 +651,7 @@ $lang = array(
 'Filigrana crata',
 
 'watermark_created_desc' => 
-'La filigrana <strong>%s</strong> è stata creata.',
+'La filigrana <b>%s</b> è stata creata.',
 
 'watermark_image_opacity' => 
 'Opacità',
@@ -714,16 +726,16 @@ $lang = array(
 'Filigrana aggiornata',
 
 'watermark_updated_desc' => 
-'La filigrana <strong>%s</strong> è stata aggiornata.',
+'La filigrana <b>%s</b> è stata aggiornata.',
 
 'watermarks' => 
-'Filigrana',
+'Filigrane',
 
-'watermarks_removed' => 
-'Filigrana rimossa',
+'watermarks_deleted' => 
+'Filigrane eliminate',
 
-'watermarks_removed_desc' => 
-'La filigrana %d è stata rimossa.',
+'watermarks_deleted_desc' => 
+'%d filigrane sono state eliminate.',
 
 'watermarks_true_type' => 
 'Abilitare il True Type?',

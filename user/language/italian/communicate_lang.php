@@ -15,7 +15,7 @@ $lang = array(
 'Per inviare gli allegati, è necessario definire un percorso di caricamento.',
 
 'attachment_warning' => 
-'Gli allegati <strong>non sono salvati</strong> da ExpressionEngine e devono essere salvati localmente.',
+'Gli allegati <b>non sono salvati</b> da ExpressionEngine e devono essere salvati localmente.',
 
 'batchmode_disabled' => 
 'La modalità batch è disabilitata',
@@ -123,7 +123,7 @@ $lang = array(
 'Messaggio',
 
 'no_cached_email' => 
-'Non sono state trovate <strong>email memorizzate nella cache</strong>.',
+'Non sono state trovate <b>email memorizzate nella cache</b>.',
 
 'no_email_matching_criteria' => 
 'Non c\'erano indirizzi email corrispondenti ai criteri selezionati',

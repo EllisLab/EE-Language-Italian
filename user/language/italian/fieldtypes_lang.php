@@ -29,6 +29,9 @@ $lang = array(
 'any_status' => 
 'Qualunque stato',
 
+'relate_entry' => 
+'Correlare la voce',
+
 'rel_ft_allow_multi' => 
 'Permettere relazioni multiple?',
 
@@ -69,7 +72,7 @@ $lang = array(
 'Numero massimo di voci',
 
 'rel_ft_limit_desc' => 
-'Numero massimo di voci da visualizzare nel campo relazione.<br /><em>Lascia vuoto per consentire tutte le voci.</em>',
+'Numero massimo di voci da visualizzare nel campo relazione.<br /><i>Lascia vuoto per consentire tutte le voci.</i>',
 
 'rel_ft_order' => 
 'Ordina per',
@@ -135,7 +138,7 @@ $lang = array(
 'Cartella predefinita per l\'archiviazione dei file caricati con questo campo.',
 
 'file_ft_cannot_find_file' => 
-'<strong>File non trovato.</strong> Impossibile trovare %s sul server.',
+'<b>File non trovato.</b> Impossibile trovare %s sul server.',
 
 'file_ft_configure' => 
 'Opzioni generali del campo',
@@ -156,7 +159,7 @@ $lang = array(
 'Limite di file esistenti',
 
 'file_ft_limit_desc' => 
-'Numero massimo di file da visualizzare nel menu a discesa.<br /><em>Lasciare vuoto per visualizzare tutti i file.</em>',
+'Numero massimo di file da visualizzare nel menu a discesa.<br /><i>Lasciare vuoto per visualizzare tutti i file.</i>',
 
 'file_ft_no_upload_directories' => 
 'Al momento non ci sono cartelle di caricamento disponibili. Per favore <a href="%s">aggiungere una o più cartella di caricamento</a> per utilizzare il tipo di campo file.',
@@ -178,6 +181,9 @@ $lang = array(
 
 'file_dnd_choose_file_directory' => 
 'Scegliere una cartella di file',
+
+'file_dnd_upload_to' => 
+'Carica in',
 
 'file_dnd_choose_directory_before_uploading' => 
 'Devi scegliere una cartella per caricare i file',
@@ -209,6 +215,9 @@ $lang = array(
 'file_dnd_progress' => 
 'Avanzamento',
 
+'file_dnd_conflict' => 
+'Errore. Il file esiste già.',
+
 'file_dnd_resolve_conflict' => 
 'Risolvi conflitto',
 
@@ -231,7 +240,7 @@ $lang = array(
 'Non hai ancora aggiunto alcuna riga di dati. <a href="#" class="grid_link_add">Aggiungere alcuni dati?</a>',
 
 'grid_allow_reorder' => 
-'Consentire il ​​riordino delle righe?',
+'Consentire il riordino delle righe?',
 
 'grid_chars_allowed' => 
 'Caratteri ammessi.',
@@ -355,6 +364,42 @@ $lang = array(
 
 'url_ft_url_scheme_placeholder_desc' => 
 'Visualizzato come testo segnaposto quando non è verrà inviato alcun URL.',
+
+'colorpicker_allowed_colors' => 
+'Colori consentiti',
+
+'colorpicker_allowed_colors_desc' => 
+'Scegli quali colori possono essere selezionati.',
+
+'colorpicker_allowed_colors_any' => 
+'Qualunque',
+
+'colorpicker_allowed_colors_swatches' => 
+'Campioni',
+
+'colorpicker_default_color' => 
+'Colore predefinito',
+
+'colorpicker_default_color_desc' => 
+'Quando impostato, se non è selezionato alcun colore, verrà utilizzato il colore predefinito.',
+
+'colorpicker_color_not_allowed' => 
+'Questo colore non è consentito.',
+
+'no_colorpicker_swatches' => 
+'Non esistono <b>campioni</b>.',
+
+'swatches' => 
+'Campioni',
+
+'colorpicker_swatches_options_desc' => 
+'Specificare un elenco di colori predefiniti da visualizzare nel selettore dei colori.',
+
+'colorpicker_swatches_populate_values' => 
+'Valori',
+
+'colorpicker_swatches_populate_manually' => 
+'Popolare manualmente i campioni',
 
 ''=>''
 );

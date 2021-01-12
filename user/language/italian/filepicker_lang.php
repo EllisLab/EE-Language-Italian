@@ -3,7 +3,7 @@ $lang = array(
 
 
 'filepicker_module_name' => 
-'FilePicker',
+'Selettore file',
 
 'list' => 
 'elenco',

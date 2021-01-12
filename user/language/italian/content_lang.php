@@ -24,7 +24,7 @@ $lang = array(
 'Autore',
 
 'author_desc' => 
-'Il membro che ha scritto questa voce.',
+'L\'utente che ha scritto questa voce.',
 
 'author_information' => 
 'Informazioni sull\'autore',
@@ -66,7 +66,7 @@ $lang = array(
 'Categorie',
 
 'categories_desc' => 
-'Categorizza voce.',
+'Categorizza questa voce.',
 
 'channel' => 
 'Canale',
@@ -82,6 +82,9 @@ $lang = array(
 
 'column_comment_total' => 
 'Commenti',
+
+'column_categories' => 
+'Categorie',
 
 'column_entry_date' => 
 'Data',
@@ -108,13 +111,13 @@ $lang = array(
 'Data di scadenza del commento',
 
 'comment_expiration_date_desc' => 
-'I commenti sulla data per questa voce non dovrebbero più essere accettati.',
+'La data in cui i commenti di questa voce non dovrebbero più essere accettati.',
 
 'comment_status_desc' => 
 'Stato di questo commento.',
 
-'comments_removed_desc' => 
-'I seguenti commenti sono stati rimossi',
+'comments_deleted_desc' => 
+'I seguenti commenti sono stati eliminati',
 
 'comments_status_updated_desc' => 
 'I seguenti commenti sono stati impostati su %s',
@@ -129,7 +132,7 @@ $lang = array(
 'Voce creata',
 
 'create_entry_success_desc' => 
-'La voce <strong>%s</strong> è stata creata.',
+'La voce <b>%s</b> è stata creata.',
 
 'create_entry_with_channel_name' => 
 'Nuova voce: %s',
@@ -165,7 +168,7 @@ $lang = array(
 'Voce aggiornata',
 
 'edit_entry_success_desc' => 
-'La voce <strong>%s</strong> è stata aggiornata.',
+'La voce <b>%s</b> è stata aggiornata.',
 
 'edit_entry_with_title' => 
 'Modifica voce: %s',
@@ -173,8 +176,8 @@ $lang = array(
 'entries' => 
 'voci',
 
-'entries_removed_desc' => 
-'Le voci seguenti sono state rimosse',
+'entries_deleted_desc' => 
+'Le seguenti voci sono state eliminate',
 
 'entry' => 
 'Voce',
@@ -207,7 +210,7 @@ $lang = array(
 'Data di scadenza',
 
 'expiration_date_desc' => 
-'Data di scadenza della voce.',
+'Data di scadenza di questa voce.',
 
 'filter_autosaves' => 
 'filtra salvataggi automatici',
@@ -344,6 +347,9 @@ $lang = array(
 'calendar' => 
 'Calendario',
 
+'close_preview' => 
+'Chiudi anteprima',
+
 'cancel_preview' => 
 'Annulla anteprima',
 
@@ -479,14 +485,8 @@ $lang = array(
 'delete_comment' => 
 'Elimina commenti',
 
-'delete_comment_confirm' => 
-'Sei sicuro di voler eliminare definitivamente questo commento?',
-
-'delete_comments_confirm' => 
-'Sei sicuro di voler eliminare definitivamente questi commenti?',
-
 'delete_confirm' => 
-'Conferma cancellazione',
+'Conferma rimozione',
 
 'delete_entries_confirm' => 
 'Sei sicuro di voler eliminare definitivamente queste voci?',
@@ -556,6 +556,12 @@ $lang = array(
 
 'fields' => 
 'Campi',
+
+'add' => 
+'Aggiungi',
+
+'add_field' => 
+'Aggiungi campo',
 
 'file_exists' => 
 'Esiste già un file con questo nome',
@@ -648,16 +654,16 @@ $lang = array(
 'Linea orizzontale',
 
 'html_buttons_email_text' => 
-'Inserisci l\'indirizzo email',
+'Inserire l\'indirizzo email',
 
 'html_buttons_email_title' => 
-'Inserisci il titolo del link (oppure lascia il campo vuoto per utilizzare l\'indirizzo email come titolo).',
+'Inserire il titolo del link (oppure lascia il campo vuoto per utilizzare l\'indirizzo email come titolo).',
 
 'html_buttons_enter_text' => 
-'Inserisci il testo che desideri formattare',
+'Inserire il testo che desideri formattare',
 
 'html_buttons_image_text' => 
-'Inserisci l\'URL dell\'immagine',
+'Inserire l\'URL dell\'immagine',
 
 'html_buttons_no_cursor' => 
 'Per usare questi pulsanti devi prima posizionare il cursore in un campo.',
@@ -801,7 +807,7 @@ $lang = array(
 'Impossibile trovare la posizione delle tue emoticon',
 
 'no_entries_exist' => 
-'Non sono state trovate <strong>voci</strong>.',
+'Non sono state trovate <b>voci</b>.',
 
 'no_entries_matching_that_criteria' => 
 'Non ci sono voci corrispondenti ai criteri selezionati.',
@@ -809,8 +815,8 @@ $lang = array(
 'no_glossary' => 
 'Non esiste un glossario',
 
-'no_member_groups' => 
-'È necessario selezionare almeno un gruppo di membri per applicare/rimuovere un layout.',
+'no_member_roles' => 
+'È necessario selezionare almeno un ruolo per applicare/rimuovere un layout.',
 
 'no_related_entries' => 
 'Non esistono voci per questo canale correlato',
@@ -917,6 +923,21 @@ $lang = array(
 'preview_layout' => 
 'Anteprima layout',
 
+'preview_url_not_set' => 
+'L\'URL di anteprima non è impostato',
+
+'preview_url_not_set_desc' => 
+'Si prega di <a href=\'%s\' target=\'_blank\'>aggiungere l\'impostazione dell\'URL di anteprima</a> alle preferenze del canale.',
+
+'preview_cannot_display' => 
+'L\'anteprima dal vivo non può essere visualizzata',
+
+'preview_domain_mismatch_desc' => 
+'L\'URL del sito è impostato per utilizzare <code>%1$s</code> ma stai accedendo al pannello di controllo da <code>%2$s</code>.',
+
+'preview_protocol_mismatch_desc' => 
+'L\'URL del sito è impostato per utilizzare <code>%1$s</code> ma stai accedendo al pannello di controllo con <code>%2$s</code>.',
+
 'publish' => 
 'Pubblica',
 
@@ -957,7 +978,7 @@ $lang = array(
 'Revisione salvata',
 
 'revision_saved_desc' => 
-'La revisione %d di <strong>%s</strong> è stata salvata.',
+'La revisione %d di <b>%s</b> è stata salvata.',
 
 'revision_warning' => 
 'Stai per caricare una revisione precedente. Qualsiasi contenuto non salvato attualmente in questa pagina andrà perso.',
@@ -996,7 +1017,7 @@ $lang = array(
 'Spam',
 
 'spam_comments' => 
-'Ci sono <strong>%d commenti</strong> contrassegnati come potenziale spam per i quali è necessaria <a href="%s">una moderazione </a>.',
+'Ci sono <b>%d commenti</b> contrassegnati come potenziale spam per i quali è necessaria <a href="%s">una moderazione </a>.',
 
 'spam_comments_header' => 
 'Commenti di spam',
@@ -1071,7 +1092,7 @@ $lang = array(
 'Non sei autorizzato a pubblicare post su questo canale',
 
 'unauthorized_to_delete_others' => 
-'Sei autorizzato soltanto a cancellare le voci del canale che hai creato',
+'Sei autorizzato soltanto ad eliminare le voci del canale che hai creato',
 
 'unauthorized_to_delete_self' => 
 'Non sei autorizzato ad eliminare le voci del canale',
@@ -1110,7 +1131,7 @@ $lang = array(
 'I numeri non possono essere usati come titoli degli URL',
 
 'url_title_not_unique' => 
-'Questo titolo dell\'URL è utilizzato da <strong><a href="%s" rel="external">%s</a></strong>. I titoli degli URL devono essere univoci.',
+'Questo titolo dell\'URL è utilizzato da <b><a href="%s" rel="external">%s</a></b>. I titoli degli URL devono essere univoci.',
 
 'url_title_not_unique_frontend' => 
 'Questo titolo dell\'URL viene utilizzato da un\'altra voce. I titoli degli URL devono essere univoci.',
@@ -1187,32 +1208,44 @@ $lang = array(
 'add_new_row' => 
 'Aggiungi nuova riga',
 
+'add_row' => 
+'Aggiungi riga',
+
 'collapse' => 
-'Chiuso',
+'Comprimi',
+
+'collapse_all' => 
+'Comprimi tutto',
+
+'expand' => 
+'Espandi',
+
+'expand_all' => 
+'Espandi tutto',
 
 'creating_new_in_rel' => 
-'Creazione di una nuova voce in <strong>#to_channel#</strong> per una relazione con <strong>#from_channel#</strong>',
+'Creazione di una nuova voce in <b>#to_channel#</b> per una relazione con <b>#from_channel#</b>',
 
 'hide' => 
 'Nascondi',
 
 'item_to_relate_with' => 
-'L\'articolo <strong>si riferisce a</strong> questa voce.',
+'L\'articolo <b>si riferisce a</b> questa voce.',
 
 'items_related_to' => 
-'Elementi <strong>correlati a</strong> questa voce.',
+'Elementi <b>correlati a</b> questa voce.',
 
 'items_to_relate_with' => 
-'Elementi <strong>correlati a</strong> questa voce.',
+'Elementi <b>correlati a</b> questa voce.',
 
 'no_entries_found' => 
-'Nessuna <strong>voce</strong> trovata',
+'Nessuna <b>voce</b> trovata',
 
 'no_entries_related' => 
-'Nessuna <strong>voce</strong> correlata.',
+'Nessuna <b>voce</b> correlata.',
 
 'no_entry_related' => 
-'Nessuna <strong>voce</strong> correlata.',
+'Nessuna <b>voce</b> correlata.',
 
 'no_rows_created' => 
 'Nessuna riga creata',
@@ -1380,7 +1413,7 @@ $lang = array(
 'Aggiungere campi modificabili',
 
 'add_editable_fields_desc' => 
-'I campi scelti verranno aggiunti qui sotto e saranno modificabili per <strong>tutte</strong> le voci selezionate.',
+'I campi scelti verranno aggiunti qui sotto e saranno modificabili per <b>tutte</b> le voci selezionate.',
 
 'btn_save_all_and_close' => 
 'Salva tutto e chiudi',
@@ -1395,13 +1428,13 @@ $lang = array(
 'Filtra le voci selezionate',
 
 'no_cat_groups_in_common' => 
-'Nessun <strong>gruppi di categorie</strong> in comune.',
+'Nessun <b>gruppi di categorie</b> in comune.',
 
 'bulk_edit' => 
 'Modifica multipla',
 
 'bulk_edit_add_categories_notice' => 
-'Qualsiasi categoria selezionata verrà assegnata alle voci selezionate <strong>in aggiunta</strong> alla selezione della categoria corrente per tali voci.',
+'Qualsiasi categoria selezionata verrà assegnata alle voci selezionate <b>in aggiunta</b> alla selezione della categoria corrente per tali voci.',
 
 'bulk_edit_destructive' => 
 'Questa è un\'azione distruttiva e irreversibile.',
@@ -1410,7 +1443,7 @@ $lang = array(
 'Qualunque campo inviato sovrascriverà il contenuto di quel campo memorizzato per tutte le voci selezionate.',
 
 'bulk_edit_remove_categories_notice' => 
-'Qualunque categoria selezionata verrà <strong>rimossa</strong> dalle voci selezionate, lasciando intatte le altre assegnazioni di categoria delle voci.',
+'Qualunque categoria selezionata verrà <b>rimossa</b> dalle voci selezionate, lasciando intatte le altre assegnazioni di categoria delle voci.',
 
 'remove_categories_entries' => 
 'Rimuovere le categorie dalle voci% d',
@@ -1429,6 +1462,30 @@ $lang = array(
 
 'unauthorized_entry_desc' => 
 'Non sei autorizzato a modificare una delle voci selezionate.',
+
+'entry_manager_view_created' => 
+'Vista creato',
+
+'entry_manager_view_created_desc' => 
+'La vista <b>%s</b> è stata creata.',
+
+'entry_manager_view_updated' => 
+'Vista aggiornata',
+
+'entry_manager_view_updated_desc' => 
+'La vista <b>%s</b> è stata aggiornata.',
+
+'entry_manager_view_not_created' => 
+'Impossibile creare la vista',
+
+'entry_manager_view_not_created_desc' => 
+'Non è stato possibile creare questa vista, per favore controlla e correggi gli errori riportati qui sotto.',
+
+'entry_manager_view_not_updated' => 
+'Impossibile aggiornare la vista',
+
+'entry_manager_view_not_updated_desc' => 
+'Non è stato possibile aggiornare questa vista, per favore controlla e correggi gli errori riportati qui sotto.',
 
 ''=>''
 );

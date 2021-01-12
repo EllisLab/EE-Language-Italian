@@ -63,7 +63,7 @@ $lang = array(
 'Alias <abbr title="Unified Resource Locator">URL</abbr> ​​segmento',
 
 'alias_url_segment_desc' => 
-'Parola che attiva la visualizzazione degli alias. <strong>Non può</strong> essere uguale a un modello o ad un gruppo di modelli.',
+'Parola che attiva la visualizzazione degli alias. <b>Non può</b> essere uguale a un template o ad un gruppo di template.',
 
 'btn_save_alias' => 
 'Salva alias',
@@ -81,7 +81,7 @@ $lang = array(
 'Alias forum creato',
 
 'create_forum_alias_success_desc' => 
-'L\'alias <strong>%s</strong> del forum è stato creato.',
+'L\'alias <b>%s</b> del forum è stato creato.',
 
 'edit_forum_alias_error' => 
 'Impossibile aggiornare l\'alias del forum',
@@ -93,7 +93,7 @@ $lang = array(
 'Alias forum aggiornato',
 
 'edit_forum_alias_success_desc' => 
-'L\'alias <strong>%s</strong> del forum è stato creato.',
+'L\'alias <b>%s</b> del forum è stato creato.',
 
 'enable_alias' => 
 'Abilita alias',
@@ -102,7 +102,7 @@ $lang = array(
 'Alias forum rimosso',
 
 'forum_alias_removed_desc' => 
-'L\'alias <strong>%s</strong> del forum è stato rimosso.',
+'L\'alias <b>%s</b> del forum è stato rimosso.',
 
 'forum_board_desc' => 
 'Scegliere per quale bacheca del forum creare un alias.',
@@ -165,7 +165,7 @@ $lang = array(
 'Bacheca forum creata',
 
 'create_forum_board_success_desc' => 
-'La bacheca <strong>%s</strong> del forum è stata creata.',
+'La bacheca <b>%s</b> del forum è stata creata.',
 
 'default_theme' => 
 'Tema predefinito',
@@ -186,7 +186,7 @@ $lang = array(
 'Bacheca forum aggiornata',
 
 'edit_forum_board_success_desc' => 
-'La bacheca <strong>%s</strong> del forum è stata aggiornata.',
+'La bacheca <b>%s</b> del forum è stata aggiornata.',
 
 'enable' => 
 'Abilita',
@@ -240,7 +240,7 @@ $lang = array(
 '<abbr title="Unified Resource Locator">URL</abbr> del segmento del forum',
 
 'forum_url_segment_desc' => 
-'Parola che attiva la visualizzazione del forum. <strong>Non può</strong> essere uguale a un template o ad un gruppo di template.',
+'Parola che attiva la visualizzazione del forum. <b>Non può</b> essere uguale a un template o ad un gruppo di template.',
 
 'forums' => 
 'Forum',
@@ -318,10 +318,10 @@ $lang = array(
 'Permessi',
 
 'permissions_warning' => 
-'<strong>Avviso</strong>: prestare molta attenzione ai privilegi di accesso che si concedono.',
+'<b>Avviso</b>: prestare molta attenzione ai privilegi di accesso che si concedono.',
 
 'php_in_templates_warning' => 
-'<strong>Avviso</strong>: consentire PHP nei template ha implicazioni sulla sicurezza.',
+'<b>Avviso</b>: consentire PHP nei template ha implicazioni sulla sicurezza.',
 
 'php_in_templates_warning2' => 
 'Qualsiasi impostazione contrassegnata con %s deve essere utilizzata con cautela.',
@@ -333,7 +333,7 @@ $lang = array(
 'Fase di parsing di PHP',
 
 'php_parsing_stage_desc' => 
-'Se impostato su <strong>output</strong>, PHP verrà analizzato dopo il modello.',
+'Se impostato su <b>output</b>, PHP verrà eseguito dopo il template.',
 
 'post_ordering' => 
 'Ordinamento post',
@@ -357,19 +357,19 @@ $lang = array(
 'Rispondi alle notifiche',
 
 'reply_notification_desc' => 
-'Tutti i destinatari elencati riceveranno una notifica email quando viene effettuata una <strong>nuova</strong> risposta.</em> <em>Separare più email con una <mark>virgola (,)</mark>.',
+'Tutti i destinatari elencati riceveranno una notifica email quando viene effettuata una <b>nuova</b> risposta.</i> <i>Separare più email con una <mark>virgola (,)</mark>.',
 
 'reply_to_topics' => 
 'Rispondi agli argomenti',
 
 'reply_to_topics_desc' => 
-'Consentire ai seguenti gruppi di utenti di rispondere agli argomenti.</em> <em>I super amministratori sono <strong>sempre</strong> autorizzati.',
+'Consentire ai seguenti gruppi di utenti di rispondere agli argomenti.</i> <i>I super amministratori sono <b>sempre</b> autorizzati.',
 
 'report' => 
 'Rapporto',
 
 'report_desc' => 
-'Consentire ai seguenti gruppi di utenti di utilizzare la funzione del report.</em> <em>I super amministratori sono <strong>sempre</strong> autorizzati.',
+'Consentire ai seguenti gruppi di utenti di utilizzare la funzione del report.</i> <i>I super amministratori sono <b>sempre</b> autorizzati.',
 
 'rss_settings' => 
 'Impostazioni <abbr title="Really Simple Syndication">RSS</abbr>',
@@ -378,13 +378,13 @@ $lang = array(
 'Cerca',
 
 'search_desc' => 
-'Consentire ai seguenti gruppi di utenti di utilizzare la funzione di ricerca.</em> <em>I super amministratori sono <strong>sempre</strong> autorizzati.',
+'Consentire ai seguenti gruppi di utenti di utilizzare la funzione di ricerca.</i> <i>I super amministratori sono <b>sempre</b> autorizzati.',
 
 'short_name' => 
 'Nome breve',
 
 'short_name_desc' => 
-'Nome breve per questa bacheca.<br /><em>No spazi. Sono ammessi caratteri di sottolineatura e trattini.</em>',
+'Nome breve per questa bacheca.<br /><i>No spazi. Sono ammessi caratteri di sottolineatura e trattini.</i>',
 
 'show_editing_dates' => 
 'Visualizza date di modifica?',
@@ -399,7 +399,7 @@ $lang = array(
 'Inizia argomenti',
 
 'start_topics_desc' => 
-'Consenti ai seguenti gruppi di utenti di iniziare nuovi argomenti.</em> <em>I super amministratori sono <strong>sempre</strong> autorizzati.',
+'Consenti ai seguenti gruppi di utenti di iniziare nuovi argomenti.</i> <i>I super amministratori sono <b>sempre</b> autorizzati.',
 
 'text_and_html_formatting' => 
 'Formattazione testo e HTML',
@@ -426,7 +426,7 @@ $lang = array(
 'Notifiche argomento',
 
 'topic_notification_desc' => 
-'Tutti i destinatari elencati riceveranno una notifica via email quando viene pubblicato un <strong>nuovo</strong> argomento.</em> <em>Separare più email con una <mark>virgola (,)</mark>.',
+'Tutti i destinatari elencati riceveranno una notifica via email quando viene pubblicato un <b>nuovo</b> argomento.</i> <i>Separare più email con una <mark>virgola (,)</mark>.',
 
 'topic_ordering' => 
 'Ordinamento degli argomenti',
@@ -447,7 +447,7 @@ $lang = array(
 'Carica',
 
 'upload_desc' => 
-'Consentire ai seguenti gruppi di utenti di utilizzare la funzione di caricamento.</em> <em>I super amministratori sono <strong>sempre</strong> autorizzati.',
+'Consentire ai seguenti gruppi di utenti di utilizzare la funzione di caricamento.</i> <i>I super amministratori sono <b>sempre</b> autorizzati.',
 
 'upload_directory' => 
 'Cartella di upload',
@@ -459,19 +459,19 @@ $lang = array(
 'Visualizza forum',
 
 'view_forums_desc' => 
-'Consentire ai seguenti gruppi di utenti di visualizzare i forum.</em> <em>I super amministratori sono <strong>sempre</strong> autorizzati.',
+'Consentire ai seguenti gruppi di utenti di visualizzare i forum.</i> <i>I super amministratori sono <b>sempre</b> autorizzati.',
 
 'view_hidden_forums' => 
 'Visualiza forum nascosti',
 
 'view_hidden_forums_desc' => 
-'Consenti ai seguenti gruppi di utenti di visualizzare i forum nascosti.</em> <em>I super amministratori sono <strong>sempre</strong> autorizzati.',
+'Consenti ai seguenti gruppi di utenti di visualizzare i forum nascosti.</i> <i>I super amministratori sono <b>sempre</b> autorizzati.',
 
 'view_posts' => 
 'Visualizza post',
 
 'view_posts_desc' => 
-'Consentire ai seguenti gruppi di utenti di visualizzare i post.</em> <em>I super amministratori sono <strong>sempre</strong> autorizzati.',
+'Consentire ai seguenti gruppi di utenti di visualizzare i post.</i> <i>I super amministratori sono <b>sempre</b> autorizzati.',
 
 'btn_save_category' => 
 'Salva categoria',
@@ -489,7 +489,7 @@ $lang = array(
 'Categoria creata',
 
 'create_category_success_desc' => 
-'La categoria <strong>%s</strong> è stata creata.',
+'La categoria <b>%s</b> è stata creata.',
 
 'description_desc' => 
 'Breve descrizione di questa categoria.',
@@ -507,7 +507,7 @@ $lang = array(
 'Categoria aggiornata',
 
 'edit_category_success_desc' => 
-'La categoria <strong>%s</strong> è stata aggiornata.',
+'La categoria <b>%s</b> è stata aggiornata.',
 
 'hidden' => 
 'Nascosto',
@@ -537,7 +537,7 @@ $lang = array(
 'Forum creato',
 
 'create_forum_success_desc' => 
-'Il forum <strong>%s</strong> è stato creato.',
+'Il forum <b>%s</b> è stato creato.',
 
 'edit_forum' => 
 'Modifica forum',
@@ -552,7 +552,7 @@ $lang = array(
 'Forum aggiornato',
 
 'edit_forum_success_desc' => 
-'Il forum <strong>%s</strong> è stato aggiornato.',
+'Il forum <b>%s</b> è stato aggiornato.',
 
 'forum_board_removed' => 
 'Forum rimossi',
@@ -573,25 +573,25 @@ $lang = array(
 'Permessi categoria aggiornati',
 
 'edit_category_settings_success_desc' => 
-'I permessi per la categoria <strong>%s</strong> sono stati aggiornati.',
+'I permessi per la categoria <b>%s</b> sono stati aggiornati.',
 
 'view_category' => 
 'Visualizza categoria',
 
 'view_category_desc' => 
-'Consentire ai seguenti gruppi di utenti di visualizzare questa categoria.</em> <em>I super amministratori sono <strong>sempre</strong> autorizati.',
+'Consentire ai seguenti gruppi di utenti di visualizzare questa categoria.</i> <i>I super amministratori sono <b>sempre</b> autorizati.',
 
 'view_hidden_category' => 
 'Visualizza categoria nascosta',
 
 'view_hidden_category_desc' => 
-'Consentire ai seguenti gruppi di utenti di visualizzare questa categoria.</em> <em>I super amministratori sono <strong>sempre</strong> autorizzati.',
+'Consentire ai seguenti gruppi di utenti di visualizzare questa categoria.</i> <i>I super amministratori sono <b>sempre</b> autorizzati.',
 
 'edit_forum_settings_success' => 
 'Permessi forum aggiornati',
 
 'edit_forum_settings_success_desc' => 
-'Le autorizzazioni per il forum <strong>%s</strong> sono state aggiornate.',
+'Le autorizzazioni per il forum <b>%s</b> sono state aggiornate.',
 
 'forum_permissions' => 
 'Permessi %s',
@@ -600,13 +600,13 @@ $lang = array(
 'Visualizza forum',
 
 'view_forum_desc' => 
-'Consentire ai seguenti gruppi di utenti di visualizzare questo forum.</em> <em>I super amministratori sono <strong>sempre</strong> autorizzati.',
+'Consentire ai seguenti gruppi di utenti di visualizzare questo forum.</i> <i>I super amministratori sono <b>sempre</b> autorizzati.',
 
 'view_hidden_forum' => 
 'Visualizza forum nascosti',
 
 'view_hidden_forum_desc' => 
-'Consentire ai seguenti gruppi di utenti di visualizzare questo forum quando sono nascosti.</em> <em>I super amministratori sono <strong>sempre</strong> autorizzati.',
+'Consentire ai seguenti gruppi di utenti di visualizzare questo forum quando sono nascosti.</i> <i>I super amministratori sono <b>sempre</b> autorizzati.',
 
 'btn_save_rank' => 
 'Salva classifica',
@@ -627,7 +627,7 @@ $lang = array(
 'Classifica creata',
 
 'create_rank_success_desc' => 
-'La classifica <strong>%s</strong> è stata creata.',
+'La classifica <b>%s</b> è stata creata.',
 
 'edit_member_rank' => 
 'Modifica classifica utente',
@@ -642,7 +642,7 @@ $lang = array(
 'Classifica aggiornata',
 
 'edit_rank_success_desc' => 
-'La classifica <strong>%s</strong> è stata aggiornata.',
+'La classifica <b>%s</b> è stata aggiornata.',
 
 'member_ranks' => 
 'Classifiche utente',
@@ -675,10 +675,10 @@ $lang = array(
 'Numero di stelle da visualizzare con questa classifica.',
 
 'admin_type_individual' => 
-'<em>&mdash; Nome utente</em> individuale, <em><strong>non</strong> nome a video</em>',
+'<i>&mdash; Il nome utente</i>, <i><b>non</b> lo pseudonimo</i>',
 
 'admin_type_member_group' => 
-'Gruppo di utenti <em>&mdash; Tutti gli utenti del gruppo scelto</em>',
+'Gruppo di utenti <i>&mdash; Tutti gli utenti del gruppo scelto</i>',
 
 'administrator_type' => 
 'Tipo amministratore',
@@ -714,7 +714,7 @@ $lang = array(
 'Amministratore creato',
 
 'create_administrator_success_desc' => 
-'L\'amministratore <strong>%s</strong> è stato creato.',
+'L\'amministratore <b>%s</b> è stato creato.',
 
 'create_new_admin' => 
 'Crea nuovo amministratore',
@@ -753,7 +753,7 @@ $lang = array(
 'Moderatore creato',
 
 'create_moderator_success_desc' => 
-'Il moderatore <strong>%s</strong> è stato creato.',
+'Il moderatore <b>%s</b> è stato creato.',
 
 'edit_moderator' => 
 'Modifica moderatore',
@@ -771,7 +771,7 @@ $lang = array(
 'Moderatore aggiornato',
 
 'edit_moderator_success_desc' => 
-'Il moderatore <strong>%s</strong> è stato aggiornato.',
+'Il moderatore <b>%s</b> è stato aggiornato.',
 
 'mod_can_announce' => 
 'Crea annunci',
@@ -801,7 +801,7 @@ $lang = array(
 'Moderatore rimosso',
 
 'moderator_removed_desc' => 
-'Il moderatore <strong>%s</strong> è stato rimosso.',
+'Il moderatore <b>%s</b> è stato rimosso.',
 
 'moderator_type' => 
 'Tipo di moderatore',
@@ -810,10 +810,10 @@ $lang = array(
 'Seleziona il tipo di moderatore che desideri aggiungere.',
 
 'moderator_type_individual' => 
-'<em>&mdash; nome utente</em> Individuale, <em><strong>non</strong> nome schermo</em>',
+'<i>&mdash; Il nome utente</i>, <i><b>non</b> lo pseudonimo</i>',
 
 'moderator_type_member_group' => 
-'Gruppo utente <em>&mdash; Tutti i membri del gruppo scelto</em>',
+'Gruppo utente <i>&mdash; Tutti gli utenti del gruppo scelto</i>',
 
 'moderators' => 
 'Moderatori',

@@ -135,7 +135,7 @@ $lang = array(
 'Email \'Da\' valide per il moblog',
 
 'valid_from_subtext' => 
-'Indirizzi email da cui verranno inviate queste email del moblog. Lasciare vuoto per accettare da qualsiasi indirizzo email. Separare ogni indirizzo e-mail con uno spazio o con una nuova riga.',
+'Indirizzi email da cui verranno inviate queste email del moblog. Lasciare vuoto per accettare da qualsiasi indirizzo email. Separare ogni indirizzo email con uno spazio o con una nuova riga.',
 
 'moblog_ignore_text' => 
 'Ignorare testo email',
@@ -156,7 +156,7 @@ $lang = array(
 'Moblog creato',
 
 'moblog_created_desc' => 
-'Il moblog <strong>%s</strong> è stato creato.',
+'Il moblog <b>%s</b> è stato creato.',
 
 'moblog_not_created' => 
 'Impossibile creare il moblog',
@@ -168,7 +168,7 @@ $lang = array(
 'Moblog aggiornato',
 
 'moblog_updated_desc' => 
-'Il moblog <strong>%s</strong> è stato aggiornato.',
+'Il moblog <b>%s</b> è stato aggiornato.',
 
 'moblog_not_updated' => 
 'Impossibile aggiornare il moblog',

@@ -2,6 +2,75 @@
 $lang = array(
 
 
+'rte_file_browser' => 
+'Browser di file',
+
+'rte_file_browser_desc' => 
+'Quale browser di file deve essere utilizzato quando si sfogliano le immagini e i file dai campi RTE?',
+
+'rte_clone' => 
+'Clona',
+
+'rte_no_configs' => 
+'Al momento non ci sono configurazioni.',
+
+'rte_basic_settings' => 
+'Impostazioni di base',
+
+'rte_create_config' => 
+'Crea una nuova configurazione',
+
+'rte_edit_config' => 
+'Modifica configurazione',
+
+'rte_config_settings' => 
+'Impostazioni configurazione',
+
+'rte_config_name' => 
+'Nome configurazione',
+
+'rte_toolbar' => 
+'Personalizza la barra degli strumenti',
+
+'rte_height' => 
+'Altezza',
+
+'rte_upload_dir' => 
+'Cartella di upload',
+
+'rte_advanced_settings' => 
+'Impostazioni avanzate',
+
+'rte_config_saved' => 
+'Configurazione salvata!',
+
+'rte_config_saved_desc' => 
+'La tua configurazione è stata salvata con successo.',
+
+'rte_delete_config' => 
+'Elimina configurazione',
+
+'rte_delete_config_confirm' => 
+'Sei sicuro di voler eliminare definitivamente questa configurazione?',
+
+'rte_config_deleted' => 
+'Configurazione eliminata',
+
+'rte_config_deleted_desc' => 
+'La tua configurazione è stata eliminata con successo.',
+
+'rte_editor_config' => 
+'Configurazione editor',
+
+'rte_edit_configs' => 
+'Modifica configurazioni',
+
+'rte_defer' => 
+'Rinviare l\'inizializzazione di CKEditor?',
+
+'rte_defer_desc' => 
+'Se selezioni "Si", l\'RTE non inizializzerà CKEditor finché non si fa clic sul campo.',
+
 'available_tool_sets' => 
 'Set di strumenti disponibili',
 
@@ -83,47 +152,23 @@ $lang = array(
 'delete' => 
 'Elimina',
 
-'disable_button' => 
-'Disabilita',
-
-'disable_rte' => 
-'Disabilita l\'editor rich text',
-
-'disabled' => 
-'Disabilitato',
-
-'enable_button' => 
-'Abilita',
-
-'enable_rte' => 
-'Abilitare l\'editor rich text?',
-
-'enable_rte_desc' => 
-'Se abilitati, gli utenti registrati saranno in grado di utilizzare l\'editor rich text per creare nuovi contenuti.',
-
-'enabled' => 
-'Abilitato',
-
 'tool' => 
 'Strumento',
 
 'toolset' => 
 'Set di strumenti',
 
-'cannot_disable_default_toolset' => 
-'Lo strumento dell\'editor di testo rich text predefinito non può essere disabilitato',
-
 'cannot_remove_default_toolset' => 
 'Lo strumento dell\'editor di testo rich text predefinito non può essere rimosso',
 
 'disable_fail_desc' => 
-'I seguenti set di strumenti <strong>non sono stati</strong> disabilitati',
+'I seguenti set di strumenti <b>non sono stati</b> disabilitati',
 
 'disable_success_desc' => 
 'I seguenti set di strumenti sono stati disabilitati',
 
 'enable_fail_desc' => 
-'I seguenti set di strumenti <strong>non sono stati</strong> abilitati',
+'I seguenti set di strumenti <b>non sono stati</b> abilitati',
 
 'enable_success_desc' => 
 'I seguenti set di strumenti sono stati abilitati',
@@ -132,7 +177,7 @@ $lang = array(
 'È richiesto il nome del set di strumenti.',
 
 'remove_fail_desc' => 
-'I seguenti set di strumenti <strong>non sono stati</strong> rimossi',
+'I seguenti set di strumenti <b>non sono stati</b> rimossi',
 
 'remove_success_desc' => 
 'I seguenti set di strumenti sono stati rimossi',
@@ -149,9 +194,6 @@ $lang = array(
 'settings_saved_desc' => 
 'Le impostazioni dell\'editor rich text sono state salvate.',
 
-'tool_update_failed' => 
-'Aggiornamento dello strumento non riuscito. Per favore riprovare.',
-
 'tool_updated' => 
 'Strumento aggiornato',
 
@@ -159,7 +201,10 @@ $lang = array(
 'Set di strumenti creato',
 
 'toolset_created_desc' => 
-'<strong>%s</strong> è stato creato con successo.',
+'<b>%s</b> è stato creato con successo.',
+
+'toolset_updated_desc' => 
+'<b>%s</b> è stato aggiornato correttamente.',
 
 'toolset_deleted' => 
 'Set di strumenti eliminato correttamente.',
@@ -181,12 +226,6 @@ $lang = array(
 
 'toolset_updated' => 
 'Set di strumenti aggiornato',
-
-'toolsets_disabled' => 
-'I set di strumenti %d sono stati disabilitati.',
-
-'toolsets_enabled' => 
-'I set di strumenti %d sono stati abilitati.',
 
 'toolsets_removed' => 
 'I set di strumenti rimossi',
@@ -254,209 +293,95 @@ $lang = array(
 'toolset_name' => 
 'Nome set di strumenti',
 
-'blockquote_rte' => 
-'Citazione',
-
-'blockquote_rte_desc' => 
-'usa <blockquote>',
-
 'bold_rte' => 
 'Grassetto',
-
-'bold_rte_desc' => 
-'usa <b>',
-
-'headings_rte' => 
-'Titoli',
-
-'headings_rte_desc' => 
-'usa <h*>',
-
-'image_rte' => 
-'Immagine',
-
-'image_rte_desc' => 
-'usa <img>',
 
 'italic_rte' => 
 'Corsivo',
 
-'italic_rte_desc' => 
-'usa <i>',
-
-'link_rte' => 
-'Link',
-
-'link_rte_desc' => 
-'<a href="">',
-
-'ordered_list_rte' => 
-'Elenco numerato',
-
-'ordered_list_rte_desc' => 
-'usa <ol> ',
-
-'preferences_rte' => 
-'Preferenze',
-
-'strip_tags_rte' => 
-'Cancella formattazione',
+'strikethrough_rte' => 
+'Barrato',
 
 'underline_rte' => 
 'Sottolineatura',
 
-'underline_rte_desc' => 
-'usa <u>',
+'subscript_rte' => 
+'Pedice',
 
-'unordered_list_rte' => 
-'Elenco puntato',
+'superscript_rte' => 
+'Apice',
 
-'unordered_list_rte_desc' => 
-'usa <ul> ',
+'code_rte' => 
+'Codice',
 
-'view_source_rte' => 
-'Visualizza codice',
-
-'view_source_rte_desc' => 
-'consente all\'autore di vedere il codice',
-
-'add_link' => 
-'Aggiungi link',
-
-'external_link' => 
-'Link esterno',
-
-'heading_1' => 
-'titolo 1',
-
-'heading_2' => 
-'titolo 2',
-
-'heading_3' => 
-'titolo 3',
-
-'heading_4' => 
-'titolo 4',
-
-'heading_5' => 
-'titolo 5',
-
-'heading_6' => 
-'titolo 6',
-
-'img_add' => 
-'Immagine',
-
-'img_align_center' => 
-'Centra immagine',
-
-'img_align_left' => 
-'Immagine allineata a sinistra',
-
-'img_align_right' => 
-'Immagine allineata a destra',
-
-'img_center' => 
-'centro',
-
-'img_in_text' => 
-'nel testo',
-
-'img_remove' => 
-'Rimuovi immagine',
-
-'img_title' => 
-'carica file',
-
-'img_wrap_left' => 
-'Allinea a sinistra l\'immagine nel testo',
-
-'img_wrap_none' => 
-'Testo separato',
-
-'img_wrap_right' => 
-'Allinea a destra l\'immagine nel testo',
-
-'link' => 
-'Link',
-
-'make_blockquote' => 
+'blockquote_rte' => 
 'Citazione',
 
-'make_bold' => 
-'Grassetto',
+'heading_rte' => 
+'Intestazione',
 
-'make_italics' => 
-'Rendri in corsivo',
+'removeFormat_rte' => 
+'Rimuovi formattazione',
 
-'make_ol' => 
+'undo_rte' => 
+'Annulla',
+
+'redo_rte' => 
+'Rifai',
+
+'numberedList_rte' => 
 'Elenco numerato',
 
-'make_ul' => 
+'bulletedList_rte' => 
 'Elenco puntato',
 
-'make_underline' => 
-'Sottolineatura',
+'outdent_rte' => 
+'Riduci rientro',
 
-'paragraph' => 
-'paragrafo',
+'indent_rte' => 
+'Aumenta rientro',
 
-'remove_blockquote' => 
-'Rimuovi citazione',
+'link_rte' => 
+'Link',
 
-'remove_bold' => 
-'Eliminare il grassetto',
+'filemanager_rte' => 
+'Immagine',
 
-'remove_italics' => 
-'Rimuovi i corsivi',
+'insertTable_rte' => 
+'Tabella',
 
-'remove_link' => 
-'Rimuovi link',
+'mediaEmbed_rte' => 
+'Media',
 
-'remove_ol' => 
-'Rimuovi elenco numerato',
+'alignment:left_rte' => 
+'Allinea a sinistra',
 
-'remove_ul' => 
-'Rimuovi elenco puntato',
+'alignment:right_rte' => 
+'Allinea a destra',
 
-'remove_underline' => 
-'Rimuovi sottolineatura',
+'alignment:center_rte' => 
+'Allinea al centro',
 
-'strip_tags' => 
-'Elimina formattazione',
+'alignment:justify_rte' => 
+'Giustifica',
 
-'title_blockquote' => 
-'crea blockquote',
+'horizontalLine_rte' => 
+'Linea orizzontale',
 
-'title_bold' => 
-'rendi in grassetto',
+'specialCharacters_rte' => 
+'Caratteri speciali',
 
-'title_italics' => 
-'rendi in corsivo',
+'readMore_rte' => 
+'Separatore "Leggi di più"',
 
-'title_link' => 
-'crea link',
+'fontColor_rte' => 
+'Colore font',
 
-'title_ol' => 
-'crea elenco ordinato',
+'fontBackgroundColor_rte' => 
+'Colore di sfondo font',
 
-'title_ul' => 
-'creare elenco non ordinato',
-
-'title_underline' => 
-'sottolinea',
-
-'title_view' => 
-'visualizza codice',
-
-'update_link' => 
-'Aggiorna link',
-
-'view_code' => 
-'Visualizaz codice',
-
-'view_content' => 
-'Visualizza contenuto',
+'open_in_new_tab' => 
+'Apri una una nuova scheda',
 
 ''=>''
 );

@@ -89,11 +89,11 @@ $lang = array(
 'channels' => 
 'Canali',
 
-'channels_removed' => 
-'Canali rimossi',
+'channels_deleted' => 
+'Canali eliminati',
 
-'channels_removed_desc' => 
-'I canali %d sono stati rimossi.',
+'channels_deleted_desc' => 
+'Sono stati eliminati %d canali.',
 
 'create_channel' => 
 'Nuovo canale',
@@ -111,7 +111,7 @@ $lang = array(
 'Layout di pubblicazione creato',
 
 'create_layout_success_desc' => 
-'Il layout di pubblicazione <strong>%s</strong> è stato creato.',
+'Il layout di pubblicazione <b>%s</b> è stato creato.',
 
 'custom_fields' => 
 'Campi personalizzati',
@@ -135,7 +135,7 @@ $lang = array(
 'Layout di pubblicazione aggiornato',
 
 'edit_layout_success_desc' => 
-'Il layout di pubblicazione <strong>%s</strong> è stato aggiornato.',
+'Il layout di pubblicazione <b>%s</b> è stato aggiornato.',
 
 'error_cannot_hide_tab' => 
 'Impossibile nascondere la scheda',
@@ -144,10 +144,10 @@ $lang = array(
 'Impossibile rimuovere la scheda',
 
 'error_tab_has_fields' => 
-'<strong>%s</strong> contiene almeno un campo e non può essere rimosso. Sposta tutti i campi in un\'altra scheda.',
+'<b>%s</b> contiene almeno un campo e non può essere rimosso. Sposta tutti i campi in un\'altra scheda.',
 
 'error_tab_has_required_fields' => 
-'<strong>%s</strong> contiene almeno un campo obbligatorio e non può essere nascosto. Per favore spostare i campi richiesti in un\'altra scheda.',
+'<b>%s</b> contiene almeno un campo obbligatorio e non può essere nascosto. Per favore spostare i campi richiesti in un\'altra scheda.',
 
 'export_set' => 
 'Esporta il set dei canali',
@@ -167,8 +167,11 @@ $lang = array(
 'form_layouts' => 
 'Layout di pubblicazione',
 
+'edit_layout' => 
+'Modifica layout',
+
 'illegal_tab_name' => 
-'I nomi delle schede non possono contenere i seguenti caratteri: *, >, :, +, (, ), [, ], =, |, ", \', ., #, oppure $',
+'I nomi delle schede non possono contenere i seguenti caratteri: *, >, :, +, (, ), [, ], =, |, ", \', ., #, oppure $ ',
 
 'import' => 
 'Importa',
@@ -179,8 +182,8 @@ $lang = array(
 'layout' => 
 'Layout',
 
-'layout_member_groups' => 
-'Gruppi degli utenti?',
+'layout_roles' => 
+'Ruolo/i del\'utente?',
 
 'layout_options' => 
 'Opzioni layout',
@@ -188,8 +191,8 @@ $lang = array(
 'layouts' => 
 'Layout',
 
-'layouts_removed_desc' => 
-'Sono stati rimossi i seguenti layout di pubblicazione',
+'layouts_deleted_desc' => 
+'I seguenti layout di pubblicazione sono stati eliminati',
 
 'manage_channels' => 
 'Gestisci canali',
@@ -200,17 +203,17 @@ $lang = array(
 'member_group' => 
 'Utente del gruppo',
 
-'member_groups_desc' => 
-'Scegli i gruppi degli utenti a cui applicare questo layout.',
+'roles_desc' => 
+'Scegli il ruolo utenti a cui applicare questo layout.',
 
 'new_layout' => 
 'Nuovo layout',
 
 'no_channels' => 
-'Nessun <strong>canale</strong> trovato.',
+'Nessun <b>canale</b> trovato.',
 
 'no_layouts' => 
-'Nessun <strong>layout</strong> trovato.',
+'Nessun <b>layout</b> trovato.',
 
 'search_for' => 
 'Cerca per "%s" ',
@@ -237,19 +240,19 @@ $lang = array(
 'Per favore scegliere un nume per la tua scheda.',
 
 'category_groups_not_found' => 
-'Nessun <strong>gruppo di categorie</strong> trovato',
+'Nessun <b>gruppo di categorie</b> trovato',
 
 'channel_created' => 
 'Canale creato',
 
 'channel_created_desc' => 
-'Il canale <strong>%s</b> è stato creato.',
+'Il canale <b>%s</b> è stato creato.',
 
 'channel_do_not_duplicate' => 
 'Non duplicare',
 
 'channel_duplicate' => 
-'Duplicare il canale esistente?',
+'Duplicare un canale esistente?',
 
 'channel_duplicate_desc' => 
 'Al momento della creazione, questo canale copierà tutte le impostazioni dal canale selezionato.',
@@ -279,7 +282,7 @@ $lang = array(
 'Opzioni di pubblicazione',
 
 'channel_publishing_options_warning' => 
-'<strong>Attenzione</strong>: i canali richiedono gruppi di campi personalizzati per raccogliere qualsiasi dato diverso dal titolo e dalla data.',
+'<b>Attenzione</b>: i canali richiedono gruppi di campi personalizzati per raccogliere qualsiasi dato diverso dal titolo e dalla data.',
 
 'channel_publishing_options_warning2' => 
 'Se devi raccogliere dati aggiuntivi per questo canale, è consigliabile creare prima <a href="%s">gruppi di campi personalizzati</a>.',
@@ -291,7 +294,7 @@ $lang = array(
 'Canale aggiornato',
 
 'channel_updated_desc' => 
-'Il canale <strong>%s</strong> è stato aggiornato.',
+'Il canale <b>%s</b> è stato aggiornato.',
 
 'create_new_category_group' => 
 'Crea nuovo gruppo di categorie',
@@ -306,7 +309,7 @@ $lang = array(
 'Gruppi di campi personalizzati',
 
 'custom_field_groups_not_found' => 
-'Nessun <strong>gruppo di campi personalizzati</strong> trovato',
+'Nessun <b>gruppo di campi personalizzati</b> trovato',
 
 'custom_fields_desc' => 
 'Scegli i campi che desideri includere in questo gruppo di campi.',
@@ -381,7 +384,7 @@ $lang = array(
 'Stato predefinito per i moduli in questo canale.',
 
 'channel_url_desc' => 
-'L\'<abbr title="Unified Resource Locator">URL</abbr> della posizione di questo canale.',
+'L\'<abbr title="Unified Resource Locator">URL</abbr> di questo canale.',
 
 'clear_versioning_data' => 
 'Eliminare tutti i dati di revisione esistenti in questo canale?',
@@ -399,19 +402,19 @@ $lang = array(
 'Scadenza del commento',
 
 'comment_expiration_desc' => 
-'Numero di giorni dopo la pubblicazione di una voce, prima che i commenti non vengono più accettati.</em><br /><em> Lasciare vuoto per nessuna scadenza.',
+'Numero di giorni dopo la pubblicazione di una voce, prima che i commenti non vengono più accettati.</i><br /><i>Lasciare vuoto per nessuna scadenza.</i>',
 
 'comment_form' => 
 'Modulo commenti',
 
 'comment_form_desc' => 
-'<abbr title="Unified Resource Locator">URL</abbr> della posizione del modulo del commento per questo canale.',
+'L\'<abbr title="Unified Resource Locator">URL</abbr> del modulo del commento per questo canale.',
 
 'comment_time_limit' => 
 'Tempo limite per i commenti',
 
 'comment_time_limit_desc' => 
-'Numero di secondi che devono trascorrere prima che un utente possa inviare un altro commento.</em><br /><em>Inserire 0 per nessun limite di tempo.',
+'Numero di secondi che devono trascorrere prima che un utente possa inviare un altro commento.</i><br /><i>Inserire 0 per nessun limite di tempo.',
 
 'commenting' => 
 'Commentando',
@@ -431,23 +434,29 @@ $lang = array(
 'convert_urls_emails_to_links_desc' => 
 'Se abilitato, gli <abbr title="Unified Resource Locator">URL</abbr> e l\'indirizzo email verranno visualizzati come link nelle voci di questo canale.',
 
+'enable_sticky' => 
+'Abilitare voci fisse?',
+
+'enable_sticky_desc' => 
+'Se abilitate, le voci possono essere contrassegnate come fisse e avere la preferenza negli elenchi ordinati.',
+
 'default_category' => 
 'Categoria',
 
 'default_category_desc' => 
-'Categoria assegnata a tutte le <strong>nuove</strong> voci in questo canale.',
+'Categoria assegnata a tutte le <b>nuove</b> voci in questo canale.',
 
 'default_status' => 
 'Status',
 
 'default_status_desc' => 
-'Stato assegnato a tutte le <strong>nuove</strong> voci in questo canale.',
+'Stato assegnato a tutte le <b>nuove</b> voci in questo canale.',
 
 'default_title' => 
 'Titolo generato',
 
 'default_title_desc' => 
-'Titolo assegnato a tutte le <strong>nuove</strong> voci in questo canale.',
+'Titolo assegnato a tutte le <b>nuove</b> voci in questo canale.',
 
 'enable_author_notification' => 
 'Abilitare la notifica dell\'autore?',
@@ -459,25 +468,19 @@ $lang = array(
 'Abilitare la notifica delle voci del canale?',
 
 'enable_channel_entry_notification_desc' => 
-'Se abilitato, tutti i destinatari elencati riceveranno una notifica email quando viene pubblicata una nuova voce su questo canale.</em><br /><em>Separa più e-mail con una <mark>virgola (,)</mark>.',
+'Se abilitato, tutti i destinatari elencati riceveranno una notifica email quando viene pubblicata una nuova voce su questo canale.</i><br /><i>Separa più email con una <mark>virgola (,)</mark></i>.',
 
 'enable_comment_notification' => 
 'Abilitare la notifica dei commenti?',
 
 'enable_comment_notification_desc' => 
-'Se abilitato, tutti i destinatari elencati riceveranno una notifica email quando viene inviato un nuovo commento a questo canale.</em><br /><em>Separa più e-mail con una <mark>virgola (,)</mark>.',
+'Se abilitato, tutti i destinatari elencati riceveranno una notifica email quando viene inviato un nuovo commento a questo canale.</i><br /><i>Separa più email con una <mark>virgola (,)</mark></i>.',
 
 'enable_versioning' => 
 'Abilitare il versioning delle voci?',
 
 'enable_versioning_desc' => 
 'Se abilitato, ExpressionEngine salverà le revisioni di ogni voce per questo canale.',
-
-'extra_publish_controls' => 
-'Visualizzare i controlli di pubblicazione extra?',
-
-'extra_publish_controls_desc' => 
-'Se abilitato, un secondo set di controlli di pubblicazione apparirà nella parte superiore del modulo di pubblicazione per questo canale.',
 
 'html_formatting' => 
 '<abbr title="Hyper-Text Markup Language">formattazione HTML</abbr>',
@@ -489,7 +492,7 @@ $lang = array(
 'Anteprima <abbr title="Unified Resource Locator">URL</abbr>',
 
 'preview_url_desc' => 
-'Percorso al template o percorso da utilizzare per l\'anteprima. Utilizzare <code>{url_title}</code> o <code>{entry_id}</code> per i template a voce singola. Ad esempio <strong><code>blog/entry/{url_title}</code></strong>',
+'Percorso al template o percorso da utilizzare per l\'anteprima. Utilizzare <code>{url_title}</code> o <code>{entry_id}</code> per i template a voce singola. Ad esempio <b><code>blog/entry/{url_title}</code></b>',
 
 'max_characters' => 
 'Numero massimo di caratteri consentiti?',
@@ -534,7 +537,7 @@ $lang = array(
 'Feed <abbr title="Really Simple Syndication">RSS</abbr>',
 
 'rss_feed_desc' => 
-'Posizione dell\'<abbr title="Unified Resource Locator">URL</abbr> dell\'<abbr title="Really Simple Syndication">RSS</abbr> per questo canale.',
+'L\'<abbr title="Unified Resource Locator">URL</abbr> dell\'<abbr title="Really Simple Syndication">RSS</abbr> per questo canale.',
 
 'search_excerpt' => 
 'Estratto di ricerca',
@@ -546,7 +549,7 @@ $lang = array(
 'Risultati di ricerca',
 
 'search_results_desc' => 
-'La posizione dell\'<abbr title="Unified Resource Locator">URL</abbr> dei risultati di ricerca per questo canale.',
+'L\'<abbr title="Unified Resource Locator">URL</abbr> dei risultati di ricerca per questo canale.',
 
 'text_formatting' => 
 'Formattazione del testo',
@@ -567,7 +570,7 @@ $lang = array(
 'Prefisso del titolo dell\'<abbr title="Unified Resource Locator">URL</abbr>',
 
 'url_title_prefix_desc' => 
-'Prefisso del titolo dell\'<abbr title="Unified Resource Locator">URL</abbr> assegnato a tutte le <strong>nuove</strong> voci in questo canale.',
+'Prefisso del titolo dell\'<abbr title="Unified Resource Locator">URL</abbr> assegnato a tutte le <b>nuove</b> voci in questo canale.',
 
 'versioning' => 
 'Versioning',
@@ -584,14 +587,14 @@ $lang = array(
 'cat_field_ajax_reorder_fail_desc' => 
 'Impossibile salvare il nuovo ordine dei campi della categoria. Aggiornare la pagina e assicurarsi di aver effettuato l\'accesso.',
 
-'cat_group_no_member_groups_found' => 
-'Non esistono <strong>gruppi di membri</strong> con autorizzazioni.',
+'cat_group_no_roles_found' => 
+'Non esistono <b>ruoli</b> con autorizzazioni.',
 
 'cat_image_choose' => 
 'Scegliere dalla directory',
 
 'cat_image_none' => 
-'Nessuno <em>&mdash; nessuna immagine</em>',
+'<i>&mdash; Nessuna immagine</i>',
 
 'cat_require_field_desc' => 
 'Se abilitato, questo campo verrò richiesto per inviare il modulo di pubblicazione.',
@@ -600,13 +603,13 @@ $lang = array(
 'Categorie',
 
 'categories_not_found' => 
-'Nessuna <strong>categoria</strong> trovata.',
+'Nessuna <b>categoria</b> trovata.',
 
-'categories_removed' => 
-'Categorie rimosse',
+'categories_deleted' => 
+'Categorie eliminate',
 
-'categories_removed_desc' => 
-'%d categorie sono state rimosse.',
+'categories_deleted_desc' => 
+'Sono state eliminate %d categorie.',
 
 'category' => 
 'Categoria',
@@ -621,7 +624,7 @@ $lang = array(
 'Categoria creata',
 
 'category_created_desc' => 
-'La categoria <strong>%s</strong> è stata creata.',
+'La categoria <b>%s</b> è stata creata.',
 
 'category_field' => 
 'Campo della categoria',
@@ -630,7 +633,7 @@ $lang = array(
 'Campo della categoria creato',
 
 'category_field_created_desc' => 
-'Il campo <strong>%s</strong> della categoria è stato creato.',
+'Il campo <b>%s</b> della categoria è stato creato.',
 
 'category_field_not_created' => 
 'Impossibile creare il campo della categoria',
@@ -648,7 +651,7 @@ $lang = array(
 'Campo della categoria aggiornato',
 
 'category_field_updated_desc' => 
-'Il campo <strong>%s</strong> della categoria è stato aggiornato.',
+'Il campo <b>%s</b> della categoria è stato aggiornato.',
 
 'category_fields' => 
 'Campi della categoria',
@@ -669,7 +672,7 @@ $lang = array(
 'Gruppo di categorie creato',
 
 'category_group_created_desc' => 
-'Il gruppo delle categorie <strong>%s</strong è stato creato.',
+'Il gruppo delle categorie <b>%s</b> è stato creato.',
 
 'category_group_not_created' => 
 'Impossibile creare un gruppo di categorie',
@@ -687,13 +690,13 @@ $lang = array(
 'Gruppo di categorie aggiornato',
 
 'category_group_updated_desc' => 
-'Il gruppo di categorie <strong>%s</strong> è stato aggiornato.',
+'Il gruppo di categorie <b>%s</b> è stato aggiornato.',
 
-'category_groups_removed' => 
-'Gruppo di categorie rimosso',
+'category_groups_deleted' => 
+'Gruppo di categoria eliminato',
 
-'category_groups_removed_desc' => 
-'Il gruppo di categorie <strong>%s</strong> è stato rimosso.',
+'category_groups_deleted_desc' => 
+'Il gruppo di categoria <b>%s</b> è stato eliminato.',
 
 'category_manager' => 
 'Gestore delle categorie',
@@ -711,7 +714,7 @@ $lang = array(
 'Non è stato possibile aggiornare questa categoria, si prega di rivedere e correggere gli errori di seguito.',
 
 'category_permissions_warning' => 
-'<strong>Attenzione</strong>: fare molta attenzione ai privilegi di accesso che si concedono.',
+'<b>Attenzione</b>: fare molta attenzione ai privilegi di accesso che si concedono.',
 
 'category_permissions_warning2' => 
 'Qualsiasi impostazione contrassegnata con %s dovrebbe essere concessa soltanto alle persone di cui ti fidi implicitamente.',
@@ -720,7 +723,10 @@ $lang = array(
 'Categoria aggiornata',
 
 'category_updated_desc' => 
-'La categoria <strong>%s</strong> è stata aggiornata.',
+'La categoria <b>%s</b> è stata aggiornata.',
+
+'category_parent_invalid' => 
+'Il genitore della categoria deve essere nello stesso gruppo e diverso dalla categoria stessa',
 
 'create_category' => 
 'Crea categoria',
@@ -738,7 +744,7 @@ $lang = array(
 'Elimina categorie',
 
 'delete_categories_desc' => 
-'Gli utenti dei gruppi selezionati potranno eliminare le categorie in questo gruppo di categorie.</em><em>I Super amministratori sono <strong>sempre</strong> autorizzati.',
+'Gli utenti dei gruppi selezionati potranno eliminare le categorie in questo gruppo di categorie.</i><i>I Super amministratori sono <b>sempre</b> autorizzati.',
 
 'duplicate_category_group_name' => 
 'Esiste già un gruppo di categorie con lo stesso nome.',
@@ -750,7 +756,7 @@ $lang = array(
 'Modifica categorie',
 
 'edit_categories_desc' => 
-'Gli utenti dei gruppi selezionati potranno modificare le categorie in questo gruppo di categorie.</em><em>I Super amministratori sono <strong>sempre</strong> autorizzati.',
+'Gli utenti dei gruppi selezionati potranno modificare le categorie in questo gruppo di categorie.</i><i>I Super amministratori sono <b>sempre</b> autorizzati.',
 
 'edit_category' => 
 'Modifica categoria',
@@ -768,7 +774,7 @@ $lang = array(
 'Escludere il gruppo da?',
 
 'exclude_group_form_desc' => 
-'Impedire che questo gruppo di categorie venga offerto come scelta per l\'assegnazione a canali e a directory di file.',
+'Impedire che questo gruppo di categorie venga proposto come scelta per l\'assegnazione a canali e a directory di file.',
 
 'field' => 
 'Campo',
@@ -786,13 +792,13 @@ $lang = array(
 'Etichetta',
 
 'no_category_fields' => 
-'Nessun <strong>campo della categoria</strong> trovato.',
+'Nessun <b>campo della categoria</b> trovato.',
 
 'no_category_groups' => 
-'Nessun <strong>gruppo della categoria</strong> trovato.',
+'Nessun <b>gruppo della categoria</b> trovato.',
 
 'no_fields' => 
-'Nessun <strong>campo</strong> trovato.',
+'Nessun <b>campo</b> trovato.',
 
 'parent_category' => 
 'Categoria genitore',
@@ -837,7 +843,7 @@ $lang = array(
 'Accesso allo stato',
 
 'status_access_desc' => 
-'Gli utenti dei gruppi selezionati potranno accedere a questo stato.</em><em>I Super amministratori sono <strong>sempre</strong> autorizzati.',
+'Gli utenti dei gruppi selezionati potranno accedere a questo stato. I Super amministratori sono <b>sempre</b> autorizzati.',
 
 'status_ajax_reorder_fail' => 
 'Attenzione: impossibile salvare l\'ordine dello stato',
@@ -849,7 +855,7 @@ $lang = array(
 'Stato creato',
 
 'status_created_desc' => 
-'Lo stato <strong>%s</strong> è stato creato.',
+'Lo stato <b>%s</b> è stato creato.',
 
 'status_name' => 
 'Nome dello stato',
@@ -873,7 +879,7 @@ $lang = array(
 'Stato aggiornato',
 
 'status_updated_desc' => 
-'Lo stato <strong>%s</strong> è stato aggiornato.',
+'Lo stato <b>%s</b> è stato aggiornato.',
 
 'statuses' => 
 'Stati',
@@ -886,6 +892,15 @@ $lang = array(
 
 'statuses_removed_desc' => 
 'Gli stati %d sono stati rimossi.',
+
+'channel_roles' => 
+'Ruoli consentiti',
+
+'channel_roles_desc' => 
+'Gli utenti in questi ruoli possono eseguire ogni azione selezionata in questo canale.',
+
+'edit_in_full_form' => 
+'Modifica in forma completa',
 
 ''=>''
 );

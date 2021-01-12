@@ -39,7 +39,7 @@ $lang = array(
 'Non sei autorizzato a eseguire questa azione',
 
 'email_address' => 
-'indirizzo email',
+'Indirizzo email',
 
 'enter_new_password' => 
 'Inserisci una nuova password',
@@ -51,7 +51,7 @@ $lang = array(
 'Il numero di codice inviato non è stato trovato nel database.',
 
 'log_into' => 
-'Accedere',
+'Accedi a',
 
 'login' => 
 'Accesso',

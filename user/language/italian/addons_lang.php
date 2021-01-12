@@ -3,16 +3,22 @@ $lang = array(
 
 
 'addon' => 
-'Add-On',
+'Componente aggiuntivo',
 
 'addon_manager' => 
-'Add-On Manager ',
+'Gestore dei componenti aggiuntivi',
+
+'updates' => 
+'Aggiornamenti',
+
+'add-on-store' => 
+'Negozio dei componenti aggiuntivi',
 
 'addons' => 
-'Add-Ons',
+'Componenti aggiuntivi',
 
 'all_addons' => 
-'Tutti gli Add-Ons',
+'Tutti i componenti aggiuntivi',
 
 'author' => 
 'Autore',
@@ -24,7 +30,7 @@ $lang = array(
 'Esempio di utilizzo',
 
 'manage_addon_extensions' => 
-'Gestisti le estensioni degli Add-on',
+'Gestisti le estensioni dei componenti aggiuntivi',
 
 'manage_extensions' => 
 'Gestisti le estensioni',
@@ -33,22 +39,22 @@ $lang = array(
 'Manuale',
 
 'no_addon_extensions_search_results' => 
-'Nessuna <strong>estensione dell\'Add-on</strong> trovata',
+'Nessuna <b>estensione del componente aggiuntivo</b> trovata',
 
 'no_addon_search_results' => 
-'Nessun <strong>Add-on</strong> trovato',
+'Nessun <b>componente aggiuntivo</b> trovato',
 
 'requested_module_not_installed' => 
 'Il modulo richiesto non è installato:',
 
 'search_addons_button' => 
-'cerca Add-on',
+'cerca componente aggiuntivo',
 
 'show_all_addons' => 
-'Tutti gli Add-Ons %d',
+'Tutti i componenti aggiuntivi %d',
 
 'third_party_addons' => 
-'Add-Ons di terze parti',
+'Componenti aggiuntivi di terze parti',
 
 'update' => 
 'Aggiorna',
@@ -69,31 +75,31 @@ $lang = array(
 'Stai tentando di disinstallare i seguenti elementi, per favore conferma questa azione.',
 
 'addons_installed' => 
-'Add-on installato',
+'Componenti aggiuntivo installato',
 
 'addons_installed_desc' => 
-'I seguneti Add-on sono stati installati:',
+'I seguneti componenti aggiuntivi sono stati installati:',
 
 'addons_not_installed' => 
-'Add-on non installato',
+'Componente aggiuntivo non installato',
 
 'existing_consent_request' => 
-'Non è stato possibile installare i seguenti Add-on a causa di una richiesta di consenso esistente che i componenti aggiuntivi stanno tentando di creare:',
+'Non è stato possibile installare i seguenti componenti aggiuntivi a causa di una richiesta di consenso esistente che i componenti aggiuntivi stanno tentando di creare:',
 
 'contact_developer' => 
-'Si prega di contattare gli sviluppatori dell\'Add-on per assistenza.',
+'Si prega di contattare gli sviluppatori del componente aggiuntivo per assistenza.',
 
 'addons_uninstalled' => 
-'Add-On disinstallati',
+'Componenti aggiuntivi disinstallati',
 
 'addons_uninstalled_desc' => 
-'I seguenti Add-on sono stati disinstallati:',
+'I seguenti componenti aggiuntivi sono stati disinstallati:',
 
 'addons_updated' => 
-'Add-on aggiornati',
+'Componenti aggiuntivi aggiornati',
 
 'addons_updated_desc' => 
-'I seguenti Add-on sono stati aggiornati:',
+'I seguenti componenti aggiuntivi sono stati aggiornati:',
 
 'btn_save_settings' => 
 'Salva impostazioni',
@@ -108,7 +114,7 @@ $lang = array(
 'Voci',
 
 'extension_class_does_not_exist' => 
-'La classe %c non esiste in (%)',
+'La classe %c non esiste in (%f)',
 
 'filter_by_status' => 
 'stato',
@@ -150,7 +156,7 @@ $lang = array(
 'e altri %x...',
 
 'available_to_member_groups' => 
-'Disponibile per i membri dei gruppi',
+'Disponibile per gli utenti dei gruppi',
 
 'component' => 
 'Componente',
@@ -194,6 +200,9 @@ $lang = array(
 'extensions_disabled_desc' => 
 'Le estensioni sono state disabilitate.',
 
+'extensions_disabled_message' => 
+'Le estensioni sono state disabilitate nella configurazione del sistema, quindi non sono presenti in questo elenco.',
+
 'extensions_disabled_warning' => 
 'Per installare questo componente aggiuntivo è necessario abilitare le estensioni. Vuoi abilitare le estensioni?',
 
@@ -210,13 +219,13 @@ $lang = array(
 'Tutti i dati associati a questo tipo di campo, inclusi tutti i dati dei canali associati, saranno eliminati in modo permanente!',
 
 'fieldtype_name' => 
-'Nome tipo di campo',
+'Nome del tipo di campo',
 
 'global_settings_saved' => 
 'Impostazioni salvate',
 
 'member_group_assignment' => 
-'Membri dei gruppi assegnati',
+'Utenti dei gruppi assegnati',
 
 'module' => 
 'Modulo',
@@ -250,9 +259,6 @@ $lang = array(
 
 'required_by' => 
 'Richiesto da:',
-
-'rte_tool' => 
-'Tool Rich Text Editor',
 
 'specific_page' => 
 'Specifica pagina?',

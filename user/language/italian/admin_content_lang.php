@@ -132,7 +132,7 @@ $lang = array(
 'Opzioni checkbox',
 
 'checkbox_options_desc' => 
-'<em>Ogni elemento nella textarea genererà una singola checkbox e una coppia di etichette nel modulo di pubblicazione.</em>',
+'<i>Ogni elemento nella textarea genererà una singola checkbox e una coppia di etichette nel modulo di pubblicazione.</i>',
 
 'clear_versioning_data' => 
 'Elimina tutti i dati di revisione esistenti in questo canale',
@@ -171,7 +171,7 @@ $lang = array(
 'Notificare l\'autore di una voce ogni volta che viene inviato un commento?',
 
 'comment_notify_emails' => 
-'Indirizzo e-mail del/i destinatario/i della notifica',
+'Indirizzo email del/i destinatario/i della notifica',
 
 'comment_notify_note' => 
 'Separare più email con una virgola',
@@ -231,10 +231,10 @@ $lang = array(
 'Gruppo di campi creato',
 
 'create_field_group_success_desc' => 
-'Il gruppo di campi <strong>%s</strong> è stato creato.',
+'Il gruppo di campi <b>%s</b> è stato creato.',
 
 'create_field_group_warning' => 
-'<strong>Avviso</strong>: i gruppi di campi richiedono la creazione di campi personalizzati.',
+'<b>Avviso</b>: i gruppi di campi richiedono la creazione di campi personalizzati.',
 
 'create_field_group_warning2' => 
 'È consigliabile creare prima eventuali <a href="%s">campi personalizzati</a>.',
@@ -243,7 +243,7 @@ $lang = array(
 'Campo creato',
 
 'create_field_success_desc' => 
-'Il campo <strong>%s</strong> è stato creato.',
+'Il campo <b>%s</b> è stato creato.',
 
 'create_html_button' => 
 'Crea il pulsante <abbr title="Hyper-Text Markup Language">HTML</abbr>',
@@ -258,7 +258,7 @@ $lang = array(
 'Campi personalizzati',
 
 'custom_fields_not_found' => 
-'Nessun <strong>campo personalizzato</strong> trovato',
+'Nessun <b>campo personalizzato</b> trovato',
 
 'date_field' => 
 'Campo data',
@@ -327,13 +327,13 @@ $lang = array(
 'Gruppo di campi aggiornato',
 
 'edit_field_group_success_desc' => 
-'Il gruppo di campi <strong>%s</strong> è stato aggiornato.',
+'Il gruppo di campi <b>%s</b> è stato aggiornato.',
 
 'edit_field_success' => 
 'Campo aggiornato.',
 
 'edit_field_success_desc' => 
-'Il campo <strong>%s</strong> è stato aggiornato.',
+'Il campo <b>%s</b> è stato aggiornato.',
 
 'edit_group_assignments' => 
 'Assegnazioni del gruppo',
@@ -351,7 +351,7 @@ $lang = array(
 'Campo',
 
 'fields_assign_to_group' => 
-'Assegna uno o più campo a questo gruppo.',
+'Assegna uno o più campi a questo gruppo.',
 
 'field_content_text' => 
 'Contenuto permesso',
@@ -365,8 +365,8 @@ $lang = array(
 'field_groups_desc' => 
 'Utilizzato per raggruppare insieme campi personalizzati correlati.',
 
-'field_groups_removed_desc' => 
-'I seguenti gruppi del campo sono stati eliminati',
+'field_groups_deleted_desc' => 
+'I seguenti gruppi di campi sono stati eliminati',
 
 'field_is_hidden' => 
 'Visualizzare questo campo in modo predefinito?',
@@ -401,7 +401,7 @@ $lang = array(
 'fields' => 
 'Campi',
 
-'fields_removed_desc' => 
+'fields_deleted_desc' => 
 'I seguenti campi sono stati eliminati',
 
 'filter_by_group' => 
@@ -507,7 +507,7 @@ $lang = array(
 'Opzioni di selezione multipla',
 
 'multiselect_options_desc' => 
-'<em>Ogni elemento nella textarea verrà incluso in una selezione multipla nel form di pubblicazione.</em>',
+'<i>Ogni elemento nella textarea verrà incluso in una selezione multipla nel form di pubblicazione.</i>',
 
 'new_category' => 
 'Nuova categoria',
@@ -525,7 +525,7 @@ $lang = array(
 'Nessun pulsante <abbr title="Hyper-Text Markup Language">HTML</abbr> definito.',
 
 'no_buttons_found' => 
-'Nessun <strong>HTML Buttons</strong> trovato.',
+'Nessun <b>pulsante HTML</b> trovato.',
 
 'no_channel_name' => 
 'Devi fornire al canale un nome "abbreviato".',
@@ -543,7 +543,7 @@ $lang = array(
 'Non è stato trovato alcuno stato',
 
 'no_value_label_pairs' => 
-'Non esistono coppie di <strong>valore/etichetta</strong>.',
+'Non esistono coppie di <b>valore/etichetta</b>.',
 
 'notification_settings' => 
 'Preferenze di notifica',
@@ -552,7 +552,7 @@ $lang = array(
 'Aperto',
 
 'options_field_desc' => 
-'Scegliere come creare le opzioni per questo campo. <em>Le coppie valore/etichetta possono essere utilizzate per rendere più facile agli autori la selezione dei contenuti. Ad esempio, se devi memorizzare un valore di <strong>1</strong>, puoi utilizzare un\'etichetta di <strong>Uno</strong>.</em>',
+'Scegliere come creare le opzioni per questo campo. <i>Le coppie valore/etichetta possono essere utilizzate per rendere più facile agli autori la selezione dei contenuti. Ad esempio, se devi memorizzare un valore di <b>1</b>, puoi utilizzare un\'etichetta di <b>Uno</b>.</i>',
 
 'order' => 
 'Ordine',
@@ -573,7 +573,7 @@ $lang = array(
 'Opzioni del pulsante di opzione',
 
 'radio_options_desc' => 
-'<em>Ogni elemento nella textarea genererà un singolo pulsante di opzione e una coppia di etichette nel form di pubblicazione.</em>',
+'<i>Ogni elemento nella textarea genererà un singolo pulsante di opzione e una coppia di etichette nel form di pubblicazione.</i>',
 
 'related_to_channel' => 
 'Collegare le voci del canale ad altre voci del canale',
@@ -582,10 +582,10 @@ $lang = array(
 'Relazione',
 
 'removed_field' => 
-'Il seguente campo è stato eliminato e i suoi dati sono stati cancellati: %s',
+'Il seguente campo è stato eliminato e i suoi dati sono stati eliminati: %s',
 
 'removed_fields_from_fluid_field' => 
-'I seguenti campi sono stati eliminati dal campo fluido <strong>% s </strong> e i loro dati sono stati cancellati: %s',
+'I seguenti campi sono stati eliminati dal campo fluido <b>%s</b> e i loro dati sono stati cancellati: %s',
 
 'require_field_desc' => 
 'Se abilitato, questo campo verrà richiesto per inviare il form di pubblicazione.',
@@ -594,7 +594,7 @@ $lang = array(
 'Il nome del campo che hai scelto è una parola riservata e non può essere utilizzato. Si prega di consultare la guida utente per ulteriori informazioni.',
 
 'restrict_status_to_group' => 
-'Limita lo stato ai membri di gruppi specifici',
+'Limita lo stato agli utenti di gruppi specifici',
 
 'row' => 
 'Riga',
@@ -624,7 +624,7 @@ $lang = array(
 'Seleziona le opzioni del menu',
 
 'select_options_desc' => 
-'<em>Ogni elemento nella textarea verrà incluso in un menu a discesa di selezione nel form di pubblicazione.</em>',
+'<i>Ogni elemento nella textarea verrà incluso in un menu a discesa di selezione nel form di pubblicazione.</i>',
 
 'select_related_channel' => 
 'Seleziona il canale con cui desideri creare una relazione',
@@ -657,7 +657,7 @@ $lang = array(
 'Tag di chiusura',
 
 'tag_close_desc' => 
-'Chiudere l\'output di questo pulsante: <strong><code>&lt;/b&gt;</code></strong>',
+'Chiudere l\'output di questo pulsante: <b><code>&lt;/b&gt;</code></b>',
 
 'tag_name' => 
 'Nome',
@@ -666,7 +666,7 @@ $lang = array(
 'Tag di apertura',
 
 'tag_open_desc' => 
-'Output di apertura di questo pulsante:  <strong><code>&lt;b&gt;</code></strong> ',
+'Output di apertura di questo pulsante:  <b><code>&lt;b&gt;</code></b> ',
 
 'tag_order' => 
 'Ordine',
@@ -675,13 +675,13 @@ $lang = array(
 'Il nome di questo canale è già occupato.',
 
 'template_creation' => 
-'Crea nuovi modelli per questo canale?',
+'Creare nuovi template per questo canale?',
 
 'template_group_choose' => 
-'Si prega di scegliere un gruppo di templates',
+'Si prega di scegliere un gruppo di template',
 
 'template_group_name' => 
-'Nome del nuovo gruppo di templates',
+'Nome del nuovo gruppo di template',
 
 'update_existing_comments' => 
 'Aggiornare tutti i commenti esistenti con questa impostazione?',
@@ -858,10 +858,10 @@ $lang = array(
 'Gestisci i campi di categoria',
 
 'member_group' => 
-'Gruppo di membro',
+'Gruppo utente',
 
 'member_groups' => 
-'Gruppi di membro',
+'Gruppi utente',
 
 'missing_required_fields' => 
 'Hai dimenticao i campi mancanti:',
@@ -1026,7 +1026,7 @@ $lang = array(
 'Al momento non ci sono campi nel canale',
 
 'no_field_groups' => 
-'Nessun <strong>gruppo di campi</strong> trovato.',
+'Nessun <b>gruppo di campi</b> trovato.',
 
 'no_field_label' => 
 'Devi inviare un\'etichetta di campo',
@@ -1080,7 +1080,7 @@ $lang = array(
 'File',
 
 'type_image' => 
-'Immagin',
+'Immagine',
 
 'type_integer' => 
 'Intero',
@@ -1233,10 +1233,16 @@ $lang = array(
 'La posizione predefinita dell\'interruttore per questo campo quando si pubblicano nuove voci.',
 
 'toggle_default_value_desc_cont' => 
-'<strong>Nota</strong>: se assegnato a un canale con voci esistenti, a tali voci verrà assegnato questo valore.',
+'<b>Nota</b>: se assegnato a un canale con voci esistenti, a tali voci verrà assegnato questo valore.',
 
 'unauthorized_for_this_channel' => 
 'Non sei autorizzato a pubblicare post su questo canale',
+
+'db_column_type' => 
+'Tipo di colonna nel database',
+
+'db_column_type_desc' => 
+'Scegli il tipo di colonna del database per contenere i tuoi dati. TEXT (64Kb) di solito va bene per un articolo. Se il contenuto del tuo campo è piuttosto un libro, seleziona MEDIUMTEXT (16 MB)',
 
 ''=>''
 );

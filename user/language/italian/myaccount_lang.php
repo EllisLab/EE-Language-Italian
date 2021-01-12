@@ -12,7 +12,7 @@ $lang = array(
 'Dagli amministratori',
 
 'accept_user_email' => 
-'Da altri membri',
+'Da altri utenti',
 
 'administration' => 
 'Amministrazione',
@@ -27,13 +27,13 @@ $lang = array(
 'Impostazioni amministratore',
 
 'allow_messages' => 
-'Consentire messaggi dagli altri utenti',
+'Consentire messaggi dagli altri utenti.',
 
 'anonymize_username' => 
 'Anonimizzare %s',
 
 'anonymize_member_desc' => 
-'Stai per anonimizzare questo utente, il che significa che tutti i dati considerati informazioni identificabili personalmente verranno cancellati, ma il registro degli utenti rimarrà. Per favore confermare questa azione.',
+'Stai per anonimizzare questo utente, il che significa che tutti i dati considerati informazioni identificabili personalmente verranno eliminati, ma il registro degli utenti rimarrà. Per favore confermare questa azione.',
 
 'aol_im' => 
 'IM AOL',
@@ -43,6 +43,9 @@ $lang = array(
 
 'avatar_settings' => 
 'Impostazioni avatar',
+
+'account' => 
+'Utente',
 
 'banned_email' => 
 'L\'indirizzo email che hai inviato è bannato',
@@ -78,34 +81,37 @@ $lang = array(
 'Utenti bloccati',
 
 'bookmarklet' => 
-'Bookmarklet',
+'Segnalibro',
 
 'bookmarklet_created' => 
-'Bookmarklet creato',
+'Segnalibro creato',
 
 'bookmarklet_field' => 
 'Canale e campo del canale',
 
 'bookmarklet_field_desc' => 
-'Scegliere il canale e il campo preferiti per questo bookmarklet in cui pubblicare le voci.',
+'Scegliere il canale e il campo preferiti per questo segnalibro in cui pubblicare le voci.',
 
 'bookmarklet_info' => 
-'Un bookmarklet consente di aggiungere voci al canale senza accedere al pannello di controllo completo.',
+'Un segnalibro consente di aggiungere voci al canale senza accedere al pannello di controllo completo.',
 
 'bookmarklet_instructions' => 
-'Trascina i collegamenti sulla barra dei segnalibri per salvarli.',
+'Trascina i link sulla barra dei segnalibri per salvarli.',
 
 'bookmarklet_next_step' => 
 'Passo successivo',
 
 'bookmarklets' => 
-'Bookmarklet',
+'Segnalibri',
 
 'btn_authenticate_and_login' => 
 'Autentica e accedi',
 
 'btn_login' => 
 'Accesso',
+
+'btn_login_working' => 
+'Accesso in corso...',
 
 'btn_save_settings' => 
 'Salva impostazioni',
@@ -171,7 +177,7 @@ $lang = array(
 'Impostazioni pannello di controllo',
 
 'create_bookmarklet' => 
-'Crea Bookmarklet ',
+'Crea segnalibro ',
 
 'create_html_buttons_error' => 
 'Impossibile creare il pulsante <abbr title="Hyper-Text Markup Language">HTML</abbr>',
@@ -183,13 +189,13 @@ $lang = array(
 'Pulsante <abbr title="Hyper-Text Markup Language">HTML</abbr> creato',
 
 'create_html_buttons_success_desc' => 
-'Il pulsante <abbr title="Hyper-Text Markup Language">HTML</abbr> <strong>%s</strong> è stato creato.',
+'Il pulsante <abbr title="Hyper-Text Markup Language">HTML</abbr> <b>%s</b> è stato creato.',
 
 'create_quick_link' => 
 'Crea link rapido',
 
 'create_the_bookmarklet' => 
-'Create bookmarklet ',
+'Crea il segnalibro',
 
 'current_avatar' => 
 'Avatar corrente',
@@ -225,16 +231,13 @@ $lang = array(
 'Elimina %s',
 
 'disallowed_screen_chars' => 
-'Il nome schermo contiene caratteri non ammessi',
-
-'display_avatars' => 
-'Visualizzare gli avatar degli altri membri',
+'Lo pseudonimo contiene caratteri non ammessi',
 
 'do_not_show' => 
 'Non visualizzare',
 
 'edit_bookmarklet' => 
-'Modifica bookmarklet ',
+'Modifica segnalibro',
 
 'edit_html_buttons_error' => 
 'Impossibile aggiornare il pulsante <abbr title="Hyper-Text Markup Language">HTML</abbr>',
@@ -246,7 +249,7 @@ $lang = array(
 'Pulsante a<abbr title="Hyper-Text Markup Language">HTML</abbr> ggiornato',
 
 'edit_html_buttons_success_desc' => 
-'Il pulsante <abbr title="Hyper-Text Markup Language">HTML</abbr> <strong>%s</strong> è stato aggiornato.',
+'Il pulsante <abbr title="Hyper-Text Markup Language">HTML</abbr> <b>%s</b> è stato aggiornato.',
 
 'edit_profile' => 
 'Modfica profilo',
@@ -273,7 +276,7 @@ $lang = array(
 'Opzioni',
 
 'email_options_desc' => 
-'Inviami email',
+'Inviami email.',
 
 'email_settings' => 
 'Impostazioni email',
@@ -294,7 +297,7 @@ $lang = array(
 'Per aggiornare l\'indirizzo email è necessario inviare la password corrente',
 
 'existing_password_exp' => 
-'Per salvare devi <strong>inserire</strong> la tua password.',
+'Per salvare devi <b>inserire</b> la tua password attuale.',
 
 'extended_profile' => 
 'Profilo esteso',
@@ -324,7 +327,7 @@ $lang = array(
 'Se abilitato, questo utente verrà visualizzato nell\'elenco degli autori per le voci del canale.',
 
 'include_seconds' => 
-'Visualizzare secondi?',
+'Visualizzare i secondi?',
 
 'interests' => 
 'Interessi',
@@ -393,7 +396,7 @@ $lang = array(
 'Accedi come utente',
 
 'login_as_warning' => 
-'<strong>Attenzione</strong>: effettuerai l\'accesso come utente \'%s\' e verrai reindirizzato alla pagina qui sotto.',
+'<b>Attenzione</b>: effettuerai l\'accesso come utente \'%s\' e verrai reindirizzato alla pagina qui sotto.',
 
 'main_menu_manager' => 
 'Gestione menu principale',
@@ -465,7 +468,7 @@ $lang = array(
 'Conferma nuova password',
 
 'new_password_confirm_desc' => 
-'Per confermare, digitare nuovamente la password desiderata.',
+'Per confermare, digita nuovamente la password desiderata.',
 
 'new_password_desc' => 
 'Per avere password più sicure, utilizza lettere minuscole e maiuscole, numeri e simboli.',
@@ -480,13 +483,13 @@ $lang = array(
 'URL nuova scheda',
 
 'no_consents_found' => 
-'Nessun <strong>contesto</strong> trovato.',
+'Nessun <b>contesto</b> trovato.',
 
 'no_blocked_members_found' => 
-'Nessun <strong>utente bloccato</strong> trovato.',
+'Nessun <b>utente bloccato</b> trovato.',
 
 'no_bookmarklets_found' => 
-'Nessun <strong>bookmarklet</strong> trovato.',
+'Nessun <b>segnalibro</b> trovato.',
 
 'no_channels_assigned_to_user' => 
 'Non ci sono canali assegnati a questo account.',
@@ -498,13 +501,13 @@ $lang = array(
 'Al canale che hai scelto non è assegnato un gruppo di campi',
 
 'no_quick_links_found' => 
-'Nessun <strong>link rapido</strong> trovato.',
+'Nessun <b>link rapido</b> trovato.',
 
 'no_subscriptions' => 
 'Al momento non hai abbonamenti',
 
 'no_subscriptions_found' => 
-'Nessun <strong>abbonamento</strong> trovato.',
+'Nessuna <b>iscrizione</b> trovata.',
 
 'no_unlocked_member_groups' => 
 'Non disponi le autorizzazioni necessarie per aggiungere nuovi utenti a nessun gruppo.<br />Per favore <a href="%s">contatta l\'amministratore di sistema</a> se ritieni che ciò non sia corretto.',
@@ -540,7 +543,7 @@ $lang = array(
 'Non puoi accedere ai link rapidi di un altro utente',
 
 'parse_smileys' => 
-'Visulizza le immagini delle emoticon nel contenuto',
+'Visulizza le immagini delle emoticon nel contenuto.',
 
 'password' => 
 'Password',
@@ -555,7 +558,7 @@ $lang = array(
 'Modulo di modifica password',
 
 'password_change_exp' => 
-'<strong>Attenzione</strong>: se <strong>non</strong> desideri cambiare la tua password, lascia vuoti i seguenti campi.',
+'<b>Attenzione</b>: se <b>non</b> desideri cambiare la tua password, lascia vuoti i campi qui sotto.',
 
 'password_change_warning' => 
 'Nota: hai modificato la password, quindi dovrai accedere nuovamente.',
@@ -594,7 +597,7 @@ $lang = array(
 'Modulo del profilo',
 
 'profile_header' => 
-'Profilo %s <div class="section-header__subtitle"> <strong>Email</strong>: %s / <b>IP</b>: %s </div>',
+'Profilo %s <div class="section-header__subtitle"> <b>Email</b>: %s / <b>IP</b>: %s </div>',
 
 'profile_updated' => 
 'Profilo aggiornato',
@@ -644,23 +647,8 @@ $lang = array(
 'right_column' => 
 'Colonna di destra',
 
-'rte_enabled' => 
-'Abilita l\'editor rich text?',
-
-'rte_enabled_desc' => 
-'Se abilitato, l\'editor rich text selezionato di seguito verrà visualizzato nei moduli di pubblicazione per questo utente.',
-
-'rte_settings' => 
-'Impostazioni editor rich text',
-
-'rte_toolset' => 
-'Set di strumenti dell\'editor rich text',
-
-'rte_toolset_desc' => 
-'Scegli il tuo set di strumenti preferito per l\'editor rich text.',
-
 'save_bookmarklet' => 
-'Salva bookmarklet',
+'Salva segnalibro',
 
 'screen_name' => 
 'Nome della schermata',
@@ -782,8 +770,11 @@ $lang = array(
 'unsubscribe_success' => 
 'Ti sei disiscritto con successo.',
 
-'update_avatar_path' => 
-'</em><em>Per favore aggiorna le tue mpostazioni di caricamento dell\'<a href="%s">avatar</a>.',
+'avatar_path_does_not_exist' => 
+'La cartella di upload del tuo avatar non esiste. Per favore controlla le impostazioni di upload dell\'<a href="%s">avatar</a>.',
+
+'avatars_disabled' => 
+'Gli avatar sono disabilitati. Aggiorna le impostazioni di upload dell\'<a href="%s">avatar</a>.',
 
 'upload_avatar' => 
 'Carica — .gif, .jpg, .png (massimo %skb) ',
@@ -826,6 +817,9 @@ $lang = array(
 
 'view_activity' => 
 'Visualizza attività',
+
+'info_and_activity' => 
+'Informazioni e attività',
 
 'yahoo_im' => 
 'Yahoo IM',

@@ -48,7 +48,7 @@ $lang = array(
 'Quest\'area consente di gestire i canali, le preferenze e i sottosistemi relativi ai contenuti.',
 
 'members_and_groups_blurb' => 
-'Quest\'area consente di gestire membri, gruppi di utenti e funzionalità relative agli utenti.',
+'Quest\'area consente di gestire utenti, gruppi di utenti e funzionalità relative agli utenti.',
 
 'search' => 
 'Cerca',
@@ -56,11 +56,8 @@ $lang = array(
 'search_preferences' => 
 'Preferenze di ricerca',
 
-'search_results' => 
-'Risultati di ricerc',
-
 'specialty_templates_blurb' => 
-'Questi templates sono utilizzati per scopi speciali come la visualizzazione di messaggi di errore e l\'invio di notifiche e-mail.',
+'Questi template sono utilizzati per scopi speciali come la visualizzazione di messaggi di errore e l\'invio di notifiche email.',
 
 'system_admin_blurb' => 
 'La maggior parte degli aspetti amministrativi di ExpressionEngine sono gestiti da una delle seguenti cinque aree:',
@@ -200,9 +197,6 @@ $lang = array(
 'all_caching' => 
 'Tutte le cache',
 
-'allow_avatar_uploads' => 
-'Permettere agli utenti di caricare i propri avatar?',
-
 'allow_member_loc_notes' => 
 'Se impostato su "no", tutte le date e le ore saranno localizzate sul valore predefinito del sito principale.',
 
@@ -291,7 +285,7 @@ $lang = array(
 'Sfoglia',
 
 'cache_deleted' => 
-'I file della cache sono stati cancellati',
+'I file della cache sono stati eliminati',
 
 'caching_driver' => 
 'Driver della cache',
@@ -327,7 +321,7 @@ $lang = array(
 'Errore di attivazione della categoria: esiste già un template o un gruppo di template con questo nome.',
 
 'censored_explanation' => 
-'Inserisci ogni parola su una riga separata.',
+'Inserire ogni parola su una linea separata.',
 
 'censored_words' => 
 'Parole censurate',
@@ -360,7 +354,7 @@ $lang = array(
 'Scegliere un file da tradurre',
 
 'clear_caching' => 
-'Cancellare i dati memorizzati nella cache',
+'Eliminare i dati memorizzati nella cache',
 
 'click' => 
 'Clic',
@@ -449,8 +443,8 @@ $lang = array(
 'default_html_buttons' => 
 'Pulsanti HTML predefiniti',
 
-'default_member_group' => 
-'Gruppo di utenti predefinito assegnato ai nuovi utenti',
+'default_primary_role' => 
+'Gruppo predefinito assegnato ai nuovi utenti',
 
 'default_site_timezone' => 
 'Imposta il timezone',
@@ -529,9 +523,6 @@ $lang = array(
 
 'empty_stmp_fields' => 
 'Il campo %s è richiesto per l\'SMTP.',
-
-'enable_avatars' => 
-'Abilitare gli avatar',
 
 'enable_censoring' => 
 'Abilita la censura delle parole?',
@@ -795,7 +786,7 @@ $lang = array(
 'Invia nuove notifiche agli utenti?',
 
 'new_posts_clear_caches' => 
-'Cancellare tutte le cache quando vengono pubblicate nuove voci?',
+'Eliminare tutte le cache quando vengono pubblicate nuove voci?',
 
 'new_version_check' => 
 'Nuova verifica automatica della versione',
@@ -1254,7 +1245,7 @@ $lang = array(
 'Sorgente',
 
 'specialty_templates' => 
-'Templates speciali',
+'Template speciali',
 
 'sql_info' => 
 'Informazioni SQL',

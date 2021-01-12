@@ -32,12 +32,6 @@ $lang = array(
 'avatar_updated' => 
 'L\'avatar è stato aggiornato',
 
-'avatar_upload_disallowed' => 
-'I caricamenti degli avatar non sono attualmente abilitati.',
-
-'avatars_not_enabled' => 
-'Gli avatar sono attualmente disabilitati',
-
 'avatars_not_found' => 
 'Impossibile individuare gli avatar desiderati',
 
@@ -54,7 +48,7 @@ $lang = array(
 'Non puoi ignorare te stesso',
 
 'cannot_delete_self' => 
-'Non ti è permesso cancellare il tuo account personale.',
+'Non ti è permesso di eliminare il tuo account personale.',
 
 'cannot_delete_super_admin' => 
 'Non è possibile eliminare l\'unico super admin. Creare prima un nuovo super admin.',
@@ -105,10 +99,7 @@ $lang = array(
 'Elimina gli utenti selezionati',
 
 'disallowed_screen_chars' => 
-'Il nome dello schermo contiene caratteri non ammessi',
-
-'display_avatars' => 
-'Visualizza nelle voci gli avatar degli utenti',
+'Lo pseudonimo contiene caratteri non ammessi',
 
 'display_signatures' => 
 'Visualizza nelle voci le firme degli utenti',
@@ -201,10 +192,10 @@ $lang = array(
 'La password che hai inviato non è valida.',
 
 'invalid_screen_name' => 
-'Nome schermo non valido',
+'Pseudonimo non valido',
 
 'invalid_screen_name_message' => 
-'Il nome schermo che hai inviato non è valido',
+'lo pseudonimo che hai inviato non è valido',
 
 'kb' => 
 'KB',
@@ -228,7 +219,7 @@ $lang = array(
 'Dimensione massima immagine: %x X %y',
 
 'mbr_account_deleted' => 
-'Hai cancellato con successo il tuo account e tutti i contenuti ad esso associati.',
+'Hai eliminato con successo il tuo account e tutti i contenuti ad esso associati.',
 
 'mbr_account_not_active' => 
 'Il tuo account di appartenenza non è stato ancora attivato.',
@@ -288,10 +279,10 @@ $lang = array(
 'Elimina account',
 
 'mbr_delete_blurb' => 
-'Sei sicuro di voler cancellare il tuo account? Anche tutte le voci, i post, i commenti e altri contenuti associati ad esso verranno eliminati.',
+'Sei sicuro di voler eliminare il tuo account? Anche tutte le voci, i post, i commenti e altri contenuti associati ad esso verranno eliminati.',
 
 'mbr_delete_notify_message' => 
-'La seguente persona ha cancellato il proprio account: {name}',
+'La seguente persona ha eliminato il proprio account: {name}',
 
 'mbr_delete_notify_title' => 
 'Eliminazione dell\'account utente su {site_name}',
@@ -599,6 +590,9 @@ $lang = array(
 'mbr_username' => 
 'Nome utente',
 
+'mbr_username_email_sent' => 
+'Email inviata per il nome utente dimenticato',
+
 'mbr_username_length' => 
 'I nomi utente devono contenere almeno %x caratteri',
 
@@ -771,7 +765,7 @@ $lang = array(
 'Ritorna alla pagina di accesso',
 
 'screen_name_taken' => 
-'Il nome schermo che hai scelto non è disponibile',
+'Lo pseudonimo che hai scelto non è disponibile',
 
 'search_field' => 
 'Campo di ricerca',
@@ -895,6 +889,9 @@ $lang = array(
 
 'yun_len' => 
 'Il tuo nome utente è attualmente composto da %s caratteri',
+
+'legacy_member_templates_not_enabled' => 
+'Questa pagina non è accessibile perché i <a href="https://docs.expressionengine.com/v6/member/profile-templates.html" target="_blank" rel="external">template  legacy degli utenti</a> non sono non abilitati.',
 
 'mbr_missing_confirm' => 
 'Devi confermare la tua nuova password.',

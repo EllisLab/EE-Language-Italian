@@ -9,7 +9,7 @@ $lang = array(
 'Gestione dei gruppi del campo',
 
 'data_clear_caching' => 
-'Cancella cache',
+'Elimina cache',
 
 'data_php_info' => 
 'PHP Info',

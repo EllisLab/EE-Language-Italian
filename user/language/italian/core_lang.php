@@ -42,7 +42,7 @@ $lang = array(
 'ID',
 
 'last' => 
-'Ultimo',
+'Ultimi',
 
 'next' => 
 'Prossimo',
@@ -113,6 +113,12 @@ $lang = array(
 'yes' => 
 'Si',
 
+'required_fields' => 
+'Campi richiesti',
+
+'edit_this' => 
+'Modifica questo',
+
 'captcha_incorrect' => 
 'Non hai inviato la parola esattamente come appare nell\'immagine',
 
@@ -126,7 +132,7 @@ $lang = array(
 'Uno o più file del core sono stati modificati:',
 
 'checksum_email_message' => 
-'ExpressionEngine ha rilevato la modifica di un file del core su: {url}. Sono interessati i seguenti file: {cambiato}. Se hai apportato queste modifiche, accetta le modifiche sulla homepage del pannello di controllo. Se non hai modificato questi file, ciò potrebbe indicare un tentativo di hacking. Controlla i file per eventuali contenuti sospetti (JavaScript o iFrame) e consulta il seguente link: https://docs.expressionengine.com/v5/troubleshooting/error_messages/expressionengine_has_detected_the_modification_of_a_core_file.html',
+'ExpressionEngine ha rilevato la modifica di un file del core su: {url}. Sono interessati i seguenti file: {changed}. Se hai apportato queste modifiche, per favore accetta le modifiche sulla homepage del pannello di controllo. Se non hai modificato questi file, ciò potrebbe indicare un tentativo di hacking. Controlla i file per eventuali contenuti sospetti (JavaScript o iFrame) e consulta il seguente link: https://docs.expressionengine.com/v6/troubleshooting/error_messages/expressionengine_has_detected_the_modification_of_a_core_file.html',
 
 'checksum_email_subject' => 
 '&Egrave; stato modificato un file principale sul sito.',
@@ -164,6 +170,9 @@ $lang = array(
 'missing_encryption_key' => 
 'Non hai impostato un valore per <code>%s</code> in config.php. Questo può esporre l\'installazione di ExpressionEngine aperta a delle vulnerabilità di sicurezza. Ripristina le chiavi o consulta per assistenza <a href="%s">questo articolo per la risoluzione dei problemi</a> nella guida per l\'utente.',
 
+'el_folder_present' => 
+'La directory <code>%s</code> è presente sul tuo server. Assicurati di aver sostituito <code>index.php</code> e <code>admin.php</code> secondo le <a href="%s">istruzioni per l\'aggiornamento</a> e rimuovi questa cartella.',
+
 'missing_mime_config' => 
 'Impossibile importare la lista bianca dei tipi di mime: il file %s non esiste o non può essere letto.',
 
@@ -186,16 +195,19 @@ $lang = array(
 'Impossibile caricare il file del tipo di campo richiesto: %s.<br />Conferma che il file del tipo di campo si trova nella cartella /system/user/addons',
 
 'unwritable_cache_folder' => 
-'La cartella della cache non dispone delle autorizzazioni appropriate.<br />Per risolvere: imposta i permessi della cartella della cache (/sistema/utente/cache/) su 777 (o equivalente per il tuo server).',
+'La cartella della cache non dispone delle autorizzazioni appropriate.<br />Per risolvere: imposta i permessi della cartella della cache (/system/user/cache/) su 777 (o equivalente per il tuo server).',
 
 'unwritable_config_file' => 
 'Il file di configurazione non dispone delle autorizzazioni appropriate.<br />Per risolvere: imposta le autorizzazioni del file di configurazione (/system/user/config/config.php) su 666 (o equivalente per il tuo server).',
 
 'version_mismatch' => 
-'La versione di installazione di ExpressionEngine (%s) non è coerente con la versione riportata (%s). <a href="https://docs.expressionengine.com/v5/installation/update.html" rel="external">Aggiorna nuovamente l\'installazione di ExpressionEngine</a>.',
+'La versione di installazione di ExpressionEngine (%s) non è coerente con la versione riportata (%s). <a href="https://docs.expressionengine.com/v6/installation/update.html" rel="external">Aggiorna nuovamente l\'installazione di ExpressionEngine</a>.',
+
+'php72_intl_error' => 
+'La tua estensione <code>intl</code> PHP non è aggiornata. Assicurati di aver installato <code>ICU 4.6</code> o più recente.',
 
 'banned' => 
-'Proibito',
+'Bannati',
 
 'guests' => 
 'Ospiti',
@@ -216,7 +228,7 @@ $lang = array(
 'Correggere la sintassi nel template.',
 
 'error_invalid_conditional' => 
-'Hai un condizionale non valido nel tuo modello. Esamina i tuoi condizionali per una stringa non chiusa, operatori non validi, una parentesi graffa } o un {/if} mancanti.',
+'Hai un condizionale non valido nel tuo template. Esamina i tuoi condizionali per una stringa non chiusa, operatori non validi, una parentesi graffa } o un {/if} mancanti.',
 
 'error_layout_too_late' => 
 'Plugin o tag del modulo trovato prima della dichiarazione del layout. Per favore spostare il tag del layout nella parte superiore del template.',
@@ -253,6 +265,9 @@ $lang = array(
 
 'password_reset_flood_lock' => 
 'Hai provato a reimpostare la password troppe volte oggi. Controlla la posta in arrivo e le cartelle spam per le richieste precedenti o contatta l\'amministratore del sito.',
+
+'forgotten_username_email_sent' => 
+'Se questo indirizzo email è associato a un account, ti è appena stata inviata un\'email contenente il tuo nome utente.',
 
 'your_new_login_info' => 
 'Informazioni di accesso',
@@ -300,10 +315,10 @@ $lang = array(
 'mesi',
 
 'fortnight' => 
-'due settimane',
+'quindici giorni',
 
 'fortnights' => 
-'quindicine',
+'due settimane',
 
 'week' => 
 'settimana',

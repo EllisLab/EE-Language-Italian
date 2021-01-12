@@ -21,7 +21,7 @@ $lang = array(
 'I canali vengono utilizzati per contenere i contenuti per il sito web. Ad esempio, se desideri un blog, devi prima creare un canale per memorizzare le voci. Pensa ai canali come a delle cartelle.',
 
 'closed_entries_with_comments' => 
-'<strong>%d</strong> Voci chiuse con %d commenti.',
+'<b>%d</b> Voci chiuse con %d commenti.',
 
 'comments' => 
 'Commenti',
@@ -39,13 +39,16 @@ $lang = array(
 'News di ExpressionEngine',
 
 'entries_with_comments' => 
-'<strong>%d</strong> voci con %d commenti',
+'<b>%d</b> voci con %d commenti',
 
 'field_groups' => 
 'Gruppi del campo',
 
 'flagged_as_spam' => 
 'contrassegnato come potenziale spam',
+
+'commented_on' => 
+'commentato su',
 
 'has' => 
 'ha',
@@ -60,16 +63,16 @@ $lang = array(
 'Utenti',
 
 'members_desc' => 
-'I membri sono gli utenti registrati al tuo sito. <em>Devi</em> avere almeno un membro, un amministratore.',
+'Gli utenti registrati al tuo sito. <i>Devi</i> avere almeno un utente, un amministratore.',
 
 'new_comments' => 
-'<em>nuovi</em> commenti',
+'<i>nuovi</i> commenti',
 
 'new_members_permission_desc' => 
 'Puoi <a href="%s">modificare le impostazioni</a> per consentire o impedire la registrazioni di nuovi utenti.',
 
 'new_spam' => 
-'<em>nuovi</em> elementi nella coda dello spam',
+'<i>nuovi</i> elementi nella coda dello spam',
 
 'news_fetch_failure' => 
 'Ops, non siamo riusciti a recuperare le notizie.',

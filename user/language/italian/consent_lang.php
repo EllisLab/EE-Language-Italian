@@ -27,7 +27,7 @@ $lang = array(
 'Richiesta di consenso creata',
 
 'consent_request_created_desc' => 
-'La richiesta di consenso <strong>%s</strong> è stata creata.',
+'La richiesta di consenso <b>%s</b> è stata creata.',
 
 'consent_request_not_created' => 
 'Impossibile creare la richiesta di consenso',
@@ -45,13 +45,13 @@ $lang = array(
 'Richiesta di consenso aggiornata',
 
 'consent_request_updated_desc' => 
-'La richiesta di consenso <strong>%s</strong> è stata aggiornata.',
+'La richiesta di consenso <b>%s</b> è stata aggiornata.',
 
-'consent_requests_removed' => 
-'Richieste di consenso rimosse',
+'consent_requests_deleted' => 
+'Richieste di consenso eliminate',
 
-'consent_requests_removed_desc' => 
-'Le %d richieste di consenso sono state rimosse.',
+'consent_requests_deleted_desc' => 
+'Sono state eliminate %d richieste di consenso.',
 
 'consent_title' => 
 'Titolo del consenso',

@@ -63,10 +63,10 @@ $lang = array(
 'Le tue impostazioni di spam sono state salvate',
 
 'spam_trap_approved' => 
-'<strong>%s</strong> oggetti nella spam trap sono stati approvati e contrassegnati come ham',
+'<b>%s</b> oggetti nella spam trap sono stati approvati e contrassegnati come ham',
 
 'spam_trap_removed' => 
-'<strong>%s</strong> elementi nella spam trap sono stati rimossi e contrassegnati come ham',
+'<b>%s</b> elementi nella spam trap sono stati rimossi e contrassegnati come ham',
 
 'spam_type' => 
 'Tipo',

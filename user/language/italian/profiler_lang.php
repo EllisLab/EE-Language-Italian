@@ -39,7 +39,7 @@ $lang = array(
 'Non è stata esguita alcuna query',
 
 'profiler_no_variables' => 
-'Nessuna variabile <code><strong>%s</strong></code> trovata.',
+'Nessuna variabile <code><b>%s</b></code> trovata.',
 
 'profiler_performance' => 
 'Prestazione',

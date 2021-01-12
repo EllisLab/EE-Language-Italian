@@ -27,10 +27,10 @@ $lang = array(
 'Template da utilizzare per la notifica a un amministratore di una vendita.',
 
 'admin_email_template_unsubscribe' => 
-'Template di <mark>cancellazione</mark> email amministratore',
+'Template di <mark>eliminazione</mark> email amministratore',
 
 'admin_email_template_unsubscribe_desc' => 
-'Template da utilizzare per la notifica a un amministratore di una cancellazione.',
+'Template da utilizzare per la notifica a un amministratore di una eliminazione.',
 
 'all_items' => 
 'Tutti gli articoli',
@@ -222,7 +222,7 @@ $lang = array(
 'Template email aggiornato',
 
 'email_template_updated_desc' => 
-'Il template dell\'email <strong>%s</strong> è stato aggiornato.',
+'Il template dell\'email <b>%s</b> è stato aggiornato.',
 
 'email_templates' => 
 'Template email',
@@ -240,343 +240,343 @@ $lang = array(
 'Abilitare articolo?',
 
 'enable_item_desc' => 
-'',
+'Se abilitato, questo articolo sarà acquistabile.',
 
 'encrypt_buttons_links' => 
-'',
+'Crittografare i pulsanti e i link di PayPal?',
 
 'encryption' => 
-'',
+'Crittografia',
 
 'entry_title' => 
-'',
+'Titolo voce',
 
 'export_items' => 
-'',
+'Esporta tutti gli articoli',
 
 'export_purchases' => 
-'',
+'Esporta tutti gli acquisti',
 
 'fields_left_blank' => 
-'',
+'Hai lasciato vuoti alcuni campi obbligatori',
 
 'file_does_not_exist' => 
-'',
+'Il file non esiste per \'%pref%\'. Assicurati di utilizzare un percorso completo al server.',
 
 'frequency' => 
-'',
+'Frequenza',
 
 'invalid_amount' => 
-'',
+'Importo monetario non valido',
 
 'invalid_date_formatting' => 
-'',
+'Formattazione della data non valida',
 
 'invalid_emails' => 
-'',
+'Nessun indirizzo email valido',
 
 'invalid_entries' => 
-'',
+'Nessuna voce valida',
 
 'invalid_purchases' => 
-'',
+'Nessun acquisto valido',
 
 'invalid_subscription_frequency' => 
-'',
+'Frequenza di sottoscrizione non valida',
 
 'item' => 
-'',
+'Articolo',
 
 'item_added' => 
-'',
+'Articoli aggiunti',
 
 'item_cost' => 
-'',
+'Costo articolo',
 
 'item_cost_form' => 
-'',
+'Costo articolo',
 
 'item_created' => 
-'',
+'Articolo creato',
 
 'item_created_desc' => 
-'',
+'Gli articoli sono stati creati.',
 
 'item_not_created' => 
-'',
+'Impossibile creare l\'articolo',
 
 'item_not_created_desc' => 
-'',
+'Non è stato possibile creare questo articolo, per favore controlla e correggi gli errori qui sotto.',
 
 'item_not_updated' => 
-'',
+'Impossibile aggiornare l\'articolo',
 
 'item_not_updated_desc' => 
-'',
+'Non è stato possibile aggiornare questo articolo, per favore controlla e correggi gli errori qui sotto.',
 
 'item_purchased' => 
-'',
+'Articolo acquistato.',
 
 'item_purchases' => 
-'',
+'Acquisti',
 
 'item_updated' => 
-'',
+'Articolo aggiornato',
 
 'item_updated_desc' => 
-'',
+'L\'elemento <b>%s</b> è stato aggiornato.',
 
 'items' => 
-'',
+'Articoli',
 
 'items_deleted' => 
-'',
+'Articoli eliminati',
 
 'items_removed' => 
-'',
+'Articoli rimossi',
 
 'items_removed_desc' => 
-'',
+'Sono stati rimossi %d articoli.',
 
 'member_group_subscribe' => 
-'',
+'Iscriviti al gruppo degli utenti',
 
 'member_group_unsubscribe_desc' => 
-'',
+'Dopo l\'annullamento, il gruppo degli utenti dell\'annullamento verrà modificato nel gruppo scelto.',
 
 'member_not_found' => 
-'',
+'Utente non trovato.',
 
 'month' => 
-'',
+'Mese',
 
 'months' => 
-'',
+'Mesi',
 
 'new_member_group' => 
-'',
+'Nuovo gruppo utente',
 
 'new_member_group_desc' => 
-'',
+'Al momento dell\'acquisto, il gruppo degli utenti dell\'acquirente verrà modificato nel gruppo scelto.',
 
 'no_change' => 
-'',
+'Nessun cambiamento.',
 
 'no_email_templates' => 
-'',
+'Template email',
 
 'no_entries' => 
-'',
+'Voci',
 
 'no_items' => 
-'',
+'Nessun articolo',
 
 'no_store_items' => 
-'',
+'Nessun articolo del negozio',
 
 'paypal_account' => 
-'',
+'Account Paypal',
 
 'paypal_certificate' => 
-'',
+'Percorso del certificato PayPal',
 
 'paypal_variables' => 
-'',
+'Variabili PayPal',
 
 'paypal_variables_desc' => 
-'',
+'Quando un acquisto viene confermato, verrà inviata un\'email per quell\'articolo. Queste variabili vengono restituite da PayPal.',
 
 'perform_item_actions' => 
-'',
+'Eseguire azioni per l\'articolo?',
 
 'price' => 
-'',
+'Prezzo',
 
 'price_desc' => 
-'',
+'Prezzo dell\'articolo per questa transazione.',
 
 'price_sale' => 
-'',
+'Prezzo / Vendita',
 
 'private_key' => 
-'',
+'Percorso chiave privata',
 
 'public_certificate' => 
-'',
+'Percorso del certificato pubblico',
 
 'purchase' => 
-'',
+'Acquista',
 
 'purchase_create_warn' => 
-'',
+'<b>Avviso</b>: gli acquisti ricorrenti devono essere impostati tramite PayPal per la piena funzionalità.',
 
 'purchase_created' => 
-'',
+'Acquisto creato',
 
 'purchase_created_desc' => 
-'',
+'L\'acquisto dell\'articolo <b>%s</b> è stato creato.',
 
 'purchase_date' => 
-'',
+'Data di acquisto',
 
 'purchase_not_created' => 
-'',
+'Impossibile creare l\'acquisto',
 
 'purchase_not_created_desc' => 
-'',
+'Non è stato possibile creare questo acquisto, per favore controlla e correggi gli errori riportati qui sotto.',
 
 'purchase_not_updated' => 
-'',
+'Impossibile aggiornare l\'acquisto',
 
 'purchase_not_updated_desc' => 
-'',
+'Non siamo stati in grado di aggiornare questo acquisto, per favore controlla e correggi gli errori riportati qui sotto.',
 
 'purchase_updated' => 
-'',
+'Acquisto aggiornato',
 
 'purchase_updated_desc' => 
-'',
+'L\'acquisto dell\'articolo <b>%s</b> è stato aggiornato.',
 
 'purchaser' => 
-'',
+'Acquirente',
 
 'purchaser_screen_name' => 
-'',
+'Lo pseudonimo dell\'acquirente',
 
 'purchases' => 
-'',
+'Acquisti',
 
 'purchases_deleted' => 
-'',
+'Acquisti eliminati',
 
 'purchases_removed' => 
-'',
+'Acquisti rimossi',
 
 'purchases_removed_desc' => 
-'',
+'Sono stati rimossi %d acquisti.',
 
 'recurring' => 
-'',
+'Abbonamento ricorrente?',
 
 'recurring_desc' => 
-'',
+'Se abilitato, all\'utente verrà effettuato un addebitato fino all\'annullamento.',
 
 'recurring_purchase_warning' => 
-'',
+'Gli acquisti ricorrenti devono essere impostati tramite PayPal per la piena funzionalità.',
 
 'recurs_every' => 
-'',
+'Ricorre ogni',
 
 'regular_price' => 
-'',
+'Prezzo regolare',
 
 'sale_price' => 
-'',
+'Prezzo di vendita',
 
 'sales_information' => 
-'',
+'Informazioni sulle vendite',
 
 'screen_name' => 
-'',
+'Pseudonimo',
 
 'screen_name_desc' => 
-'',
+'Lo pseudonimo dell\'acquirente.',
 
 'search_commerce' => 
-'',
+'Cerca in Commerce',
 
 'select_admin_template' => 
-'',
+'Selezionare il template email dell\'amministratore se l\'indirizzo email è stato compilato',
 
 'send_no_email' => 
-'',
+'Non inviare email',
 
 'settings' => 
-'',
+'Impostazioni',
 
 'settings_updated' => 
-'',
+'Impostazioni aggiornate',
 
 'simple_commerce_home' => 
-'',
+'Pannello di controllo',
 
 'simple_commerce_manager' => 
-'',
+'Gestore di Simple Commerce',
 
 'simple_commerce_module_name' => 
-'',
+'Simple Commerce',
 
 'store_items' => 
-'',
+'Articoli negozio',
 
 'sub_end_date' => 
-'',
+'Data di fine',
 
 'subscribers' => 
-'',
+'Iscritti',
 
 'subscription_end_date' => 
-'',
+'Data di fine dell\'abbonamento',
 
 'subscription_end_date_subtext' => 
-'',
+'Immettere \'0\' per non terminare l\'abbonamento',
 
 'subscription_frequency' => 
-'',
+'Frequenza dell\'abbonamento',
 
 'subscription_frequency_desc' => 
-'',
+'Con quale frequenza verrà addebitato all\'utente l\'abbonamento per questo articolo.',
 
 'subscription_frequency_unit' => 
-'',
+'Unità di frequenza dell\'abbonamento',
 
 'subscription_options' => 
-'',
+'Opzioni abbonamento',
 
 'temp_path' => 
-'',
+'Percorso dei file crittografati temporanei',
 
 'template' => 
-'',
+'Template',
 
 'temporary_directory_unwritable' => 
-'',
+'La directory specificata per la scrittura dei file temporanei non è scrivibile.',
 
 'txn_id' => 
-'',
+'PIN (TXN ID)',
 
 'txn_id_desc' => 
-'',
+'Un ID univoco per questo acquisto',
 
 'update_email' => 
-'',
+'Aggiorna template email',
 
 'update_emails' => 
-'',
+'Aggiorna i template email',
 
 'update_purchase' => 
-'',
+'Aggiorna acquisto',
 
 'update_purchases' => 
-'',
+'Aggiorna acquisti',
 
 'updated' => 
-'',
+'Aggiornato',
 
 'use_sale_price' => 
-'',
+'Utilizzare prezzo scontato?',
 
 'week' => 
-'',
+'Settimana',
 
 'weeks' => 
-'',
+'Settimane',
 
 'year' => 
-'',
+'Anno',
 
 'years' => 
-'',
+'Anni',
 
 ''=>''
 );

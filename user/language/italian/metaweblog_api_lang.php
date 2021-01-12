@@ -9,7 +9,7 @@ $lang = array(
 'Configurazione creata',
 
 'configuration_created_desc' => 
-'La configurazione <strong>%s</strong> è stata creata.',
+'La configurazione <b>%s</b> è stata creata.',
 
 'configuration_not_created' => 
 'Impossibile creare la configurazione',
@@ -27,7 +27,7 @@ $lang = array(
 'Configurazione aggiornata',
 
 'configuration_updated_desc' => 
-'La configurazione <strong>%s</strong> è stata aggiornata.',
+'La configurazione <b>%s</b> è stata aggiornata.',
 
 'configurations' => 
 'Configurazione',

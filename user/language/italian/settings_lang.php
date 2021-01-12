@@ -12,7 +12,7 @@ $lang = array(
 'CAPTCHA',
 
 'comment_settings' => 
-'Impostazioni comenti',
+'Impostazioni commenti',
 
 'consent_requests' => 
 'Richieste di consenso',
@@ -23,11 +23,17 @@ $lang = array(
 'debugging_output' => 
 'Debugging e output',
 
+'general' => 
+'Generale',
+
 'general_settings' => 
 'Impostazioni generali',
 
+'settings' => 
+'Impostazioni',
+
 'hit_tracking' => 
-'Hit Tracking',
+'Gestione tracciamenti',
 
 'html_buttons' => 
 'Pulsanti <abbr title="Hyper-Text Markup Language">HTML</abbr>',
@@ -43,6 +49,9 @@ $lang = array(
 
 'outgoing_email' => 
 'Email in uscita',
+
+'email_settings' => 
+'Impostazioni email',
 
 'pages_settings' => 
 'Impostazioni pagine',
@@ -93,7 +102,7 @@ $lang = array(
 'Abilitare il gestore sito?',
 
 'enable_msm_desc' => 
-'Se abilitati, i super amministratori e i gruppi di utenti con le autorizzazioni corrette saranno in grado di gestire siti web aggiuntivi dal pannello di controllo.',
+'Se abilitato, i super amministratori e i gruppi di utenti con le autorizzazioni corrette saranno in grado di gestire siti web aggiuntivi dal pannello di controllo.',
 
 'error_getting_version' => 
 'Stai utilizzando ExpressionEngine %s. Impossibile determinare se al momento è disponibile una versione più recente.',
@@ -132,7 +141,7 @@ $lang = array(
 'Sito web online?',
 
 'site_online_desc' => 
-'Se disabilitato, soltanto i super amministratori e i gruppi utenti con le autorizzazioni corrette saranno in grado di navigare il sito Web.',
+'Se disabilitato, soltanto i super amministratori e i gruppi utenti con le autorizzazioni corrette saranno in grado di navigare il sito web.',
 
 'site_short_name' => 
 'Nome breve',
@@ -147,7 +156,7 @@ $lang = array(
 'Controllo automatico della nuova versione',
 
 'version_autocheck_desc' => 
-'Se impostato su <strong>auto</strong>, ExpressionEngine verificherà automaticamente la presenza di versioni più recenti del software.',
+'Se impostato su <b>auto</b>, ExpressionEngine verificherà automaticamente la presenza di versioni più recenti del software.',
 
 'base_path' => 
 'Percorso base predefinito',
@@ -159,19 +168,19 @@ $lang = array(
 'URL di base predefinito',
 
 'base_url_desc' => 
-'Utilizzare <code>{base_url}</code> per creare degli URL nei campi URL del pannello di controllo.',
+'Utilizzare <code>{base_url}</code> per costruire gli URL nei campi URL del pannello di controllo.',
 
 'category_segment_trigger' => 
 'Categoria <abbr title="Uniform Resource Location">URL</abbr> segmento',
 
 'category_segment_trigger_desc' => 
-'Parola che attiva la visualizzazione per categoria. <strong>Non può</strong> essere uguale ad un template o ad un gruppo di template.',
+'Parola che attiva la visualizzazione per categoria. <b>Non può</b> essere uguale ad un template o ad un gruppo di template.',
 
 'category_url' => 
 ' Categoria <abbr title="Uniform Resource Location">URL</abbr>',
 
 'category_url_desc' => 
-'Se impostato su <strong>titoli</strong>, i link della categoria utilizzeranno i titoli degli <abbr title="Uniform Resource Location">URL</abbr> della categoria anziché gli ID della categoria.',
+'Se impostato su <b>titoli</b>, i link della categoria utilizzeranno i titoli degli <abbr title="Uniform Resource Location">URL</abbr> della categoria anziché gli ID della categoria.',
 
 'category_url_opt_ids' => 
 'ID',
@@ -183,7 +192,7 @@ $lang = array(
 'Cartella pannello di controllo',
 
 'cp_url_desc' => 
-'Posizione <abbr title="Uniform Resource Location">URL</abbr> del pannello di controllo.',
+'<abbr title="Uniform Resource Location">URL</abbr> del pannello di controllo.',
 
 'docs_url' => 
 'Cartella della documentazione',
@@ -195,7 +204,7 @@ $lang = array(
 'Profilo segmento <abbr title="Uniform Resource Location">URL</abbr>',
 
 'member_segment_trigger_desc' => 
-'Parola che attiva la visualizzazione del profilo utente. <strong>Non può</strong> essere uguale ad un template o ad un gruppo di template.',
+'Parola che attiva la visualizzazione del profilo utente. <b>Non può</b> essere uguale ad un template o ad un gruppo di template.',
 
 'site_index' => 
 'Pagina indice del sito web',
@@ -207,7 +216,7 @@ $lang = array(
 'Directory principale del sito web',
 
 'site_url_desc' => 
-'Posizione <abbr title="Uniform Resource Location">URL</abbr> di <mark>index.php</mark>.',
+'<abbr title="Uniform Resource Location">URL</abbr> di <mark>index.php</mark>.',
 
 'themes_path' => 
 'Percorso dei temi',
@@ -246,7 +255,7 @@ $lang = array(
 'Carattere di nuova linea',
 
 'email_newline_desc' => 
-'\\n offre la massima compatibilità; se questa impostazione non funziona per te, fai riferimento al tuo provider di posta elettronica per le istruzioni.',
+'\\\n offre la massima compatibilità; se questa impostazione non funziona per te, fai riferimento al tuo provider di posta elettronica per le istruzioni.',
 
 'email_smtp_crypto' => 
 'Tipo di connessione',
@@ -324,7 +333,7 @@ $lang = array(
 'Abilitare il ritorno a capo automatico?',
 
 'word_wrap_desc' => 
-'Se abilitato, il sistema avvolgerà lunghe righe di testo su una larghezza più leggibile.',
+'Se abilitato, il sistema uniformerà lunghe righe di testo su una larghezza più leggibile.',
 
 'caching_driver' => 
 'Driver di memorizzazione nella cache',
@@ -354,10 +363,10 @@ $lang = array(
 'Abilitare gli avvisi del registro degli sviluppatori?',
 
 'enable_devlog_alerts_desc' => 
-'Se abilitato, i super amministratori visualizzeranno gli avvisi del pannello di controllo quando i nuovi elementi del <a href="%s">registro degli sviluppatori</a> necessiteranno di una nuova azione. Attualmente sono registrati <strong>%s articoli</strong>.',
+'Se abilitato, i super amministratori visualizzeranno gli avvisi del pannello di controllo quando i nuovi elementi del <a href="%s">registro degli sviluppatori</a> necessiteranno di una nuova azione. Attualmente sono registrati <b>%s articoli</b>.',
 
 'enable_errors' => 
-'Visibilità dell\'errore',
+'Visibilità degli errori',
 
 'enable_errors_desc' => 
 'Determina chi può vedere gli errori PHP/MySQL quando si verificano.',
@@ -366,7 +375,7 @@ $lang = array(
 'Forzare le stringhe dell\'<abbr title="Uniform Resource Location">URL</abbr> delle query?',
 
 'force_query_string_desc' => 
-'Se abilitati, i server che non supportano <mark>PATH_INFO</mark> utilizzeranno invece le stringhe degli URL della query.',
+'Se abilitato, i server che non supportano <mark>PATH_INFO</mark> utilizzeranno invece le stringhe degli URL della query.',
 
 'gzip_output' => 
 'Abilitare la compresisone <abbr title="GNU Zip Compression">GZIP</abbr>?',
@@ -435,10 +444,10 @@ $lang = array(
 'Gestore canali',
 
 'emoticon_url' => 
-'<abbr title="Unified Resource Locator">URL</abbr',
+'<abbr title="Unified Resource Locator">URL</abbr>',
 
 'emoticon_url_desc' => 
-'Posizione <abbr title="Unified Resource Locator">URL</abbr> della cartella delle <mark>emoticon</mark> directory. ',
+'<abbr title="Unified Resource Locator">URL</abbr> della cartella delle <mark>emoticon</mark> directory. ',
 
 'emoticons' => 
 'Emoticon',
@@ -450,10 +459,10 @@ $lang = array(
 'Se abilitato, le emoticon basate sul testo come <samp>;)</samp> saranno convertite in emoji &#x1F609;.',
 
 'enable_sql_caching' => 
-'Effettuare la cache delle query dinamiche sui canali?',
+'Usare la cache per le query dinamiche sui canali?',
 
 'enable_sql_caching_desc' => 
-'Se abilitato, la velocità delle pagine dinamiche del canale saranno migliorate. <strong>Non</strong> utilizzare se sono necessarie le funzionalità "voci future" o "voci in scadenza".',
+'Se abilitato, la velocità delle pagine dinamiche del canale saranno migliorate. <b>Non</b> utilizzare se sono necessarie le funzionalità "voci future" o "voci in scadenza".',
 
 'gd' => 
 'GD',
@@ -465,13 +474,13 @@ $lang = array(
 'Percorso del convertitore',
 
 'image_library_path_desc' => 
-'Posizione del percorso completo del <mark>programma immagine</mark>.</em><br /><em><strong>Richiesto</strong> per ImageMagick e NetPBM.',
+'Percorso completo del <mark>programma immagine</mark>.</i><br /><i><b>Richiesto</b> per ImageMagick e NetPBM.</i>',
 
 'image_resize_protocol' => 
 'Protocollo',
 
 'image_resize_protocol_desc' => 
-'Chiedere al propio hosting web la compatibilità del server.',
+'Chiedere al proprio fornitore di hosting la compatibilità del server.',
 
 'image_resizing' => 
 'Ridimensionamento dell\'immagine',
@@ -489,13 +498,13 @@ $lang = array(
 'Svuotare la cache per le nuove voci?',
 
 'new_posts_clear_caches_desc' => 
-'Se abilitato, tutte le cache verranno cancellate quando gli autori pubblicano nuove voci.',
+'Se abilitato, tutte le cache vengono eliminate quando gli autori pubblicano nuove voci.',
 
 'thumbnail_suffix' => 
 'Suffisso miniature',
 
 'thumbnail_suffix_desc' => 
-'Aggiunto a tutte le miniature generate automaticamente. <strong>Esempio</strong>: photo_thumb.jpg',
+'Aggiunto a tutte le miniature generate automaticamente. <b>Esempio</b>: photo_thumb.jpg',
 
 'all_comments' => 
 'Tutti i commenti',
@@ -504,7 +513,7 @@ $lang = array(
 'Limite di tempo per la modifica dei commenti (in secondi)',
 
 'comment_edit_time_limit_desc' => 
-'Periodo di tempo in cui un utente può modificare i propri commenti, dall\'invio. Utilizzare <strong>0</strong> per nessun limite.',
+'Periodo di tempo in cui un utente può modificare i propri commenti, dall\'invio. Utilizzare <b>0</b> per nessun limite.',
 
 'comment_moderation_override' => 
 'Moderare dopo la scadenza dei commenti?',
@@ -522,7 +531,7 @@ $lang = array(
 'Abilitare il modulo dei commenti?',
 
 'enable_comments_desc' => 
-'Se abilitati, i canali saranno in grado di utilizzare il modulo dei commenti.',
+'Se abilitato, i canali saranno in grado di utilizzare il modulo dei commenti.',
 
 'options' => 
 'Opzioni',
@@ -543,7 +552,7 @@ $lang = array(
 'Salvare le revisioni del template?',
 
 'save_tmpl_revisions_desc' => 
-'Se abilitato, ExpressionEngine salverà fino a <strong>5</strong> revisioni del template nel database.',
+'Se abilitato, ExpressionEngine salverà fino a <b>5</b> revisioni del template nel database.',
 
 'site_404' => 
 'Pagina 404',
@@ -564,7 +573,7 @@ $lang = array(
 'Soglia sospesa?',
 
 'dynamic_tracking_disabling_desc' => 
-'Tutto il tracciamento verrà sospeso quando il numero dei visitatori online supererà questo numero.</em> <em>Per utilizzare questa funzione è necessario abilitare il tracciamento degli utenti online. <a href="%s" ref="external">Scopri di più</a>.',
+'Tutto il tracciamento verrà sospeso quando il numero dei visitatori online supererà questo numero. Per utilizzare questa funzione è necessario abilitare il tracciamento degli utenti online. <a href="%s" ref="external">Scopri di più</a>.',
 
 'enable_entry_view_tracking' => 
 'Abilitare il tracciamento della vista della voce?',
@@ -603,7 +612,7 @@ $lang = array(
 'Parole da censurare',
 
 'censored_words_desc' => 
-'Una parola per riga. Tutte le parole elencate verranno sostituite con i caratteri sopra specificati.',
+'Una parola per linea. Tutte le parole elencate verranno sostituite con i caratteri sopra specificati.',
 
 'enable_censoring' => 
 'Abilitare la censura?',
@@ -615,7 +624,7 @@ $lang = array(
 'Consentire agli utenti di impostare le preferenze temporali?',
 
 'allow_member_localization_desc' => 
-'Se abilitati, gli utenti saranno in grado di impostare una localizzazione di data e ora specifica per il proprio account.',
+'Se abilitato, gli utenti saranno in grado di impostare una localizzazione di data e ora specifica per il proprio account.',
 
 'allow_member_registration' => 
 'Consentire le registrazioni?',
@@ -624,10 +633,10 @@ $lang = array(
 'Se abilitato, gli utenti saranno in grado di registrare gli account.',
 
 'approved_member_notification' => 
-'Avvisare gli utenti quando approvati?',
+'Avvisare gli utenti quando vengono approvati?',
 
 'approved_member_notification_desc' => 
-'Se abilitati, gli utenti riceveranno una notifica email quando la loro registrazione verrà approvata.',
+'Se abilitato, gli utenti riceveranno una notifica email quando la loro registrazione verrà approvata.',
 
 'declined_member_notification' => 
 'Avvisare gli utenti quando vengono rifiutati?',
@@ -635,8 +644,8 @@ $lang = array(
 'declined_member_notification_desc' => 
 'Se abilitato, gli utenti riceveranno una notifica email quando la loro registrazione viene rifiutata.',
 
-'default_member_group' => 
-'Gruppo utente predefinito',
+'default_primary_role' => 
+'Ruolo primario predefinito',
 
 'mbr_notification_emails' => 
 'Destinatari delle notifiche',
@@ -711,7 +720,7 @@ $lang = array(
 'Hai bisogno dei termini di servizio?',
 
 'require_terms_of_service_desc' => 
-'Se abilitati, gli utenti devono accettare i termini di servizio durante la registrazione.',
+'Se abilitato, gli utenti devono accettare i termini di servizio durante la registrazione.',
 
 'add_menu_item' => 
 'Aggiungere voce di menu',
@@ -732,10 +741,10 @@ $lang = array(
 'Modifica set di menu',
 
 'menu_addon' => 
-'AddOn ',
+'Componente aggiuntivo',
 
 'menu_addon_desc' => 
-'Navigazione dagli AddOn installati',
+'Navigazione dai componenti aggiuntivi installati',
 
 'menu_dropdown' => 
 'Menù a discesa',
@@ -753,7 +762,7 @@ $lang = array(
 'Etichetta link',
 
 'menu_no_addons' => 
-'Non è stato trovato nessun <strong>AddOn con menù</strong>.',
+'Non è stato trovato nessun <b>componente aggiuntivo con menù</b>.',
 
 'menu_options' => 
 'Opzioni menù',
@@ -765,28 +774,28 @@ $lang = array(
 'Set di menù creato',
 
 'menu_set_created_desc' => 
-'Il set di menù <strong>%s</strong> è stato aggiornato.',
+'Il set di menù <b>%s</b> è stato aggiornato.',
 
 'menu_set_updated' => 
 'Set di menù aggiornato',
 
 'menu_set_updated_desc' => 
-'Il set di menù <strong>%s</strong> è stato aggiornato.',
+'Il set di menù <b>%s</b> è stato aggiornato.',
 
 'menu_sets' => 
 'Set di menù',
 
-'menu_sets_removed' => 
-'Set di menù rimosso',
+'menu_sets_deleted' => 
+'Set di menu eliminati',
 
-'menu_sets_removed_desc' => 
-'Il set di menù %d è stato rimosso.',
+'menu_sets_deleted_desc' => 
+'I set di menu %d sono stati eliminati.',
 
 'menu_single' => 
-'Singolo lonk',
+'Singolo link',
 
 'menu_type' => 
-'tipo',
+'Tipo',
 
 'menu_url' => 
 ' <abbr title="Uniform Resource Locator">URL</abbr>',
@@ -795,16 +804,16 @@ $lang = array(
 'Link <abbr title="Uniform Resource Locator">URL</abbr> ',
 
 'no_menu_items' => 
-'Nessuna <strong>voce di menù</strong> trovata.',
+'Nessuna <b>voce di menù</b> trovata.',
 
 'set_assigned' => 
 'Assegnato',
 
-'set_member_groups' => 
-'Gruppo utente?',
+'set_roles' => 
+'Ruolo utente?',
 
-'set_member_groups_desc' => 
-'Scegli i gruppi utente a cui applicare questo menù.',
+'set_roles_desc' => 
+'Scegli i ruoli a cui applicare questo menù.',
 
 'set_name' => 
 'Nome',
@@ -858,22 +867,16 @@ $lang = array(
 'Numero massimo di caratteri',
 
 'prv_msg_upload_path' => 
-'Percorso di caricamento',
+'Percorso di upload',
 
 'prv_msg_upload_path_desc' => 
-'Posizione del percorso completo per la cartella degli <mark>allegati</mark>.',
+'Percorso completo per la cartella degli <mark>allegati</mark>.',
 
 'prv_msg_upload_url' => 
 'Cartella di upload',
 
 'prv_msg_upload_url_desc' => 
-'Posizione <abbr title="Uniform Resource Location">URL</abbr> della cartella degli <mark>allegati</mark>.',
-
-'allow_avatar_uploads' => 
-'Consentire l\'upload degli avatar?',
-
-'allow_avatar_uploads_desc' => 
-'Se abilitati, gli utenti saranno in grado di caricare i propri avatar (immagini rappresentative).',
+'<abbr title="Uniform Resource Location">URL</abbr> della cartella degli <mark>allegati</mark>.',
 
 'avatar_file_restrictions' => 
 'Restrizioni file avatar',
@@ -891,7 +894,7 @@ $lang = array(
 'Percorso avatar',
 
 'avatar_path_desc' => 
-'Posizione del percorso completo della cartella degli <mark>avatar</mark>.',
+'Percorso completo della cartella degli <mark>avatar</mark>.',
 
 'avatar_settings' => 
 'Impostazioni avatar',
@@ -900,13 +903,7 @@ $lang = array(
 'Cartella degi avatar',
 
 'avatar_url_desc' => 
-'Posizione <abbr title="Uniform Resource Location">URL</abbr> della cartella del tuo <mark>avatar</mark>.',
-
-'enable_avatars' => 
-'Consntire gli avatar?',
-
-'enable_avatars_desc' => 
-'Se abilitati, gli utenti saranno in grado di utilizzare gli avatar (immagini rappresentative) nei commenti e nei forum.',
+'<abbr title="Uniform Resource Location">URL</abbr> della cartella del tuo <mark>avatar</mark>.',
 
 'captcha_font' => 
 'Utilizzare il carattere TrueType?',
@@ -942,7 +939,7 @@ $lang = array(
 'Cartella dei <abbr title="Test di Turing pubblico completamente automatizzato per distinguere computer e esseri umani">CAPTCHA</abbr>',
 
 'captcha_url_desc' => 
-'Posizione <abbr title="Uniform Resource Location">URL</abbr> della cartella del tuo <mark><abbr title="Test di Turing pubblico completamente automatizzato per distinguere computer e esseri umani">CAPTCHA</abbr></mark>.',
+'<abbr title="Uniform Resource Location">URL</abbr> della cartella del tuo <mark><abbr title="Test di Turing pubblico completamente automatizzato per distinguere computer e esseri umani">CAPTCHA</abbr></mark>.',
 
 'require_captcha' => 
 'Richiedere il  <abbr title="Completely Automated Public Turing test to tell Computers and Humans Apart">CAPTCHA</abbr>?',
@@ -954,19 +951,19 @@ $lang = array(
 'Consentire le parole del dizionario nelle password?',
 
 'allow_dictionary_pw_desc' => 
-'Se abilitati, gli utenti saranno in grado di utilizzare parole del dizionario comuni nella loro password. <mark>Richiede l\'installazione del file del dizionario per l\'applicazione</mark>',
+'Se abilitato, gli utenti saranno in grado di utilizzare parole del dizionario comuni nella loro password. <mark>Richiede l\'installazione del file del dizionario per l\'applicazione</mark>',
 
 'allow_multi_logins' => 
 'Consentire sessioni multiple?',
 
 'allow_multi_logins_desc' => 
-'Se disabilitati, gli utenti non potranno accedere da un\'altra posizione o browser se hanno già una sessione attiva.',
+'Se disabilitato, gli utenti non potranno accedere da un\'altra posizione o browser se hanno già una sessione attiva.',
 
 'allow_username_change' => 
 'Consentire agli utenti di cambiare il loro nome utente?',
 
 'allow_username_change_desc' => 
-'Se abilitati, gli utenti saranno in grado di cambiare il loro nome utente.',
+'Se abilitato, gli utenti saranno in grado di cambiare il loro nome utente.',
 
 'c_session' => 
 'Solo cookies',
@@ -981,7 +978,7 @@ $lang = array(
 'Inviare i cookie soltanto sul protocollo <abbr title="Hyper Text Transfer Protocol">HTTP</abbr>?',
 
 'cookie_httponly_desc' => 
-'Se abilitati, i cookie <strong>non</strong> saranno accessibili tramite JavaScript.',
+'Se abilitato, i cookie <b>non</b> saranno accessibili tramite JavaScript.',
 
 'cookie_path' => 
 'Percorso',
@@ -999,7 +996,7 @@ $lang = array(
 'Inviare cookie in modo sicuro?',
 
 'cookie_secure_desc' => 
-'Se abilitati, i cookie verranno trasmessi soltanto tramite una connessione sicura <abbr title="Hyper Text Transfer Protocol with Secure Sockets Layer">HTTPS</abbr>.</em><em>Il tuo sito <strong>deve</strong> utilizzare l\' <abbr title="Secure Sockets Layer">SSL</abbr> ovunque per farlo funzionare.',
+'Se abilitato, i cookie verranno trasmessi soltanto tramite una connessione sicura <abbr title="Hyper Text Transfer Protocol with Secure Sockets Layer">HTTPS</abbr>. Il sito web <b>deve</b> utilizzare ovunque l\'<abbr title="Secure Sockets Layer">SSL</abbr> per farlo funzionare.',
 
 'cookie_settings' => 
 'Impostazioni dei cookie',
@@ -1014,7 +1011,7 @@ $lang = array(
 'Negare i dati duplicati?',
 
 'deny_duplicate_data_desc' => 
-'Se abilitati, i moduli ignoreranno qualsiasi invio che sia un duplicato esatto di dati esistenti.',
+'Se abilitato, i moduli ignoreranno qualsiasi invio che sia un duplicato esatto di dati esistenti.',
 
 'enable_rank_denial' => 
 'Abilitare il rifiuto del ranking ai collegamenti inviati?',
@@ -1062,19 +1059,19 @@ $lang = array(
 'Richiedere il consenso dell\'utente per impostare i cookie?',
 
 'require_cookie_consent_desc' => 
-'Se abilitati, i cookie non verranno impostati per il visitatore (tranne quelli <strong>strettamente necessari</strong> per il funzionamento del sito web) fino a quando non avranno acconsentito alla politica sui cookie del sito. Consulta la <a href="https://docs.expressionengine.com/v5/add-ons/consent.html">documentazione del modulo di consenso</a> per maggiori informazioni.',
+'Se abilitato, i cookie non verranno impostati per il visitatore (tranne quelli <b>strettamente necessari</b> per il funzionamento del sito web) fino a quando non avranno acconsentito alla politica sui cookie del sito. Consulta la <a href="https://docs.expressionengine.com/v5/add-ons/consent.html">documentazione del modulo di consenso</a> per maggiori informazioni.',
 
 'require_ip_for_login' => 
 'Richiedere lo user agent e l\'<abbr title="Internet Protocol">IP</abbr> per l\'accesso?',
 
 'require_ip_for_login_desc' => 
-'Se abilitati, gli utenti non potranno accedere senza uno user agent valido e l\'indirizzo <abbr title="Internet Protocol">IP</abbr>.',
+'Se abilitato, gli utenti non potranno accedere senza uno user agent valido e l\'indirizzo <abbr title="Internet Protocol">IP</abbr>.',
 
 'require_ip_for_posting' => 
 'Richiedere il programma utente e l\'<abbr title="Internet Protocol">IP</abbr> per la pubblicazione?',
 
 'require_ip_for_posting_desc' => 
-'Se abilitati, gli utenti non saranno in grado di postare senza uno user agent valido e l\'indirizzo <abbr title="Internet Protocol">IP</abbr>.',
+'Se abilitato, gli utenti non saranno in grado di postare senza uno user agent valido e l\'indirizzo <abbr title="Internet Protocol">IP</abbr>.',
 
 'require_secure_passwords' => 
 'Richiedere password sicure?',
@@ -1086,7 +1083,7 @@ $lang = array(
 'Soltanto ID di sessione',
 
 'security_tip' => 
-'<strong>Suggerimento</strong>: la sicurezza del sito è importante.',
+'<b>Suggerimento</b>: la sicurezza del sito è importante.',
 
 'security_tip_desc' => 
 'Qualsiasi impostazione contrassegnata con l\'icona <span class="icon--caution" title="Miglioramento della sicurezza"></span></span> migliorerà ulteriormente la sicurezza del sito.',
@@ -1113,13 +1110,13 @@ $lang = array(
 'Se abilitato, i moduli applicheranno il filtro <abbr title="Cross Site Scripting">XSS</abbr> agli invii.',
 
 'banish_404' => 
-'Invia a 404',
+'Invia all\'errore 404',
 
 'banish_masked_ips' => 
 'Richiedere l\'<abbr title="Internet Protocol">IP</abbr>?',
 
 'banish_masked_ips_desc' => 
-'Se abilitati, agli utenti verrà negato l\'accesso se non dispongono di un indirizzo  <abbr title="Internet Protocol">IP</abbr> valido.',
+'Se abilitato, agli utenti verrà negato l\'accesso se non dispongono di un indirizzo  <abbr title="Internet Protocol">IP</abbr> valido.',
 
 'banish_message' => 
 'Visualizza messaggio',
@@ -1137,13 +1134,13 @@ $lang = array(
 'Reindirizzare',
 
 'banishment_url_desc' => 
-'Posizione <abbr title="Uniform Resource Location">URL</abbr> per gli utenti bloccati.',
+'<abbr title="Uniform Resource Location">URL</abbr> per gli utenti bloccati.',
 
 'enable_throttling' => 
 'Abilitare il throttling?',
 
 'enable_throttling_desc' => 
-'Se abilitati, gli utenti verranno bloccati dal sistema quando soddisfano i requisiti di blocco.',
+'Se abilitato, gli utenti verranno bloccati dal sistema quando soddisfano i requisiti di blocco.',
 
 'lockout_time' => 
 'Tempo di blocco',
@@ -1176,7 +1173,7 @@ $lang = array(
 'Pulsante <abbr title="Hyper-Text Markup Language">HTML</abbr> creato',
 
 'create_html_buttons_success_desc' => 
-'Il pulsante <abbr title="Hyper-Text Markup Language">HTML</abbr> <strong>%s</strong> è stato creato.',
+'Il pulsante <abbr title="Hyper-Text Markup Language">HTML</abbr> <b>%s</b> è stato creato.',
 
 'edit_html_buttons_error' => 
 'Impossibile aggiornare il pulsante <abbr title="Hyper-Text Markup Language">HTML</abbr>',
@@ -1188,7 +1185,7 @@ $lang = array(
 'Pulsante <abbr title="Hyper-Text Markup Language">HTML</abbr> aggiornato',
 
 'edit_html_buttons_success_desc' => 
-'Il pulsante <abbr title="Hyper-Text Markup Language">HTML</abbr> <strong>%s</strong> è stato aggiornato.',
+'Il pulsante <abbr title="Hyper-Text Markup Language">HTML</abbr> <b>%s</b> è stato aggiornato.',
 
 'consent_request_versions' => 
 'Versioni di %s',

@@ -57,7 +57,7 @@ $lang = array(
 'Nome del test',
 
 'ut_undefined' => 
-'Nome test non definito',
+'Nome del test non definito',
 
 ''=>''
 );

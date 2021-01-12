@@ -8,6 +8,9 @@ $lang = array(
 'imglib_copy_failed' => 
 'La routine di copia dell\'immagine ha fallito.',
 
+'imglib_gd_required' => 
+'La libreria di immagini GD è necessaria per questa funzionalità.',
+
 'imglib_gd_required_for_props' => 
 'Il server deve supportare la libreria di immagini GD per determinare le proprietà dell\'immagine',
 
@@ -29,8 +32,17 @@ $lang = array(
 'imglib_libpath_invalid' => 
 'Il percorso alla libreria delle immagini non è corretto. Per favore impostare il percorso corretto nelle preferenze dell\'immagine.',
 
+'imglib_unsafe_config' => 
+'Un elemento di configurazione contiene dei caratteri che non sono sicuri per essere eseguiti in un ambiente shell.',
+
+'imglib_missing_font' => 
+'Impossibile trovare un font da utilizzare.',
+
 'imglib_png_not_supported' => 
 'Le immagini PNG non sono supportate',
+
+'imglib_webp_not_supported' => 
+'Le immagini WebP non sono supportate',
 
 'imglib_rotate_unsupported' => 
 'La rotazione delle immagini non sembra essere supportata dal server.',
@@ -38,11 +50,17 @@ $lang = array(
 'imglib_rotation_angle_required' => 
 'Per ruotare l\'immagine è necessario un angolo di rotazione.',
 
+'imglib_save_failed' => 
+'Impossibile salvare l\'immagine. Assicurati che l\'immagine e la directory dei file siano scrivibili.',
+
+'imglib_source_image_required' => 
+'Devi specificare un\'immagine sorgente nelle tue preferenze.',
+
 'imglib_unsupported_imagecreate' => 
 'Il server non supporta la funzione GD richiesta per elaborare questo tipo di immagine.',
 
 'imglib_writing_failed_gif' => 
-'Immagine GIF',
+'Immagine GIF.',
 
 ''=>''
 );

@@ -8,14 +8,14 @@ $lang = array(
 'all_sites' => 
 'Tutti i siti',
 
-'allowed_member_groups' => 
-'Gruppi utente consentiti',
+'allowed_roles' => 
+'Ruoli consentiti',
 
-'allowed_member_groups_desc' => 
-'I seguenti gruppi utente sono autorizzati ad accedere a questo template.',
+'allowed_roles_desc' => 
+'I seguenti ruoli possono accedere a questo template.',
 
-'allowed_member_groups_super_admin' => 
-'I super amministratori sono <strong>sempre</strong> ammessi.',
+'allowed_roles_super_admin' => 
+'I super amministratori sono <b>sempre</b> consentiti.',
 
 'author_unknown' => 
 'sconosciuto',
@@ -24,7 +24,7 @@ $lang = array(
 'Gruppo: %s',
 
 'btn_create_and_edit_template' => 
-'Salva e modifica modello',
+'Salva e modifica template',
 
 'btn_create_partial' => 
 'Crea parziale',
@@ -69,7 +69,7 @@ $lang = array(
 'Gruppo di template creato',
 
 'create_template_group_success_desc' => 
-'Il gruppo di template <strong>%s</strong> è stato creato.',
+'Il gruppo di template <b>%s</b> è stato creato.',
 
 'create_template_partial_error' => 
 'Impossibile creare il temlate parziale',
@@ -81,13 +81,13 @@ $lang = array(
 'Template creato parzialmente',
 
 'create_template_partial_success_desc' => 
-'Il template parziale <strong>%s</strong> è stato creato.',
+'Il template parziale <b>%s</b> è stato creato.',
 
 'create_template_success' => 
 'Template creato ',
 
 'create_template_success_desc' => 
-'Il modtemplateello <strong>%s/%s</strong> è stato creato.',
+'Il template <b>%s/%s</b> è stato creato.',
 
 'create_template_variable' => 
 'Crea variabile template',
@@ -102,7 +102,7 @@ $lang = array(
 'Variabile template creata',
 
 'create_template_variable_success_desc' => 
-'La variabile del template <strong>%s</strong> è stata creata.',
+'La variabile del template <b>%s</b> è stata creata.',
 
 'default' => 
 'predefinito',
@@ -131,6 +131,9 @@ $lang = array(
 'edit_template' => 
 'Modifica template: %s',
 
+'edit_template_title' => 
+'Modifica template',
+
 'edit_template_group' => 
 'Modifca gruppo template',
 
@@ -144,7 +147,7 @@ $lang = array(
 'Gruppo template aggiornato',
 
 'edit_template_group_success_desc' => 
-'Il gruppo di template <strong>%s</strong> è stato aggiornato.',
+'Il gruppo di template <b>%s</b> è stato aggiornato.',
 
 'edit_template_partial_error' => 
 'Impossibile aggiornare il parziale del template',
@@ -156,7 +159,7 @@ $lang = array(
 'Parziale del template aggiornato',
 
 'edit_template_partial_success_desc' => 
-'Il parziale del template <strong>%s</strong> è stato aggiornato.',
+'Il parziale del template <b>%s</b> è stato aggiornato.',
 
 'edit_template_variable' => 
 'Modifica variabile template',
@@ -171,7 +174,7 @@ $lang = array(
 'Variabile del template aggiornata',
 
 'edit_template_variable_success_desc' => 
-'La variabile del template <strong>%s</strong> è stata aggiornata.',
+'La variabile del template <b>%s</b> è stata aggiornata.',
 
 'email' => 
 'Email',
@@ -198,7 +201,7 @@ $lang = array(
 'Consentire PHP?',
 
 'enable_php_desc' => 
-'Se abilitato, è possibile utilizzare PHP standard all\'interno di questo modello. <a href="https://docs.expressionengine.com/v5/templates/php.html" rel="external">Prima di abilitare PHP leggi le implicazioni</a>.',
+'Se abilitato, è possibile utilizzare PHP standard all\'interno di questo template. <a href="https://docs.expressionengine.com/v5/templates/php.html" rel="external">Prima di abilitare PHP leggi le implicazioni</a>.',
 
 'enable_template_variable_on_all_sites' => 
 'Abilitare su tutti i siti?',
@@ -213,13 +216,13 @@ $lang = array(
 'Impossibile esportare',
 
 'error_export_no_templates' => 
-'Nessun template trovato, crea un modello prima di esportarlo.',
+'Nessun template trovato, crea un template prima di esportarlo.',
 
 'error_no_template' => 
 'Non esiste un tale template.',
 
 'error_no_template_group' => 
-'Il gruppo di template <strong>%s</strong> non esiste.',
+'Il gruppo di template <b>%s</b> non esiste.',
 
 'export_all' => 
 'Esporta tutti i modelli',
@@ -251,8 +254,8 @@ $lang = array(
 'make_default_group_desc' => 
 'Se abilitato, questo gruppo diventerà il gruppo predefinito per questo sito web.',
 
-'member_groups' => 
-'Gruppi utente',
+'roles' => 
+'Ruoli',
 
 'messages' => 
 'Messaggi',
@@ -273,25 +276,25 @@ $lang = array(
 'Nessuna revisione',
 
 'no_snippets' => 
-'Nessun <strong>template parziale</strong> trovato.',
+'Nessun <b>template parziale</b> trovato.',
 
 'no_template_routes' => 
-'Nessun <strong>percorso al template</strong> trovato.',
+'Nessun <b>percorso al template</b> trovato.',
 
 'no_template_variables' => 
-'Nessuna <strong>variabile del template</strong> trovata.',
+'Nessuna <b>variabile del template</b> trovata.',
 
 'notes' => 
 'Note',
 
 'only' => 
-'<strong>solo</strong',
+'<b>solo</b>',
 
 'parse_stage' => 
 'Fase di esecuzione di PHP',
 
 'parse_stage_desc' => 
-'Se impostato su <strong>output</strong>, PHP verrà eseguito dopo il modello.',
+'Se impostato su <b>output</b>, PHP verrà eseguito dopo il template.',
 
 'partial' => 
 'Parziale',
@@ -329,8 +332,8 @@ $lang = array(
 'snippet_name_taken' => 
 'Il nome del parziale del template che hai inivato è giù utilizzato',
 
-'snippets_removed_desc' => 
-'I seguenti frammenti snippets sono stati rimossi',
+'snippets_deleted_desc' => 
+'I seguenti frammenti sono stati eliminati',
 
 'sync_all_templates' => 
 'Sincronizza tutti i template',
@@ -338,11 +341,11 @@ $lang = array(
 'system_templates' => 
 'Template di sistema',
 
-'template_group_removed' => 
-'Gruppo template rimosso',
+'template_group_deleted' => 
+'Gruppo template eliminato',
 
-'template_group_removed_desc' => 
-'Il gruppo di template <strong>%s</strong> è stato rimosso.',
+'template_group_deleted_desc' => 
+'Il gruppo di template <b>%s</b> è stato eliminato.',
 
 'template_group_taken' => 
 'Il nome del gruppo di template inviato è già stato utilizzato',
@@ -353,11 +356,11 @@ $lang = array(
 'template_manager' => 
 'Gestore template',
 
-'template_member_groups' => 
-'Gruppi di utenti consentiti',
+'template_roles' => 
+'Ruoli consentiti',
 
-'template_member_groups_desc' => 
-'Gli utenti di questi gruppi di membri possono creare, modificare e/o eliminare i template in questo gruppo di template.',
+'template_roles_desc' => 
+'Gli utenti in questi ruoli possono eseguire ciascuna azione selezionata in questo gruppo di template.',
 
 'template_name_taken' => 
 'Il nome del template che hai inviato è già stato utilizzato',
@@ -378,7 +381,7 @@ $lang = array(
 'Parziali template',
 
 'template_partials_header' => 
-'Parziali template<br /><em>Contenuti dinamici riutilizzabili, tag e template.</em>',
+'Parziali template<br /><i>Contenuti dinamici riutilizzabili, tag e template.</i>',
 
 'template_route_override' => 
 'Sostituzione percorso template',
@@ -402,16 +405,16 @@ $lang = array(
 'Variabili template',
 
 'template_variables_header' => 
-'Variabili template<br /><em>Sostituzioni riutilizzabili di contenuto statico.</em>',
+'Variabili template<br /><i>Sostituzioni riutilizzabili di contenuto statico.</i>',
 
-'template_variables_removed_desc' => 
-'Le seguenti variabili del template sono state rimosse',
+'template_variables_deleted_desc' => 
+'Le seguenti variabili di template sono state eliminate',
 
 'templates_in_group' => 
-'Template in <strong>%s</strong>',
+'Template in <b>%s</b>',
 
-'templates_removed_desc' => 
-'I seguenti template sono stati rimossi',
+'templates_deleted_desc' => 
+'I seguenti template sono stati eliminati',
 
 'update_template_error' => 
 'Impossibile aggiornare il template',
@@ -423,7 +426,7 @@ $lang = array(
 'Template aggiornato',
 
 'update_template_success_desc' => 
-'Il template <strong>%s</strong> è stato aggiornato.',
+'Il template <b>%s</b> è stato aggiornato.',
 
 'variable' => 
 'Variabile',
@@ -438,13 +441,13 @@ $lang = array(
 'visualizza renderizzato',
 
 'zero_template_groups_found' => 
-'Nessun <strong>gruppo di template</strong> trovato',
+'Nessun <b>gruppo di template</b> trovato',
 
 'message_template' => 
 'Messaggi utente',
 
 'message_template_warning' => 
-'<strong>Avviso</strong>: non eliminare nessuna delle cinque variabili richieste: {title} {meta_refresh} {heading} {content} {link}',
+'<b>Avviso</b>: non eliminare nessuna delle cinque variabili richieste: {title} {meta_refresh} {heading} {content} {link}',
 
 'offline_template' => 
 'Sito offline',
@@ -454,6 +457,9 @@ $lang = array(
 
 'system_message_templates' => 
 'Template dei messaggi di sistema',
+
+'post_install_message_template' => 
+'',
 
 'comments' => 
 'Commenti',
@@ -486,7 +492,7 @@ $lang = array(
 'Elenco delle variabili disponibili per questo template delle email.',
 
 'file_not_writable' => 
-'<strong>Avviso</strong>: questo file non è scrivibile',
+'<b>Avviso</b>: questo file non è scrivibile',
 
 'file_writing_instructions' => 
 'Non sarai in grado di salvare le modifiche a questo template fino a quando non ti verranno concesse le autorizzazioni di scrittura per questo server.',
@@ -558,13 +564,13 @@ $lang = array(
 'Scegliere i template che si desidera esportare come file',
 
 'clear' => 
-'Cancella',
+'Elimina',
 
 'clear_revision_history' => 
-'Cancella la cronologia delle revisioni',
+'Elimina la cronologia delle revisioni',
 
 'clear_revision_history_info' => 
-'Cancella la cronologia delle revisioni per il seguente template:',
+'Elimina la cronologia delle revisioni per il seguente template:',
 
 'close_window' => 
 'Chiudi finestra',
@@ -798,10 +804,10 @@ $lang = array(
 'Il termine di ricerca che hai inviato non è stato trovato in nessuno dei tuoi template.',
 
 'no_templates_found' => 
-'Nessun <strong>template</strong> trovato.',
+'Nessun <b>template</b> trovato.',
 
 'no_user_templates_found' => 
-'Nessun <strong>template</strong> trovato. Consulta la <a href="%s" title="Documentation" rel="external">documentazione</a>.',
+'Nessun <b>template</b> trovato. Consulta la <a href="%s" title="Documentation" rel="external">documentazione</a>.',
 
 'no_templates_selected' => 
 'Nessun template selezionato',
@@ -810,7 +816,7 @@ $lang = array(
 'Non esistono template validi. Devi avere almeno un template contrassegnato per salvare come file di testo.',
 
 'offline_template_desc' => 
-'Questo modello contiene la pagina visualizzata quando il tuo sito è offline.',
+'Questo template contiene la pagina visualizzata quando il sito è offline.',
 
 'order' => 
 'Ordine',
@@ -819,10 +825,13 @@ $lang = array(
 'Output',
 
 'php_in_templates_warning' => 
-'<strong>Avviso</strong>: consentire PHP nei template ha implicazioni sulla sicurezza.',
+'<b>Avviso</b>: consentire PHP nei template ha implicazioni sulla sicurezza.',
 
 'php_in_templates_warning2' => 
 'Qualsiasi impostazione contrassegnata con %s dovrebbe essere utilizzata con cautela.',
+
+'php_in_templates_config_warning' => 
+'Se vuoi utilizzare questa funzione devi impostare <code>$config[\'allow_php\'] = \'y\';</code> nel file <code>config.php</code>.',
 
 'preference' => 
 'Preferenza',
@@ -864,7 +873,7 @@ $lang = array(
 'Richiede tutti i segmenti:',
 
 'route_required_subtext' => 
-'Se sono richiesti percorsi dei segmenti, tutti i segmenti nel percorso del modello devono essere presenti nell\'URI della richiesta.',
+'Se sono richiesti percorsi dei segmenti, tutti i segmenti nel percorso del template devono essere presenti nell\'URI della richiesta.',
 
 'rss' => 
 'Pagina RSS',
@@ -1018,9 +1027,6 @@ $lang = array(
 
 'template_group_del_conf' => 
 'Conferma eliminazione gruppo template',
-
-'template_group_deleted' => 
-'Gruppo template eliminato',
 
 'template_group_instructions' => 
 'Il nome deve essere una singola parola senza spazi',

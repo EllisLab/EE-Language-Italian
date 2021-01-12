@@ -6,10 +6,16 @@ $lang = array(
 'Javascript deve essere abilitato affinché questo tema funzioni correttamente. Si prega di controllare le impostazioni del browser.',
 
 'addon_manager' => 
-'Gestione componenti AddOn',
+'Gestione componenti aggiuntivi',
 
 'channel_manager' => 
 'Gestore canale',
+
+'entries' => 
+'Voci',
+
+'menu_entries' => 
+'Voci',
 
 'logs' => 
 'Registri',
@@ -17,17 +23,47 @@ $lang = array(
 'msm_manager' => 
 'Gestore sito',
 
+'nav_content' => 
+'Contenuto',
+
 'nav_developer' => 
 'Sviluppatore',
 
 'nav_developer_tools' => 
 'Strumenti sviluppatore',
 
+'nav_tools' => 
+'Strumenti',
+
+'nav_design' => 
+'Design',
+
 'template_manager' => 
 'Gestore template',
 
 'utilities' => 
 'Utilità',
+
+'dark_theme' => 
+'Tema dark',
+
+'light_theme' => 
+'Tema light',
+
+'dark' => 
+'Dark',
+
+'light' => 
+'Light',
+
+'jump_menu_item' => 
+'Jump Menù',
+
+'jump_menu_input' => 
+'Vai a...',
+
+'menu_manager' => 
+'Gestore menù',
 
 'action_can_not_be_undone' => 
 'QUESTA AZIONE NON PUÒ ESSERE ANNULLATA',
@@ -36,7 +72,7 @@ $lang = array(
 'Aggiungi nuovo',
 
 'addons' => 
-'AddOn',
+'Componenti aggiuntivi',
 
 'all' => 
 'Tutti',
@@ -135,7 +171,7 @@ $lang = array(
 'Home pannello di controllo',
 
 'nav_overview' => 
-'Panoramica pannello di controllo',
+'Panoramica',
 
 'nav_settings' => 
 'Impostazioni',
@@ -157,6 +193,9 @@ $lang = array(
 
 'password' => 
 'Password',
+
+'password_for' => 
+'Password per %s',
 
 'password_label' => 
 'Password:',
@@ -221,6 +260,12 @@ $lang = array(
 'unauthorized_access' => 
 'Non sei autorizzato ad accedere a questa pagina',
 
+'machines_only_request' => 
+'Non dovresti davvero essere qui. Questa terra è solo per robot e macchine.',
+
+'addon_missing_jump_method' => 
+'Il componente aggiuntivo mancante ha richiesto il metodo del jump menu.',
+
 'update_check_btn' => 
 'Controlla aggiornamenti',
 
@@ -228,7 +273,7 @@ $lang = array(
 'Aggiorna ora',
 
 'user_account' => 
-'Account Membro',
+'Utente',
 
 'user_avatar_alt' => 
 'Utente avatar',
@@ -251,8 +296,11 @@ $lang = array(
 'version_update_inst' => 
 '&Egrave; disponibile ExpressionEngine %s. <a href=\'#\' data-post-url=\'%s\'>Fai clic qui per aggiornare</a> o segui le <a href=\'%s\' rel=\'external\'>istruzioni di aggiornamento manuale</a> .',
 
+'navigation_toggle' => 
+'Attiva/disattiva la navigazione',
+
 'cancel' => 
-'Cancella',
+'Elimina',
 
 'accept' => 
 'Accetta',
@@ -264,7 +312,7 @@ $lang = array(
 'Necessita revisione',
 
 'delete' => 
-'Cancella',
+'Elimina',
 
 'done' => 
 'Fatto',
@@ -297,7 +345,7 @@ $lang = array(
 'Azione',
 
 'clear_logs' => 
-'Cancella registri',
+'Elimina registri',
 
 'close' => 
 'Chiudi',
@@ -324,13 +372,13 @@ $lang = array(
 'Password modificata per "%s" (%d)',
 
 'member_anonymized_member' => 
-'Membro anonimo con ID: %d',
+'Utente anonimo con ID: %d',
 
 'member_hash_algo_changed' => 
 'Algoritmo hash modificato per "%s" (%d)',
 
 'member_id' => 
-'ID membro',
+'ID utente',
 
 'member_logged_in' => 
 'Connesso',
@@ -357,7 +405,7 @@ $lang = array(
 'Seleziona tutto',
 
 'clear_all' => 
-'Cancella tutto',
+'Elimina tutto',
 
 'create' => 
 'Crea',
@@ -413,11 +461,17 @@ $lang = array(
 'recent_entries' => 
 'Voci recenti',
 
+'recent_members' => 
+'Utenti recenti',
+
 'results' => 
 'risultati',
 
+'select_row' => 
+'Seleziona riga',
+
 'select_all' => 
-'seleziona tutto',
+'Seleziona tutto',
 
 'search_in' => 
 'Cerca in',
@@ -427,6 +481,12 @@ $lang = array(
 
 'search_in_filter' => 
 'cerca in',
+
+'search_titles_only' => 
+'',
+
+'columns_filter' => 
+'Colonne',
 
 'perpage_filter' => 
 'visualizza',
@@ -488,6 +548,18 @@ $lang = array(
 'important' => 
 'Importante!',
 
+'view_as' => 
+'Visualizza come',
+
+'viewtype_list' => 
+'Elenco',
+
+'viewtype_thumb' => 
+'Miniature',
+
+'viewtype_hybrid' => 
+'Ibrido',
+
 'avatar_path' => 
 'Percorso Avatar',
 
@@ -520,6 +592,9 @@ $lang = array(
 
 'view_site' => 
 'Visualizza sito',
+
+'add_site' => 
+'Aggiunti sito',
 
 'building_ee_site_01' => 
 'Creazione di un sito ExpressionEngine - Capitolo 01',
@@ -558,13 +633,13 @@ $lang = array(
 'Screencast EE',
 
 'ee_seach_bookmarklet' => 
-'Bookmarklet Search di ExpressionEngine',
+'Segnalibro di ricerca di ExpressionEngine',
 
 'installing_ee' => 
 'Installazione di ExpressionEngine',
 
 'introduction_to_templates' => 
-'Introduzione ai Template',
+'Introduzione ai template',
 
 'knowledge_base' => 
 'Conoscenza di base',
@@ -600,7 +675,7 @@ $lang = array(
 'Il file di licenza fornito ha una firma non valida. <a href="%s">Carica la tua licenza.</a>',
 
 'missing_license' => 
-'Questa copia di ExpressionEngine <strong>non è registrata</strong>. <a href="%s">Carica la tua licenza.</a>',
+'Questa copia di ExpressionEngine <b>non è registrata</b>. <a href="%s">Carica la tua licenza.</a>',
 
 'missing_pubkey' => 
 'Al prodotto ExpressionEngine mancano dei dati. Per favore visita <a href="%s" rel="external">expressionengine.com</a> e scarica una nuova copia.',
@@ -612,10 +687,13 @@ $lang = array(
 'Spiacenti, impossibile trovare l\'elemento a cui stai tentando di accedere nel sistema.',
 
 'alphadash_desc' => 
-'<em>Nessuno spazio. Sono ammessi caratteri di sottolineatura e trattini.</em>',
+'Nessuno spazio. Sono ammessi caratteri di sottolineatura e trattini.',
 
 'auto_br' => 
 'Interruzione di riga automatica',
+
+'btn_authenticate' => 
+'',
 
 'btn_authenticate_and_save' => 
 'Autenticare e salvare',
@@ -636,7 +714,7 @@ $lang = array(
 'Salvataggio in corso...',
 
 'clear_filters' => 
-'Cancella filtri',
+'Elimina filtri',
 
 'col_id' => 
 'ID#',
@@ -687,10 +765,10 @@ $lang = array(
 'Immagine',
 
 'keyword_filter' => 
-'scrivi parole chiave e invio',
+'Cerca',
 
 'log_out' => 
-'esci',
+'Esci',
 
 'menu_create' => 
 'Crea',
@@ -710,6 +788,9 @@ $lang = array(
 'name' => 
 'Nome',
 
+'short_name' => 
+'Nome corto',
+
 'name_your_site' => 
 'Dai un nome al sito',
 
@@ -726,10 +807,13 @@ $lang = array(
 'Nuovo sito',
 
 'no_channels' => 
-'Nessun <strong>canale</strong> trovato.',
+'Nessun <b>canale</b> trovato.',
 
 'no_found' => 
-'Nessun <strong>%s</strong> trovato.',
+'Nessun <b>%s</b> trovato.',
+
+'no_roles_with_design_access_found' => 
+'Nessun <b>ruolo</b> trovato con <b>accesso al gestore template</b>.',
 
 'no_rows_returned' => 
 'Nessuna riga trovata',
@@ -758,8 +842,11 @@ $lang = array(
 'revisions' => 
 'Revisioni',
 
+'search_results' => 
+'Risultati di ricerca',
+
 'search_results_heading' => 
-'Risultati della ricerca<br /><em>abbiamo trovato %d risultati per "%s"</em>',
+'Risultati della ricerca<br /><i>abbiamo trovato %d risultati per "%s"</i>',
 
 'settings_save_error' => 
 'Attenzione: impostazioni non salvate',
@@ -780,22 +867,46 @@ $lang = array(
 'Titolo URL',
 
 'url_title_lc' => 
-'titolo URL',
+'Titolo URL',
 
 'used_in_cp_only' => 
 'Utilizzato soltanto nel pannello di controllo.',
 
 'view_all' => 
-'Visualizza tutti',
+'Visualizza tutte',
 
 'xhtml' => 
 'XHTML',
+
+'new_member' => 
+'Nuovo utente',
+
+'all_members' => 
+'Tutti gli utenti',
+
+'pending_members' => 
+'Utenti in sospeso',
+
+'ban_management' => 
+'Gestione dei ban',
+
+'roles' => 
+'Ruoli',
+
+'custom_member_fields' => 
+'Campi utente',
 
 'about_expressionengine' => 
 'Informazioni su ExpressionEngine',
 
 'authenticating' => 
-'autenticazione in corso...',
+'Autenticazione in corso...',
+
+'one_click_major_update_instructions' => 
+'<a href="https://docs.expressionengine.com/latest/installation/updating.html#upgrading-major-version" target="_blank">Leggi gli avvisi di aggiornamento prima di continuare!</a><br>Inserisci la tua password per continuare:',
+
+'one_click_major_update_confirm_error' => 
+'<b>Impossibile eseguire l\'autenticazione</b><br><br>Ulteriori dettagli potrebbero essere disponibili nella console del browser',
 
 'checking_for_updates' => 
 'Controllo aggiornamenti in corso...',
@@ -830,11 +941,14 @@ $lang = array(
 'out_of_date_upgrade' => 
 'Nuova versione trovata',
 
+'out_of_date_upgrade_major' => 
+'Nuova versione principale disponibile',
+
 'owned_by' => 
-'Posseduto da',
+'Di proprietà di',
 
 'recommended_upgrade' => 
-'Aggiornamento <strong>consigliato</strong>.',
+'Aggiornamento <b>consigliato</b>.',
 
 'register_now' => 
 'Registra ora',
@@ -842,11 +956,14 @@ $lang = array(
 'report_bug' => 
 'Segnala un errore',
 
+'whats_new' => 
+'Cosa c\'è di nuovo?',
+
 'scroll_to_top' => 
 'scorri verso l\'alto',
 
 'session_timeout' => 
-'La sessione di accesso all\'amministrazione è scaduta. Utilizzare il modulo qui sotto per accedere nuovamente al pannello di controllo.',
+'La sessione di accesso all\'amministrazione è scaduta. Inserire quanto richiesto qui sotto per accedere nuovamente al pannello di controllo.',
 
 'up_to_date' => 
 'Aggiornato!',
@@ -871,6 +988,18 @@ $lang = array(
 
 'btn_confirm_and_save_working' => 
 'Salvataggio in corso...',
+
+'btn_confirm_and_delete' => 
+'Conferma e elimina',
+
+'btn_confirm_and_delete_working' => 
+'Eliminazione in corso...',
+
+'confirm_delete' => 
+'Sei sicuro?',
+
+'confirm_deletion_desc' => 
+'Stai tentando di eliminare i seguenti elementi:',
 
 'all_items' => 
 'Tutti e%d gli elementi',
@@ -916,6 +1045,69 @@ $lang = array(
 
 'html_button_ajax_reorder_fail_desc' => 
 'Impossibile salvare il nuovo ordine di pulsanti HTML. Aggiornare la pagina e assicurasi di aver effettuato l\'accesso.',
+
+'search_reindex_tip' => 
+'Ricerca reindicizzazione',
+
+'search_reindex_tip_desc' => 
+'Per favore <a href=\'%s\'>eseguire lo strumento di reindicizzazione della ricerca</a> per mantenere aggiornati i dati ricercabili.',
+
+'reindex_not_needed' => 
+'Reindicizzazione non necessaria',
+
+'reindex_not_needed_desc' => 
+'L\'indice di ricerca è aggiornato!',
+
+'reindex_explained_desc' => 
+'L\'indice di ricerca può diventare obsoleto se di recente hai modificato se alcuni tipi di campo sono ricercabili o meno. Per favore consulta la <a href = "https://docs.expressionengine.com/v6//cp/utilities/reindex.html">guida utente</a> per maggiori informazioni.',
+
+'can_create_templates' => 
+'Crea template',
+
+'can_edit_templates' => 
+'Modifica template',
+
+'can_delete_templates' => 
+'Elimina template',
+
+'can_manage_settings' => 
+'Gestisci impostazioni e accesso',
+
+'can_create_entries' => 
+'Crea voci',
+
+'can_edit_self_entries' => 
+'Modifica le proprie voci',
+
+'can_delete_self_entries' => 
+'Elimina le proprie voci',
+
+'can_edit_other_entries' => 
+'Modifica voci, da altri',
+
+'can_delete_all_entries' => 
+'Elimina voci, da altri',
+
+'can_assign_post_authors' => 
+'Modifica l\'autore della voce',
+
+'dashboard' => 
+'Dashboard',
+
+'save_dashboard_layout' => 
+'Salva layout',
+
+'edit_dashboard_layout' => 
+'Modifica layout',
+
+'dashboard_layout_saved' => 
+'Layout salvato',
+
+'dashboard_layout_save_error' => 
+'Impossibile salvare il layout',
+
+'dashboard_needs_some_widgets' => 
+'Abilita almeno un widget',
 
 ''=>''
 );

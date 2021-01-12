@@ -45,13 +45,13 @@ $lang = array(
 'Registri eliminati',
 
 'logs_deleted_desc' => 
-'registri <strong>%d</strong> eliminati dai log <strong>%s</strong>',
+'registri <b>%d</b> eliminati dai log <b>%s</b>',
 
 'no_consent_logs_found' => 
-'Nessun <strong>registro di controllo del consenso</strong> trovato.',
+'Nessun <b>registro di controllo del consenso</b> trovato.',
 
 'no_control_panel_logs_found' => 
-'Nessun <strong>registro del pannello di controllo</strong> trovato.',
+'Nessun <b>registro del pannello di controllo</b> trovato.',
 
 'search_log' => 
 'Cerca',
@@ -102,7 +102,7 @@ $lang = array(
 'Hook delle estensioni obsoleto chiamato dalle seguenti estensioni (Class::method) <ul>%s</ul> ',
 
 'deprecated_meaning' => 
-'<p> È successa una di queste due cose:</p><ol><li>Il sistema ha rilevato un codice nativo o un addon aggiuntivo che utilizza un codice obsoleto che potrebbe smettere di funzionare o causare problemi al sistema. Questo significa che un addon della tua installazione sta accedendo a una parte del core di ExpressionEngine che EllisLab prevede di rimuovere in futuro al fine di migliorare la qualità del prodotto.</li><li>Un avviso o un messaggio è stato generato da del codice nativo o da un addon al fine di essere visualizzato da un super amministratore.</li></ol><p>Per porre rimedio a questo avviso, potrebbe essere necessario eseguire una delle seguenti operazioni:</p><ul><li>Contatta lo sviluppatore che gestisce l\'installazione di ExpressionEngine per assistenza</li><li>Assicurati di disporre dell\'ultima versione di tutti gli addon installati</li><li>Contatta lo sviluppatore dell\'addon in questione per assicurarti che sono a conoscenza del problema e prevedere di pubblicare un aggiornamento</li></ul>',
+'<p> È successa una di queste due cose:</p><ol><li>Il sistema ha rilevato un codice nativo o un componente aggiuntivo che utilizza un codice obsoleto che potrebbe smettere di funzionare o causare problemi al sistema. Questo significa che un compnente aggiuntivo della tua installazione sta accedendo a una parte del core di ExpressionEngine che EllisLab prevede di rimuovere in futuro al fine di migliorare la qualità del prodotto.</li><li>Un avviso o un messaggio è stato generato da del codice nativo o da un compnente aggiuntivo al fine di essere visualizzato da un super amministratore.</li></ol><p>Per porre rimedio a questo avviso, potrebbe essere necessario eseguire una delle seguenti operazioni:</p><ul><li>Contatta lo sviluppatore che gestisce l\'installazione di ExpressionEngine per assistenza</li><li>Assicurati di disporre dell\'ultima versione di tutti i compnenti aggiuntivi installati</li><li>Contatta lo sviluppatore del compnente aggiuntivo in questione per assicurarti che sono a conoscenza del problema e prevedere di pubblicare un aggiornamento</li></ul>',
 
 'deprecated_on_line' => 
 'in %s sulla linea %d.',
@@ -135,13 +135,13 @@ $lang = array(
 'Messaggio',
 
 'no_developer_logs_found' => 
-'Nessun <strong>registro sviluppatore</strong> trovato.',
+'Nessun <b>registro sviluppatore</b> trovato.',
 
 'clear_email_logs' => 
 'Rimuovere tutti i registri delle email',
 
 'no_email_logs_found' => 
-'Nessun <strong>registro email</strong> trovato.',
+'Nessun <b>registro email</b> trovato.',
 
 'sent_to' => 
 'Invia email a',
@@ -153,7 +153,7 @@ $lang = array(
 'Rimuovere tutti i registri della ricerca',
 
 'no_search_logs_found' => 
-'Nessun <strong>registro della ricerca</strong> trovato.',
+'Nessun <b>registro della ricerca</b> trovato.',
 
 'searched_for' => 
 'Cercato',
@@ -177,10 +177,10 @@ $lang = array(
 'Al momento nessun IP viene bloccato dal sistema.',
 
 'no_throttling_logs_found' => 
-'Nessun <strong>registro di throttling</strong> trovato.',
+'Nessun <b>registro di throttling</b> trovato.',
 
 'throttling_disabled' => 
-'<strong>Throttling</strong> disabilitato',
+'<b>Throttling</b> disabilitato',
 
 'custom_date' => 
 'data personalizzata',

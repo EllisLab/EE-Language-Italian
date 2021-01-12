@@ -8,8 +8,8 @@ $lang = array(
 'any_date' => 
 'Intervallo di date personalizzato',
 
-'blacklist' => 
-'Aggiungere IP alla lista nera',
+'block_ips' => 
+'Aggiungi IP alla lista dell\'elenco dei blocchi',
 
 'choose_entry_for_comment_move' => 
 'Scegliere la voce per lo spostamento dei commenti',
@@ -89,6 +89,9 @@ $lang = array(
 'cmt_subscribe' => 
 'Iscriviti a questo commento',
 
+'cmt_must_be_logged_in' => 
+'Questa pagina è accessibile soltanto agli utenti loggati.',
+
 'cmt_too_large' => 
 'Il commento inviato contiene %n caratteri. Sono ammessi soltanto %x caratteri.',
 
@@ -145,12 +148,6 @@ $lang = array(
 
 'date_range' => 
 'Intervallo di date',
-
-'delete_comment_confirm' => 
-'Sei sicuro di voler eliminare definitivamente questo commento?',
-
-'delete_comments_confirm' => 
-'Sei sicuro di voler eliminare definitivamente questi commenti?',
 
 'delete_confirm' => 
 'Eliminare conferma commento',

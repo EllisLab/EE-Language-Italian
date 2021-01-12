@@ -5,8 +5,8 @@ $lang = array(
 'system_utilities' => 
 'Utilità di sistema',
 
-'backup_utility' => 
-'Utilità di backup',
+'backup_database' => 
+'Copia database',
 
 'cache_manager' => 
 'Gestore cache',
@@ -14,14 +14,23 @@ $lang = array(
 'communicate' => 
 'Comunicare',
 
+'general_utilities' => 
+'Utilità generali',
+
 'cp_translation' => 
-'Traduzione <abbr title="Pannello di controllo">CP</abbr>',
+'Traduzione <abbr>pannello di controllo</abbr>',
+
+'cp_translations' => 
+'Traduzioni del pannello di controllo',
 
 'data_operations' => 
 'Operazioni sui dati',
 
-'debug_extensions' => 
-'Estensioni di debug',
+'manage_extensions' => 
+'Gestisci estensioni',
+
+'debug_tools' => 
+'Strumenti di debug',
 
 'default' => 
 'Predefinito',
@@ -45,7 +54,7 @@ $lang = array(
 'Cerca e sostituisci',
 
 'sent' => 
-'Inviao',
+'Inviato',
 
 'sql_manager' => 
 'Gestore SQL',
@@ -56,17 +65,17 @@ $lang = array(
 'statistics' => 
 'Statistiche',
 
-'add_member_groups' => 
-'Aggiungi gruppo/i utente',
+'add_member_roles' => 
+'Aggiungi ruoli utente',
 
-'add_member_groups_desc' => 
-'Invia email a <strong>tutti</strong> gli utenti nei gruppi scelti.',
+'add_member_roles_desc' => 
+'Invia email a <b>tutti</b> gli utenti nei ruoli scelti.',
 
 'attachment' => 
 'Allegato',
 
 'attachment_desc' => 
-'Gli allegati <strong>non</strong> vengono salvati dopo l\'invio.',
+'Gli allegati <b>non</b> vengono salvati dopo l\'invio.',
 
 'bcc_recipients' => 
 'Destinatari in <abbr title="Copia carbone nascosta">BCC</abbr>',
@@ -75,6 +84,9 @@ $lang = array(
 'Email in <abbr title="Copia carbone nascosta">BCC</abbr>. Separare più destinatari con una virgola.',
 
 'btn_send_email' => 
+'Invia email',
+
+'send_email' => 
 'Invia email',
 
 'btn_send_email_working' => 
@@ -105,7 +117,7 @@ $lang = array(
 'Email rimosse',
 
 'no_cached_emails' => 
-'Nessuna <strong>email inviata</strong> trovata.',
+'Nessuna <b>email inviata</b> trovata.',
 
 'none' => 
 'Testo semplice',
@@ -134,8 +146,11 @@ $lang = array(
 'your_email' => 
 'La tua email',
 
+'view_email_cache' => 
+'Email inviate',
+
 'cannot_access' => 
-'non è stato possibile accedere',
+'Non è possibile accedere ai file della lingua. Per favore<a href="https://docs.expressionengine.com/v6//control-panel/utilities.html#language-files" rel="external">consultare la documentazione</a> per inserire i file nella cartella corretta.',
 
 'cannot_create_zip' => 
 'Impossibile creare un file .zip',
@@ -147,7 +162,7 @@ $lang = array(
 'Nome file',
 
 'file_saved' => 
-'Il file di traduzione è stato salvato in <strong>%s</strong>',
+'Il file di traduzione è stato salvato in <b>%s</b>',
 
 'invalid_path' => 
 'Il percorso inviato non è valido:',
@@ -252,16 +267,16 @@ $lang = array(
 'Seleziona il campo in cui desideri eseguire questa ricerca e sostituiscilo.',
 
 'sandr_password_desc' => 
-'<strong>Devi</strong> inserire la password per cercare e sostituire.',
+'<b>Devi</b> inserire la password per cercare e sostituire.',
 
 'sandr_replace_text' => 
-'Sostituire con questo testo',
+'Sostituisci con questo testo',
 
 'sandr_search_text' => 
 'Cerca questo testo',
 
 'sandr_warning' => 
-'<p><strong>Avviso</strong>: <strong class="no">Soltanto utenti esperti.</strong> Prestare molta attenzione nell\'utilizzo di questa funzione.</p><p>A seconda della sintassi utilizzata, questa funzione può produrre risultati indesiderati. Consultare la guida per l\'utente ed eseguire il backup del database.</p>',
+'<p><b>Avviso</b>: <strong class="no">soltanto utenti esperti.</b> Prestare molta attenzione nell\'utilizzo di questa funzione.</p><p>A seconda della sintassi utilizzata, questa funzione può produrre risultati indesiderati. Consultare la guida per l\'utente ed eseguire il backup del database.</p>',
 
 'site_preferences' => 
 'Preferenze sito',
@@ -303,16 +318,16 @@ $lang = array(
 'Assegnazione campo duplicata: %x',
 
 'duplicate_member_id' => 
-'ID membro duplicato: "%x"<br />Ti consigliamo di non utilizzare il tag &lt;member_id&gt; e consentire ad ExpressionEngine di incrementare automaticamente member_id',
+'ID utente duplicato: "%x"<br />Ti consigliamo di non utilizzare il tag &lt;member_id&gt; e consentire ad ExpressionEngine di incrementare automaticamente member_id',
 
 'duplicate_username' => 
 'Nome utente duplicato:',
 
 'enclosing_char' => 
-'Inclusione carattere',
+'Carattere di inclusione',
 
 'enclosing_char_desc' => 
-'Personaggio che include i tuoi dati.',
+'Carattere che include i tuoi dati.',
 
 'encrypted_passwords' => 
 'Le password sono criptate.',
@@ -339,7 +354,7 @@ $lang = array(
 'Importa convertitore di file',
 
 'import_password_warning' => 
-'<strong>Avviso</strong>: se non si mappa uno dei data points su "Password", una password crittografata casuale verrà assegnata a ciascun utente importato. Questi utenti dovranno reimpostare la password tramite il link "Password dimenticata".',
+'<b>Avviso</b>: se non si mappa uno dei data points su "Password", una password crittografata casuale verrà assegnata a ciascun utente importato. Questi utenti dovranno reimpostare la password tramite il link "Password dimenticata".',
 
 'member_file' => 
 'File utente',
@@ -366,7 +381,7 @@ $lang = array(
 'È necessario disporre di almeno 3 campi: username, screen_name, and email address',
 
 'other_delimit' => 
-'Altri <em>Digita il carattere qui sotto</em>',
+'Altri <i>Digita il carattere qui sotto</i>',
 
 'pipe_delimit' => 
 'Pipe',
@@ -402,7 +417,7 @@ $lang = array(
 'Conferma importazione',
 
 'confirm_import_warning' => 
-'<p class="txt-caution"><span class="icon--caution" title="Fare attenzione"></span><strong>Attenzione</strong>: se il file <abbr title="Extensible Markup Language">XML</abbr> contiene un tag denominato"<strong>member_id</strong>", interrompi.</p><p>Se confermi questa importazione gli utenti nel database con i corrispondenti <abbr title="Identificatore">ID</abbr> verranno <strong>sovrascritti</strong>.</p>',
+'<p class="txt-caution"><span class="icon--caution" title="Fare attenzione"></span><b>Attenzione</b>: se il file <abbr title="Extensible Markup Language">XML</abbr> contiene un tag denominato"<b>member_id</b>", interrompi.</p><p>Se confermi questa importazione gli utenti nel database con i corrispondenti <abbr title="Identificatore">ID</abbr> verranno <b>sovrascritti</b>.</p>',
 
 'custom_fields' => 
 'Campi personalizzati',
@@ -441,7 +456,7 @@ $lang = array(
 'Creare campi personalizzati?',
 
 'mbr_create_custom_fields_desc' => 
-'Se abilitato, l\'importazione crea automaticamente dei campi membri personalizzati per tutti i dati che non corrispondono a un campo utente predefinito.',
+'Se abilitato, l\'importazione crea automaticamente dei campi utente personalizzati per tutti i dati che non corrispondono a un campo utente predefinito.',
 
 'mbr_datetime_fmt' => 
 'Formato data &amp; ora',
@@ -463,6 +478,9 @@ $lang = array(
 
 'member_group' => 
 'Gruppo utente',
+
+'role' => 
+'Ruolo',
 
 'member_import_error' => 
 'Attenzione: importazione non completata',
@@ -497,9 +515,6 @@ $lang = array(
 'backing_up' => 
 'Copia in corso...',
 
-'backup_database' => 
-'Copia database',
-
 'backup_error' => 
 'Impossibile effettuare una copia',
 
@@ -510,7 +525,7 @@ $lang = array(
 'Copia completata',
 
 'backup_success_desc' => 
-'Il backup è stato memorizzato nella cartella di sistema in: <strong>%s</strong>',
+'Il backup è stato memorizzato nella cartella di sistema in: <b>%s</b>',
 
 'backup_tables' => 
 'Copia tabelle',
@@ -522,7 +537,7 @@ $lang = array(
 'Spazio su disco libero insufficiente per scrivere la copia. È necessario %s.',
 
 'table_count' => 
-'Tabelle <strong>%s</strong>',
+'Tabelle <b>%s</b>',
 
 'affected_rows' => 
 'Righe interessate',
@@ -558,7 +573,7 @@ $lang = array(
 'Non è possibile eseguire query FLUSH, REPLACE, GRANT, REVOKE, LOCK o UNLOCK.',
 
 'sql_password_desc' => 
-'Per poter eseguire la query <strong>devi</strong> inserire la tua password.',
+'Per poter eseguire la query <b>devi</b> inserire la tua password.',
 
 'sql_query_abbr' => 
 'Query <abbr title="Structured Query Language">SQL</abbr>',
@@ -569,11 +584,14 @@ $lang = array(
 'sql_query_form_abbr' => 
 'Form query <abbr title="Structured Query Language">SQL</abbr>',
 
+'query' => 
+'Query',
+
 'sql_query_to_run' => 
 'Query da eseguire',
 
 'sql_warning' => 
-'<p><strong>Avviso</strong>: <strong class="no">Soltanto utenti esperti</strong>. Per favore prestare molta attenzione nell\'uso di questa funzione.</p><p>A seconda della sintassi utilizzata, questa funzione può produrre risultati indesiderati. Consultare la guida per l\'utente ed eseguire la copia del database. </p>',
+'<p><b>Avviso</b>: <strong class="no">soltanto utenti esperti</b>. Per favore prestare molta attenzione nell\'uso di questa funzione.</p><p>A seconda della sintassi utilizzata, questa funzione può produrre risultati indesiderati. Consultare la guida per l\'utente ed eseguire la copia del database. </p>',
 
 'total_results' => 
 'Risultati totali',
@@ -597,7 +615,7 @@ $lang = array(
 'Utenti',
 
 'record_count' => 
-'Conteggio dei record',
+'Conteggio record',
 
 'sites' => 
 'Siti',
@@ -665,8 +683,41 @@ $lang = array(
 'uptime' => 
 'Uptime',
 
+'search_reindex_fail' => 
+'Reindicizzazione non riuscita',
+
+'search_reindex' => 
+'Reindicizzazione ricerca',
+
+'search_reindex_desc' => 
+'Verranno reindicizzate le %s voci dei canali.',
+
+'reindex_success' => 
+'Reindicizzazione completata',
+
+'reindex_success_desc' => 
+'Reindicizzazione completata con successo.',
+
+'btn_reindex' => 
+'Reindicizza',
+
+'btn_reindex_working' => 
+'Reindicizzazione',
+
+'all_sites' => 
+'Reindicizzare tutti i siti?',
+
+'all_sites_desc' => 
+'Reindicizzare le voci del canale su tutti i siti o soltanto su questo?',
+
+'search_reindexed_started' => 
+'Reindicizzazione della ricerca avviata.',
+
+'search_reindexed_completed' => 
+'Reindicizzazione della ricerca completata. %s voci sono state reindicizzate.',
+
 'mass_notification_export' => 
-'Esportazione di massa notifica',
+'Esportazione di notifiche di massa',
 
 'export_email_addresses_title' => 
 'Esporta un file <abbr title="Comma Separated Values">CSV</abbr>',
@@ -693,10 +744,76 @@ $lang = array(
 'Convalidare gli indirizzi email?',
 
 'validate_addresses_desc' => 
-'Controllare l\'email per il formato corretto e verificare che il dominio esista.',
+'Controllare la correttezza del formato email e verificare che il dominio esista.',
 
 'export_email_addresses_fail' => 
 'Esportazione non riuscita',
+
+'debug_tools_overview' => 
+'Panoramica',
+
+'debug_tools_instruction' => 
+'<a href="%s">Clicca qui</a> per accedere a Sviluppatore &rarr; Utilità &rarr; Strumenti di debug nel pannello di controllo per dettagli e correzione.',
+
+'debug_tools_debug_tags' => 
+'Tag del template di debug',
+
+'debug_tools_broken_tags_found' => 
+'Abbiamo trovato %s tag del template non funzionanti o problematici.',
+
+'debug_tools_corrupt_categories' => 
+'Categorie danneggiate',
+
+'debug_tools_corrupt_categories_found' => 
+'Abbiamo trovato %s categorie danneggiate.',
+
+'tag_inclusions' => 
+'Inclusioni tag',
+
+'debug_tools_fix_corrupt_categories' => 
+'Correggi le categorie danneggiate',
+
+'debug_tools_categories_fixed' => 
+'Le categorie danneggiate sono state corrette',
+
+'debug_tools_duplicate_layout_tabs' => 
+'Schede del layout del canale duplicate',
+
+'debug_tools_duplicate_layout_tabs_found' => 
+'Abbiamo trovato %s schede del layout del canale duplicate.',
+
+'debug_tools_remove_duplicate_layout_tabs' => 
+'Rimuovere le schede del layout duplicate',
+
+'debug_tools_fieldtypes' => 
+'Debug di tipi di campo',
+
+'debug_tools_show_missing_fieldtypes' => 
+'Visualizza i tipi di campo mancanti',
+
+'debug_tools_found_missing_fieldtypes' => 
+'Abbiamo trovato %s tipi di campo mancanti.',
+
+'debug_tools_missing_fieldtypes' => 
+'Tipi di campo mancanti',
+
+'debug_tools_missing_fieldtypes_desc' => 
+'I seguenti tipi di campo si trovano nel database, ma non sono effettivamente installati correttamente. Ciò causerà problemi con la modifica di canali, campi e voci. Per risolvere questo problema, installa i componenti aggiuntivi mancanti o rimuovi i campi dalle loro tabelle.',
+
+'debug_tools_no_missing_fieldtypes_desc' => 
+'Nessun tipo di campo mancante nel database. Eccezionale!',
+
+'debug_tools_installed_unused_fieldtypes' => 
+'Tipi di campo installati ma non utilizzati',
+
+'debug_tools_installed_unused_fieldtypes_desc' => 
+'Questi tipi di campo sono installati, ma non sono attualmente in uso.',
+
+'debug_tools_all_used_fieldtypes' => 
+'Tutti i tipi di campo utilizzati',
+
+'debug_tools_members' => 
+'Utenti di debug',
 
 ''=>''
 );

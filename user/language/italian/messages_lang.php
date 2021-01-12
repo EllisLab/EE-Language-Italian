@@ -198,7 +198,7 @@ $lang = array(
 'Cerca utente',
 
 'member_usernames' => 
-'Nome schermo utente',
+'Pseudonimo utente',
 
 'message' => 
 'Messaggio',

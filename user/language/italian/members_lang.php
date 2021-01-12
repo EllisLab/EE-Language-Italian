@@ -5,11 +5,8 @@ $lang = array(
 'admin_members' => 
 'Utenti amministratori',
 
-'all_member_groups' => 
-'Tutti i gruppi utente',
-
-'all_members' => 
-'Tutti gli utenti',
+'all_roles' => 
+'Tutti i ruoli',
 
 'alpha' => 
 'Ordine alfabetico crescente',
@@ -48,7 +45,7 @@ $lang = array(
 'Se abilitato, gli utenti assegnati a questo gruppo possono allegare file ai messaggi personali.',
 
 'can_delete_categories' => 
-'Può cancellare le categorie',
+'Può eliminare le categorie',
 
 'can_edit_categories' => 
 'Può modificare e aggiungere nuove categorie',
@@ -57,7 +54,7 @@ $lang = array(
 'Moderare commenti',
 
 'can_not_delete_self' => 
-'Non ti è permesso cancellare il tuo account personale.',
+'Non ti è permesso di eliminare il tuo account personale.',
 
 'can_send_private_messages' => 
 'Accessso ai messaggi personali',
@@ -83,8 +80,8 @@ $lang = array(
 'control_panel' => 
 'Pannello di controllo',
 
-'copy_member_group' => 
-'Crea un nuovo gruppo di utenti basato su <strong>%s</strong>',
+'copy_role' => 
+'Crea un nuovo ruolo basato su <b>%s</b>',
 
 'cp_log' => 
 'Attività pannello di controllo',
@@ -92,11 +89,11 @@ $lang = array(
 'create_member' => 
 'Crea utente',
 
-'create_member_group' => 
-'Crea gruppo utente',
+'create_role' => 
+'Nuovo ruolo',
 
-'create_new_member_group' => 
-'Crea nuovo gruppo di utenti',
+'create_new_role' => 
+'Crea un nuovo ruolo',
 
 'custom_fields' => 
 'Campi personalizzati',
@@ -116,11 +113,11 @@ $lang = array(
 'delete_member_confirm' => 
 'Sei sicuro di voler eliminare questo utente?',
 
-'delete_member_group' => 
-'Elimina gruppo di utenti',
+'delete_role' => 
+'Elimina ruolo',
 
-'delete_member_group_confirm' => 
-'Sei sicuro di voler eliminare questo gruppo di utenti?',
+'delete_role_confirm' => 
+'Sei sicuro di voler eliminare questo ruolo?',
 
 'delete_members_confirm' => 
 'Sei sicuro di voler eliminare questi utenti?',
@@ -134,8 +131,8 @@ $lang = array(
 'edit_group' => 
 'Modifica gruppo',
 
-'edit_member_group' => 
-'Modifica gruppo di utenti',
+'edit_role' => 
+'Modifica ruolo',
 
 'edit_profile' => 
 'Modifica profilo',
@@ -179,8 +176,8 @@ $lang = array(
 'filter_by' => 
 'Filtra per',
 
-'filter_member_group' => 
-'Filtra per gruppo utente',
+'filter_role' => 
+'Filtra per ruolo',
 
 'filter_member_name' => 
 'Filtra per nome utente',
@@ -294,7 +291,7 @@ $lang = array(
 'Attivazione email rinviata',
 
 'member_activation_resent_success_desc' => 
-'Un\'email di attivazione è stata inviata a <strong>%s</strong>.',
+'Un\'email di attivazione è stata inviata a <b>%s</b>.',
 
 'member_anonymize_problem' => 
 'Si è verificato un problema durante l\'anonimizzazione dell\'utente.',
@@ -312,7 +309,7 @@ $lang = array(
 'Utente approvato',
 
 'member_approved_success_desc' => 
-'L\'utente <strong>%s</strong> è stato approvato.',
+'L\'utente <b>%s</b> è stato approvato.',
 
 'member_assignment_none' => 
 'Nessuno, gli utenti di questo gruppo verranno eliminati',
@@ -330,13 +327,13 @@ $lang = array(
 'Utente creato',
 
 'member_created_desc' => 
-'L\'utente <strong>%s</strong> è stato creato.',
+'L\'utente <b>%s</b> è stato creato.',
 
 'member_declined_success' => 
 'Utente rifiutato',
 
 'member_declined_success_desc' => 
-'L\'utente <strong>%s</strong> è stato rifiutato.',
+'L\'utente <b>%s</b> è stato rifiutato.',
 
 'member_delete_success' => 
 'Utente eliminato',
@@ -359,35 +356,56 @@ $lang = array(
 'member_field_saved_desc' => 
 'Il campo dell\'utente è stato salvato con successo.',
 
-'member_fields_removed_desc' => 
-'Sono stati rimossi i seguenti campi dell\'utente:',
+'member_fields_deleted_desc' => 
+'I seguenti campi utente sono stati eliminati:',
 
-'member_group' => 
-'Gruppo utenti',
+'invalid_role_id' => 
+'Devi selezionare un ruolo utente valido.',
 
-'member_group_filter' => 
-'gruppo utenti',
+'invalid_new_primary_role' => 
+'Il nuovo ruolo principale non è valido.',
 
-'member_group_assignment' => 
-'Assegnazione gruppo utenti',
+'primary_role' => 
+'Ruolo principale',
 
-'member_group_deleted' => 
-'Gruppo utenti eliminato',
+'primary_role_desc' => 
+'Assegna il ruolo principale a questo utente.',
 
-'member_group_desc' => 
-'Assegna le autorizzazioni di accesso a questo utente.',
+'role_groups' => 
+'Gruppi di ruoli',
 
-'member_group_updated_desc' => 
-'Il gruppo di utenti è stato salvato correttamente.',
+'role_groups_desc' => 
+'Assegna a questo utente un gruppo di autorizzazioni di accesso.',
 
-'member_groups' => 
-'Gruppi utente',
+'additional_roles' => 
+'Ruoli aggiuntivi',
 
-'member_groups_removed_desc' => 
-'Il gruppo di utenti è stato eliminato correttamente.',
+'role' => 
+'Ruolo',
 
-'member_groups_remove_problem' => 
-'Si è verificato un problema durante l\'eliminazione dei gruppi di utenti.',
+'roles_desc' => 
+'Assegna a questo utente le autorizzazioni di accesso.',
+
+'role_filter' => 
+'Ruolo',
+
+'role_assignment' => 
+'Assegnazione ruolo',
+
+'role_deleted' => 
+'Ruolo eliminato',
+
+'role_desc' => 
+'Assegna a questo utente le autorizzazioni di accesso.',
+
+'role_updated_desc' => 
+'Il ruolo è stato salvato con successo.',
+
+'role_deleted_desc' => 
+'Il ruolo è stato eliminato con successo.',
+
+'roles_remove_problem' => 
+'Si è verificato un problema durante l\'eliminazione dei ruoli.',
 
 'member_has_cp_access' => 
 'Può accedere al pannello di controllo',
@@ -465,13 +483,13 @@ $lang = array(
 'All\'utente che si sta tentando di eliminare sono state assegnate delle voci di uno o più canali',
 
 'no_members_found' => 
-'Nessun <strong>utente</strong> trovato.',
+'Nessun <b>utente</b> trovato.',
 
 'no_pending_members_found' => 
-'Nessun <strong>utente in sospeso</strong> trovato.',
+'Nessun <b>utente in sospeso</b> trovato.',
 
 'not_writable_path' => 
-'Il percorso che hai inviato non è scrivibile. Assicurati che le autorizzazioni dei file siano impostate su 777.',
+'Il percorso che hai inviato non è scrivibile. Per favore assicurati che le autorizzazioni dei file siano impostate su 777.',
 
 'other' => 
 'Altro',
@@ -497,9 +515,6 @@ $lang = array(
 'pending_activation' => 
 'In attesa di attivazione',
 
-'pending_members' => 
-'Tutti gli utenti (in attesa di attivazione)',
-
 'personal_messaging' => 
 'Messaggi personali',
 
@@ -518,23 +533,23 @@ $lang = array(
 'resend' => 
 'Rinvia email di attivazione',
 
-'save_member_group' => 
-'Modifica gruppo utente',
+'save_role' => 
+'Modifica ruolo',
 
 'screen_name' => 
-'Nome schermo',
+'Pseudonimo',
 
 'screen_name_asc' => 
-'Nome schermo - ascendente',
+'Pseudonimo - ascendente',
 
 'screen_name_desc' => 
-'Nome schermo - discendente',
+'Pseudonimo - discendente',
 
 'screen_name_description' => 
 'Utilizzato per la visualizzazione di nomi alternativi nel contenuto del sito web',
 
 'screen_name_taken' => 
-'Il nome schermo che hai scelto non è disponibile',
+'Lo pseudonimo che hai scelto non è disponibile',
 
 'search' => 
 'Cerca',
@@ -588,7 +603,7 @@ $lang = array(
 'Attiva utenti selezionati',
 
 'view_cp_logs' => 
-'Visualizza i registri del pannello di controllo di %s',
+'Visualizza i registri del pannello di controllo dell\'utente %s',
 
 'view_members' => 
 'Visualizza utenti',
@@ -609,16 +624,19 @@ $lang = array(
 'La tua password',
 
 'your_password_desc' => 
-'È necessario <strong>inserire</strong> la tua password per creare un utente con accesso al pannello di controllo.',
+'È necessario <b>inserire</b> la tua password per creare un utente con accesso al pannello di controllo.',
 
 'your_password_anonymize_members_desc' => 
-'Per poter anonimizzare gli utenti <strong>è necessario</strong> inserire la tua password.',
+'Per poter anonimizzare gli utenti <b>è necessario</b> inserire la tua password.',
 
 'your_password_delete_members_desc' => 
-'Per poter eliminare gli utenti <strong>è necessario</strong> inserire la tua password.',
+'Per poter eliminare gli utenti <b>è necessario</b> inserire la tua password.',
 
-'your_password_delete_member_groups_desc' => 
-'Per poter eliminare i gruppi utente <strong>è necessario</strong> inserire la tua password.',
+'your_password_delete_roles_desc' => 
+'<b>Devi</b> inserire la tua password per eliminare i ruoli.',
+
+'profile' => 
+'Profilo',
 
 'ban_message' => 
 'Questo sito non è attualmente disponibile',
@@ -639,22 +657,22 @@ $lang = array(
 'Indirizzi email',
 
 'email_banning_instructions' => 
-'<strong>Inserisci ogni indirizzo email su una riga separata</strong><br />È possibile utilizzare l\'asterisco * come carattere jolly, ad esempio: *@hotmail.com',
+'<b>Inserire ogni indirizzo email su una linea separata.</b><br />È possibile utilizzare l\'asterisco * come carattere jolly, ad esempio: *@hotmail.com',
 
 'ip_address_banning' => 
 'Indirizzi IP',
 
 'ip_banning_instructions' => 
-'<strong>Posizionare ciascun indirizzo IP su una riga separata</strong><br />È possibile utilizzare l\'asterisco * come carattere jolly, ad esempio: 123.345.*',
+'<b>Inserire ciascun indirizzo IP su una linea separata.</b><br />È possibile utilizzare l\'asterisco * come carattere jolly, ad esempio: 123.345.*',
 
 'restrict_to_viewing' => 
 'Consentire accesso in modalità di sola visualizzazione',
 
 'screen_name_banning' => 
-'Nomi schermo limitati',
+'Pseudonimi limitati',
 
 'screen_name_banning_instructions' => 
-'<strong>Posizionare ogni nome di schermata su una riga separata</strong><br />Questi nomi di schermate non saranno consentiti.',
+'<b>Inserire ogni nome di schermata su una linea separata.</b><br />Questi nomi di schermate non saranno consentiti.',
 
 'send_to_site' => 
 'Inoltra a',
@@ -669,13 +687,13 @@ $lang = array(
 'Nomi utente limitati',
 
 'username_banning_instructions' => 
-'<strong>Posizionare ogni nome utente su una riga separata</strong><br />Questi nomi utente non saranno consentiti.',
+'<b>Inserire ogni nome utente su una linea separata.</b><br />Questi nomi utente non saranno consentiti.',
 
 'access_privilege_caution' => 
 'Qualsiasi impostazione contrassegnata con <span class="icon--caution" title="exercise caution"></span> dovrebbe essere concessa soltanto alle persone di cui ti fidi implicitamente.',
 
 'access_privilege_warning' => 
-'<strong>Avviso</strong>: prestare molta attenzione ai privilegi di accesso che si concedono.',
+'<b>Avviso</b>: prestare molta attenzione ai privilegi di accesso che si concedono.',
 
 'access_utilities' => 
 'Accessso alle utilità di sistema',
@@ -717,10 +735,10 @@ $lang = array(
 'Prestare ESTREMA attenzione nell\'assegnare le preferenze di gruppo, specialmente quelle evidenziate.',
 
 'can_access_addons' => 
-'Accessso agli addon',
+'Accessso ai componenti aggiuntivi',
 
 'can_access_addons_desc' => 
-'Se abilitato, gli utenti assegnati a questo gruppo possono accedere al gestore degli addon.',
+'Se abilitato, gli utenti assegnati a questo gruppo possono accedere al gestore dei componenti aggiuntivi.',
 
 'can_access_communicate' => 
 'Comunica',
@@ -782,11 +800,14 @@ $lang = array(
 'can_access_utilities' => 
 'Utilità',
 
+'add_on_manager' => 
+'Componenti aggiuntivi',
+
 'can_admin_addons' => 
-'Installa o rimuovi addon',
+'Installa o rimuovi componenti aggiuntivi',
 
 'can_admin_addons_desc' => 
-'Se abilitato, gli utenti assegnati a questo gruppo possono installare e rimuovere addon.',
+'Se abilitato, gli utenti assegnati a questo gruppo possono installare e rimuovere i componenti aggiuntivi.',
 
 'can_admin_channels' => 
 'Accesso al gestore dei canali',
@@ -821,17 +842,11 @@ $lang = array(
 'can_admin_upload_prefs' => 
 'Può amministrare le preferenze di caricamento dei file',
 
-'can_assign_post_authors' => 
-'Cambia autore della voce',
-
 'can_ban_users' => 
 'Banna utenti',
 
 'can_delete_all_comments' => 
 'Elimina i commenti di altri',
-
-'can_delete_all_entries' => 
-'Elimina le voci di altri',
 
 'can_delete_members' => 
 'Elimina utenti',
@@ -845,17 +860,11 @@ $lang = array(
 'can_delete_self_desc' => 
 'Se abilitati, gli utenti assegnati a questo gruppo possono eliminare i propri account senza approvazione',
 
-'can_delete_self_entries' => 
-'Elimina le proprie voci',
-
 'can_edit_all_comments' => 
 'Modifica i commenti di altri',
 
 'can_edit_html_buttons' => 
 'Può modificare i propri pulsanti di formattazione HTML',
-
-'can_edit_other_entries' => 
-'Modifica le voci di altri',
 
 'can_edit_own_comments' => 
 'Modifica i propri commenti',
@@ -863,8 +872,8 @@ $lang = array(
 'can_email_from_profile' => 
 'Puoi inviare email ad altri utenti tramite la console email del profilo',
 
-'can_email_member_groups' => 
-'Invia email ai gruppi di utenti',
+'can_email_roles' => 
+'Invia email ai ruoli',
 
 'can_post_comments' => 
 'Invia commenti',
@@ -885,7 +894,7 @@ $lang = array(
 'Visualizza/Invia email memorizzata nella cache',
 
 'can_view_offline_system' => 
-'Offline - <em>Non consigliato</em>',
+'Offline - <i>Non consigliato</i>',
 
 'can_view_online_system' => 
 'Online',
@@ -954,7 +963,7 @@ $lang = array(
 'Privilegi di accesso al modulo',
 
 'cp_overview' => 
-'Panoramica pannello di controllo',
+'Panoramica',
 
 'cp_template_access_privs' => 
 'Privilegi di modifica dei template',
@@ -963,7 +972,7 @@ $lang = array(
 'Crea un nuovo gruppo basato su uno esistente',
 
 'custom_uri' => 
-'URI personalizzato &mdash; <em>per esempio utenti / gruppi </em>',
+'URI personalizzato &mdash; <i>per esempio utenti / gruppi </i>',
 
 'default_cp_homepage' => 
 'Home page predefinita del pannello di controllo',
@@ -1025,11 +1034,11 @@ $lang = array(
 'mbr_delete_notify_emails_desc' => 
 'Tutti i destinatari verranno avvisati ogni volta che un utente elimina il proprio account. Separare le email con una virgola.',
 
-'member_group_created' => 
-'Gruppo di utenti creato:',
+'role_created' => 
+'Ruolo creato:',
 
-'member_group_updated' => 
-'Gruppo di utenti aggiornato:',
+'role_updated' => 
+'Rolo aggiornato:',
 
 'members' => 
 'Utenti',
@@ -1070,6 +1079,9 @@ $lang = array(
 'search_privs' => 
 'Privilegi di ricerca',
 
+'cp_access' => 
+'Accesso pannello di controllo',
+
 'site_access' => 
 'Accesso al sito web',
 
@@ -1078,6 +1090,15 @@ $lang = array(
 
 'super_admin_edit_note' => 
 'Nota: per il gruppo dei super amministratori è possibile modificare soltanto il nome e la descrizione',
+
+'template_access' => 
+'Accesso template',
+
+'assigned_templates' => 
+'Modelli consentiti',
+
+'assigned_templates_desc' => 
+'Gli utenti con questo ruolo possono accedere alle pagine che utilizzano i template selezionati.',
 
 'template_manager' => 
 'Gestore template',
@@ -1110,7 +1131,7 @@ $lang = array(
 'Email di attivazione rinviate',
 
 'can_access_addon_settings' => 
-'Addon',
+'Componenti aggiuntivi',
 
 'can_manage_consents' => 
 'Richieste di consenso',
@@ -1126,12 +1147,6 @@ $lang = array(
 
 'can_access_site' => 
 'Accesso al sito',
-
-'can_create_entries' => 
-'Crea voci',
-
-'can_edit_self_entries' => 
-'Modifica le proprie voci',
 
 'can_not_delete_only_member' => 
 'Non è possibile eliminare l\'unico utente nel database',
@@ -1172,8 +1187,8 @@ $lang = array(
 'create_member_field' => 
 'Crea campi utente',
 
-'create_member_groups' => 
-'Crea nuovi gruppi',
+'create_roles' => 
+'Crea nuovi ruoli',
 
 'create_members' => 
 'Crea nuovi utenti',
@@ -1202,9 +1217,6 @@ $lang = array(
 'current_fields' => 
 'Campi utente',
 
-'custom_member_fields' => 
-'Campi utente',
-
 'delete_categories' => 
 'Elimina categorie',
 
@@ -1217,8 +1229,8 @@ $lang = array(
 'delete_files' => 
 'Elimina file',
 
-'delete_member_groups' => 
-'Elimina gruppi',
+'delete_roles' => 
+'Elimina ruoli',
 
 'delete_profile_field_confirmation' => 
 'Sei sicuro di voler eliminare definitivamente questo campo del profilo utente?',
@@ -1256,8 +1268,11 @@ $lang = array(
 'edit_member_field' => 
 'Modifica campo',
 
-'edit_member_groups' => 
-'Modifica gruppi',
+'edit_roles' => 
+'Modifica ruoli',
+
+'edit_member' => 
+'Modifica utente',
 
 'edit_members' => 
 'Modifica utenti',
@@ -1269,7 +1284,7 @@ $lang = array(
 'Modifica gruppi',
 
 'edit_template_partials' => 
-'Modifica partial',
+'Modifica parziale',
 
 'edit_template_variables' => 
 'Modifica variabili',
@@ -1340,6 +1355,9 @@ $lang = array(
 'invalid_characters' => 
 'Il nome del campo inviato contiene caratteri non validi',
 
+'invalid_characters_in_username' => 
+'Il tuo nome utente non può utilizzare i seguenti caratteri: | " \' ! < > { }',
+
 'is_field_cp_reg' => 
 'Il campo è visibile nella pagina di registrazione amministrativa del pannello di controllo?',
 
@@ -1386,7 +1404,7 @@ $lang = array(
 'Per poter eliminare un super amministratore devi essere un super amministratore',
 
 'no_cached_email' => 
-'Non sono stati trovati <strong>messaggi di posta elettronica memorizzati nella cache</strong>.',
+'Non sono stati trovati <b>messaggi di posta elettronica memorizzati nella cache</b>.',
 
 'no_custom_profile_fields' => 
 'Al momento non ci sono campi utente.',
@@ -1404,7 +1422,7 @@ $lang = array(
 'Campo utente eliminato:',
 
 'pull_down_instructions' => 
-'Collocare ogni articolo su una riga separata',
+'Collocare ogni articolo su una linea separata',
 
 'pull_down_items' => 
 'Opzioni dell\'elenco di selezione',
@@ -1418,11 +1436,8 @@ $lang = array(
 'resend_activation_emails' => 
 'Rinvia email di attivazione',
 
-'rte_toolsets' => 
-'Set di strumenti RTE',
-
-'search_member_groups_button' => 
-'Cerca gruppi utente',
+'search_roles_button' => 
+'Cerca ruoli',
 
 'search_members_button' => 
 'Cerca utenti',
@@ -1434,16 +1449,16 @@ $lang = array(
 'Impostazioni',
 
 'show_all_banned' => 
-'Tutti %d bannati',
+'Tutti e %d bannati',
 
-'show_all_member_groups' => 
-'Tutti %d gruppi utente',
+'show_all_roles' => 
+'Tutti e %d i ruoli',
 
 'show_all_members' => 
-'Tutti %d utenti',
+'Tutti e %d gli utenti',
 
 'show_all_pending' => 
-'Tutti %d in sospeso',
+'Tutti e %d in sospeso',
 
 'template_groups' => 
 'Gruppi di template',
@@ -1474,6 +1489,399 @@ $lang = array(
 
 'upload_new_toolsets' => 
 'Carica nuovi set di strumenti',
+
+'roles_manager' => 
+'Ruoli utente',
+
+'role_group' => 
+'Gruppo ruolo',
+
+'new_role' => 
+'Nuovo ruolo',
+
+'group_roles_desc' => 
+'Assegna uno o più ruoli a questo gruppo.',
+
+'create_role_group' => 
+'Nuovo gruppo di ruoli',
+
+'create_role_group_error' => 
+'Impossibile creare un gruppo di ruoli',
+
+'create_role_group_error_desc' => 
+'Non è stato possibile creare questo gruppo di ruoli, controlla e correggi gli errori riportati qui sotto.',
+
+'create_role_group_success' => 
+'Gruppo di ruoli creato',
+
+'create_role_group_success_desc' => 
+'Il gruppo di ruoli <b>%s</b> è stato creato.',
+
+'edit_role_group' => 
+'Modifica gruppo di ruoli',
+
+'edit_role_group_error' => 
+'Impossibile aggiornare il gruppo di ruoli',
+
+'edit_role_group_error_desc' => 
+'Non siamo stati in grado di aggiornare questo gruppo di ruoli, per favore controlla e correggi gli errori riportati qui sotto..',
+
+'edit_role_group_success' => 
+'Gruppo di ruoli aggiornato',
+
+'edit_role_group_success_desc' => 
+'Il gruppo di ruoli <b>%s</b> è stato aggiornato.',
+
+'role_groups_removed_desc' => 
+'I seguenti gruppi di ruoli sono stati eliminati',
+
+'create_role_error' => 
+'Impossibile creare il ruolo',
+
+'create_role_error_desc' => 
+'Non è stato possibile creare questo ruolo, controlla e correggi gli errori qui sotto.',
+
+'create_role_success' => 
+'Ruolo creato',
+
+'create_role_success_desc' => 
+'Il ruolo <b>%s</b> è stato creato.',
+
+'edit_role_error' => 
+'Impossibile aggiornare il ruolo',
+
+'edit_role_error_desc' => 
+'Non siamo stati in grado di aggiornare questo ruolo, per favore controlla e correggi gli errori qui sotto.',
+
+'edit_role_success' => 
+'Rolo aggiornato',
+
+'edit_role_success_desc' => 
+'Il ruolo <b>%s</b> è stato aggiornato.',
+
+'roles_deleted_desc' => 
+'I seguenti ruoli sono stati eliminati',
+
+'roles_delete_error' => 
+'Impossibile eliminare i ruoli',
+
+'roles_not_deleted_desc' => 
+'Non è stato possibile eliminare i seguenti ruoli',
+
+'channel_access' => 
+'Accesso al canale',
+
+'channel_access_desc' => 
+'Gli utenti possono eseguire ogni azione selezionata sul canale selezionato.',
+
+'can_admin_roles' => 
+'Accede ai ruoli degli utenti',
+
+'can_admin_roles_desc' => 
+'Se abilitato, gli utenti assegnati a questo ruolo possono accedere alle impostazioni del ruolo utente nel software.',
+
+'template_group_access' => 
+'Accesso al gruppo dei template',
+
+'template_group_access_desc' => 
+'Gli utenti possono eseguire ciascuna azione selezionata sul gruppo dei template selezionato.',
+
+'upload_destination_access' => 
+'Accesso consentito alla directory di upload',
+
+'upload_destination_access_desc' => 
+'Gli utenti possono accedere a tutte le directory di upload selezionate.',
+
+'member_role_assignment' => 
+'Assegnazione del ruolo degli utenti',
+
+'http_auth_protected' => 
+'HTTP protetto con autenticazione',
+
+'access_overview' => 
+'Panoramica accesso',
+
+'access_permissions' => 
+'Autorizzazioni di accesso',
+
+'access' => 
+'Accesso?',
+
+'granted_by' => 
+'Garantito da',
+
+'permissions_granted' => 
+'Le seguenti autorizzazioni sono concesse a <b>%s</b>.',
+
+'member_roles' => 
+'Ruoli utente',
+
+'access_to' => 
+'Accede a <b>%s</b>',
+
+'access_overview_can_view_online_system' => 
+'Accesso al sito web (online)',
+
+'access_overview_can_view_offline_system' => 
+'Accesso al sito web (offline)',
+
+'access_overview_can_view_profiles' => 
+'Accede ai profili pubblici',
+
+'access_overview_can_delete_self' => 
+'Elimina utente',
+
+'access_overview_can_post_comments' => 
+'Invia commenti',
+
+'access_overview_can_moderate_comments' => 
+'Modera commenti',
+
+'access_overview_can_edit_own_comments' => 
+'Modifica propri commenti',
+
+'access_overview_can_delete_own_comments' => 
+'Elimina propri commenti',
+
+'access_overview_can_edit_all_comments' => 
+'Modifica commenti di altri',
+
+'access_overview_can_delete_all_comments' => 
+'Elimina commenti di altri',
+
+'access_overview_can_search' => 
+'Accede all\'utilità di ricerca',
+
+'access_overview_can_send_private_messages' => 
+'Accede ai messaggi personali',
+
+'access_overview_can_attach_in_private_messages' => 
+'Allegati consentiti',
+
+'access_overview_can_send_bulletins' => 
+'Invia bollettini',
+
+'access_overview_can_access_cp' => 
+'Accesso al pannello di controllo',
+
+'access_overview_can_access_footer_report_bug' => 
+'Accede al link di segnalazione bug',
+
+'access_overview_can_access_footer_new_ticket' => 
+'Accede al link di nuovo ticket',
+
+'access_overview_can_access_footer_user_guide' => 
+'Accesso al link della guida utente',
+
+'access_overview_can_view_homepage_news' => 
+'Visualizza le notizie sulla home page',
+
+'access_overview_can_admin_channels' => 
+'Accede al gestore dei canali',
+
+'access_overview_can_create_channels' => 
+'Crea canali',
+
+'access_overview_can_edit_channels' => 
+'Modifica canali',
+
+'access_overview_can_delete_channels' => 
+'Elimina canali',
+
+'access_overview_can_create_channel_fields' => 
+'Crea campi',
+
+'access_overview_can_edit_channel_fields' => 
+'Modifica campi',
+
+'access_overview_can_delete_channel_fields' => 
+'Elimina campi',
+
+'access_overview_can_create_categories' => 
+'Crea categorie',
+
+'access_overview_can_edit_categories' => 
+'Modifica categorie',
+
+'access_overview_can_delete_categories' => 
+'Elimina categorie',
+
+'access_overview_can_create_statuses' => 
+'Crea stati',
+
+'access_overview_can_edit_statuses' => 
+'Modifica stati',
+
+'access_overview_can_delete_statuses' => 
+'Elimina stati',
+
+'access_overview_can_create_entries' => 
+'Crea voci',
+
+'access_overview_can_edit_self_entries' => 
+'Modifica proprie voci',
+
+'access_overview_can_delete_self_entries' => 
+'Elimina proprie voci',
+
+'access_overview_can_edit_other_entries' => 
+'Modifica voci, di altri',
+
+'access_overview_can_delete_all_entries' => 
+'Elimina voci, di altri',
+
+'access_overview_can_assign_post_authors' => 
+'Cambia autore',
+
+'access_overview_can_access_files' => 
+'Accede al gestore dei file',
+
+'access_overview_can_create_upload_directories' => 
+'Crea cartelle di upload',
+
+'access_overview_can_edit_upload_directories' => 
+'Modifica cartelle di upload',
+
+'access_overview_can_delete_upload_directories' => 
+'Elimina cartelle di upload',
+
+'access_overview_can_upload_new_files' => 
+'Carica files',
+
+'access_overview_can_edit_files' => 
+'Modifica files',
+
+'access_overview_can_delete_files' => 
+'Elimina files',
+
+'access_overview_can_access_members' => 
+'Accede agli utenti',
+
+'access_overview_can_create_members' => 
+'Crea utenti',
+
+'access_overview_can_edit_members' => 
+'Modifica utenti',
+
+'access_overview_can_delete_members' => 
+'Elimina utenti',
+
+'access_overview_can_ban_users' => 
+'Banna utenti',
+
+'access_overview_can_email_from_profile' => 
+'Email utenti',
+
+'access_overview_can_edit_html_buttons' => 
+'Gestisce i propri pulsanti HTML',
+
+'access_overview_can_admin_roles' => 
+'Accede ai ruoli',
+
+'access_overview_can_create_roles' => 
+'Crea ruoli',
+
+'access_overview_can_edit_roles' => 
+'Modifica ruoli',
+
+'access_overview_can_delete_roles' => 
+'Elimina ruoli',
+
+'access_overview_can_access_design' => 
+'Accede al gestore dei template',
+
+'access_overview_can_admin_design' => 
+'Accede alle impostazioni globali del gestore dei template',
+
+'access_overview_can_create_template_groups' => 
+'Crea gruppi di template',
+
+'access_overview_can_edit_template_groups' => 
+'Modifica gruppi di template',
+
+'access_overview_can_delete_template_groups' => 
+'Elimina gruppi di template',
+
+'access_overview_can_create_template_partials' => 
+'Crea parziali di template',
+
+'access_overview_can_edit_template_partials' => 
+'Modifica parziali di template',
+
+'access_overview_can_delete_template_partials' => 
+'Elimina parziali di template',
+
+'access_overview_can_create_template_variables' => 
+'Crea variabili di template',
+
+'access_overview_can_edit_template_variables' => 
+'Modifica variabili di template',
+
+'access_overview_can_delete_template_variables' => 
+'Elimina variabili di template',
+
+'access_overview_can_create_templates' => 
+'Crea template',
+
+'access_overview_can_edit_templates' => 
+'Modifica template',
+
+'access_overview_can_delete_templates' => 
+'Elimina template',
+
+'access_overview_can_manage_settings' => 
+'Gestione impostazioni e accesso',
+
+'access_overview_can_access_addons' => 
+'Accede al gestore dei componenti aggiuntivi',
+
+'access_overview_can_admin_addons' => 
+'Gestione componenti aggiuntivi (installazione/rimozione)',
+
+'access_overview_can_upload_new_toolsets' => 
+'Carica i set di strumenti RTE',
+
+'access_overview_can_edit_toolsets' => 
+'Modifica i set di strumenti RTE',
+
+'access_overview_can_delete_toolsets' => 
+'Elimina i set di strumenti RTE',
+
+'access_overview_can_access_utilities' => 
+'Accede alle utilità di sistema',
+
+'access_overview_can_access_comm' => 
+'Accede a comunicazione',
+
+'access_overview_can_email_roles' => 
+'Invia email a ruoli specifici',
+
+'access_overview_can_send_cached_email' => 
+'Visualizza / invia email memorizzate nella cache',
+
+'access_overview_can_access_translate' => 
+'Accede alla traduzione',
+
+'access_overview_can_access_import' => 
+'Accesso all\'importazione',
+
+'access_overview_can_access_sql_manager' => 
+'Accede alla gestione SQL',
+
+'access_overview_can_access_data' => 
+'Accede alle operazioni sui dati',
+
+'access_overview_can_access_logs' => 
+'Accede ai registri di sistema',
+
+'access_overview_can_access_sys_prefs' => 
+'Accede alle impostazioni di sistema',
+
+'access_overview_can_access_security_settings' => 
+'Accede alla sicurezza e alla privacy',
+
+'access_overview_can_manage_consents' => 
+'Accede alle richieste di consenso',
 
 ''=>''
 );

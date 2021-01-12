@@ -171,10 +171,10 @@ $lang = array(
 'Elimina',
 
 'delete_account' => 
-'Elimina lìutente e rimuovi tutti i post.',
+'Elimina l\'utente e rimuovi tutti i post.',
 
 'delete_confirm' => 
-'Conferma cancellazione',
+'Conferma rimozione',
 
 'delete_reply' => 
 'Elimina post',
@@ -187,9 +187,6 @@ $lang = array(
 
 'dimensions_too_big' => 
 'Le immagini non devono superare una larghezza di %x pixel di %y pixel',
-
-'display_avatars' => 
-'Visualizza gli avatar degli utenti negli argomenti del forum',
 
 'display_signatures' => 
 'Mostra le firme degli utenti negli argomenti del forum',
@@ -669,7 +666,7 @@ $lang = array(
 'Risposte al sondaggio',
 
 'poll_delete_instructions' => 
-'Per cancellare o cancellare questo sondaggio invia il modulo con la domanda vuota',
+'Per eliminare o annullare questo sondaggio invia il modulo con la domanda vuota',
 
 'poll_marker' => 
 'Sondaggio:',
@@ -852,7 +849,7 @@ $lang = array(
 '6 mesi fa e...',
 
 'size' => 
-'Taglia',
+'Dimensione',
 
 'small' => 
 'Piccolo',

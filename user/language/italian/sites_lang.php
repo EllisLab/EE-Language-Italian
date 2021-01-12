@@ -2,14 +2,11 @@
 $lang = array(
 
 
-'add_site' => 
-'Aggiungi sito',
-
 'btn_site_limit_reached' => 
 'Limite sito raggiunto',
 
 'cannot_remove_site_1' => 
-'Non è possibile rimuovere il sito <strong>%s</strong>.',
+'Non è possibile rimuovere il sito <b>%s</b>.',
 
 'create_site' => 
 'Crea sito',
@@ -24,7 +21,7 @@ $lang = array(
 'Sito creato',
 
 'create_site_success_desc' => 
-'Il sito <strong>%s</strong> è stato creato.',
+'Il sito <b>%s</b> è stato creato.',
 
 'description_desc' => 
 'Una breve descrizione di questo sito.',
@@ -42,7 +39,7 @@ $lang = array(
 'Sito aggiornato',
 
 'edit_site_success_desc' => 
-'Il sito <strong>%s</strong> è stato aggiornato.',
+'Il sito <b>%s</b> è stato aggiornato.',
 
 'invalid_short_name' => 
 'Il nome del tuo sito deve contenere soltanto caratteri alfanumerici, trattini bassi, trattini e nessuno spazio.',
@@ -60,7 +57,7 @@ $lang = array(
 'Nome breve',
 
 'short_name_desc' => 
-'Nome breve per questo sito.<br /><em>Nessuno spazio. Sono ammessi caratteri di sottolineatura e trattini.</em>',
+'Nome breve per questo sito.<br /><i>Nessuno spazio. Sono ammessi caratteri di sottolineatura e trattini.</i>',
 
 'site' => 
 'Sito',
@@ -81,7 +78,7 @@ $lang = array(
 'Sito online?',
 
 'site_online_desc' => 
-'Se disabilitato, soltanto i super amministratori e i gruppi utente con autorizzazioni saranno in grado di navigare in questo sito Web.',
+'Se disabilitato, soltanto i super amministratori e i gruppi utente con autorizzazioni saranno in grado di navigare il sito web.',
 
 'site_updated' => 
 'Sito aggiornato',
@@ -89,8 +86,8 @@ $lang = array(
 'sites' => 
 'Siti',
 
-'sites_removed_desc' => 
-'I seguenti siti sono stati rimossi',
+'sites_deleted_desc' => 
+'I seguenti siti sono stati eliminati',
 
 'switch_to' => 
 'Passa a',

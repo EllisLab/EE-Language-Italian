@@ -27,7 +27,7 @@ $lang = array(
 'Ricerca in corso...',
 
 'cache_full' => 
-'La cache è piena e deve essere cancellata manualmente per procedere.',
+'La cache è piena e deve essere eliminata manualmente per procedere.',
 
 'countryfile_missing' => 
 'Impossibile trovare nella cartella di configurazione il file chiamato country.php.',
@@ -81,7 +81,7 @@ $lang = array(
 'Gestisci la lista dei paesi bannati',
 
 'no_countries' => 
-'Nessun <strong>paese</strong> trovato',
+'Nessun <b>paese</b> trovato',
 
 'search_for_ip' => 
 'Cerca un indirizzo IP',
@@ -90,7 +90,7 @@ $lang = array(
 'Immettere un indirizzo IP per determinare il paese a cui è associato.',
 
 'update_info' => 
-'Aggiorna le informazioni su IP e codice prefisso internazionale. Fonte dei dati: <a href="%s" title="Fornitore dati" rel="external">maxmind.com</a>.</em> <em>I nuovi dati verranno automaticamente scaricati e applicati. Questa operazione potrebbe richiedere alcuni minuti e aumentare il carico sul database.</em>',
+'Aggiorna le informazioni su IP e codice prefisso internazionale. Fonte dei dati: <a href="%s" title="Fornitore dati" rel="external">maxmind.com</a>.</i> <i>I nuovi dati verranno automaticamente scaricati e applicati. Questa operazione potrebbe richiedere alcuni minuti e aumentare il carico sul database.</i>',
 
 'update_ips' => 
 'Aggiorna database IP',

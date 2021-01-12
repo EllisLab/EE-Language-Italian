@@ -36,31 +36,31 @@ $lang = array(
 'Lista bianca',
 
 'whitelist_desc' => 
-'Le liste bianche <strong>consentono l\'accesso </strong> al sito web tramite specifici <abbr title="Internet Protocol">indirizzi IP</abbr>, user agent e <abbr title="Unified Resource Locator">URL</abbr>.',
+'Le liste bianche <b>consentono l\'accesso </b> al sito web tramite specifici <abbr title="Internet Protocol">indirizzi IP</abbr>, user agent e <abbr title="Unified Resource Locator">URL</abbr>.',
 
 'blacklist' => 
 'Lista nera',
 
 'blacklist_desc' => 
-'Le liste nere <strong>disabilitano</strong> l\'accesso al sito web tramite specifici  <abbr title="Internet Protocol">indirizzi IP </abbr>, user agent e <abbr title="Unified Resource Locator">URL</abbr>.',
+'Le liste nere <b>disabilitano</b> l\'accesso al sito web tramite specifici  <abbr title="Internet Protocol">indirizzi IP </abbr>, user agent e <abbr title="Unified Resource Locator">URL</abbr>.',
 
 'ip_address' => 
 'Indirizzo <abbr title="Internet Protocol">IP</abbr>',
 
 'ip_address_desc' => 
-'<strong>Posiziona ciascun indirizzo <abbr title="Internet Protocol">IP</abbr> su una riga separata.</strong><br />Puoi utilizzare <mark>*</mark> come carattere jolly, ad esempio: 123.456.<Mark>*</ mark>',
+'<b>Inserier ciascun indirizzo <abbr title="Internet Protocol">IP</abbr> su una linea separata.</b><br />Puoi utilizzare <mark>*</mark> come carattere jolly, ad esempio: 123.456.<Mark>*</ mark>',
 
 'user_agent' => 
 'User Agent',
 
 'user_agent_desc' => 
-'<strong>Inserisci ogni user agent su una linea separata.</strong>',
+'<b>Inserire ogni user agent su una linea separata.</b>',
 
 'url' => 
 '<abbr title="Unified Resource Locator">URL</abbr>',
 
 'url_desc' => 
-'<strong>Inserisci ogni <abbr title="Unified Resource Locator">URL</abbr> su una linea separata.</strong>',
+'<b>Inserire ogni <abbr title="Unified Resource Locator">URL</abbr> su una linea separata.</b>',
 
 'htaccess_path_removed' => 
 'Percorso al file .htaccess rimosso',

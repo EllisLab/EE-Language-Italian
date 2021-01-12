@@ -12,7 +12,7 @@ $lang = array(
 'Scegli voce',
 
 'choose_template' => 
-'Scegli il modello per la visualizzazione della pagina',
+'Scegli il template per la visualizzazione della pagina',
 
 'configuration_updated' => 
 'Configurazione aggiornata',
@@ -108,7 +108,7 @@ $lang = array(
 'Visualizzazione degli <abbr title="Unified Resource Locator">URL</abbr>?',
 
 'pages_display_urls_desc' => 
-'Se impostato su <strong>Nidificato</strong>, gli <abbr title="Unified Resource Locator">URL</abbr> verranno visualizzati in una gerarchia nidificata.',
+'Se impostato su <b>Nidificato</b>, gli <abbr title="Unified Resource Locator">URL</abbr> verranno visualizzati in una gerarchia nidificata.',
 
 'pages_homepage' => 
 'Home page delle pagine',
