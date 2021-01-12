@@ -1,10 +1,10 @@
-# Italian Translation Pack for ExpressionEngine 4.x and 5.x
+# Italian Translation Pack for ExpressionEngine 6.x
 
 ## Changes Between Versions
 
 ## License
 
-- Copyright (C) 2009-2019 EllisLab, Inc.
+- Copyright (C) 2020 Packet Tide, Inc
 - Original Italian translation provided by:  Studio Criteria (www.studiocriteria.it)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
