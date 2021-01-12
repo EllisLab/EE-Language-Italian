@@ -4,7 +4,7 @@
 
 ## License
 
-- Copyright (C) 2020 Packet Tide, Inc
+- Copyright (C) 2021 Packet Tide, Inc
 - Original Italian translation provided by:  Studio Criteria (www.studiocriteria.it)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
